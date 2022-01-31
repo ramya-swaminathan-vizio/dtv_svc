@@ -232,6 +232,9 @@ extern "C" int _rest_app_update_overlay_app(bool retaildemo);
 // declare using external function
 extern VOID _oobe_stop_revoke_nfy(VOID* pv_param1, VOID* pv_param2, VOID* pv_param3);
 
+UINT8 a_oobe_state_name_to_page_index(const char* state_name);
+const char * a_oobe_page_index_to_state_name(UINT8 page_index);
+
 //extern int _rest_app_launch_app(int name_space, int app_id, char* msg);
 //#ifdef __cplusplus
 //}

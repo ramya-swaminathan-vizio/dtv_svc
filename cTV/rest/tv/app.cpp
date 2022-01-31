@@ -2133,6 +2133,26 @@ int rest_app_launch_chromium_app_real(TENFOOTAPP* pt_app)
     return 0;
 }
 
+UINT8 _parse_page_index_from_statename(const std::string& url)
+{
+    #define PARSE_KEY "stateName="
+
+    UINT8 page_idx = static_cast<UINT8>(WZD_PAGE_INDEX_C4TV_START_OOBE);
+    size_t key_start = std::string::npos;
+
+    if(std::string::npos != (key_start = url.find(PARSE_KEY))) {
+        std::string value = url.substr(key_start + sizeof(PARSE_KEY) - 1);
+        size_t next_param = value.find("&");
+        if(std::string::npos != next_param) {
+            value = value.substr(0, next_param);
+        }
+        if(!value.empty()) {
+            page_idx = a_oobe_state_name_to_page_index(value.c_str());
+        }
+    }
+    return page_idx;
+}
+
 int rest_app_launch_chromium_app(std::string msg, char* app_id)
 {
     REST_LOG_I("Enter\n\r");
@@ -2188,16 +2208,17 @@ int rest_app_launch_chromium_app(std::string msg, char* app_id)
          cmd_convert_send_command(&t_send_cmd);
          return 0;
     }
-    else if (c_strcmp(app.app_id, "9000") == 0) // temporary for MP
+    else if (c_strcmp(app.app_id, "9000") == 0)
     {
-        // SCPL wants to launch OOBE. We can't at this point blindly
-        // call a_wzd_resume_c4tv() because that uses hardcoded URL
-        // with potentially outdated SESSION token. SCPL provides
-        // up-to-date SESSION token with app/launch request, so here
-        // we just reset WZD state and let the OOBE app start as usual.
-        REST_LOG_I("[WZD] Reset wizard state due to app/launch 4:9000\n");
-        RET_ON_ERR(a_wzd_resume_state_only_c4tv(WZD_STATE_RESUME_C4TV, WZD_PAGE_INDEX_C4TV_START_OOBE));
+        // Deep-linked OOBE launch originated outside dtv_svc.
+        // Setting OOBE wizard state and page index
+
+        UINT8 page_idx = _parse_page_index_from_statename(app.msg);
+        REST_LOG_I("[WZD] Set OOBE wizard state WZD_STATE_RESUME_C4TV : %s\n",
+                                    a_oobe_page_index_to_state_name(page_idx));
+        RET_ON_ERR(a_wzd_resume_state_only_c4tv(WZD_STATE_RESUME_C4TV, page_idx));
     }
+
     return rest_app_launch_chromium_app_real(&app);
 }
 
@@ -2285,11 +2306,31 @@ int _rest_app_launch_cast_to_conjure_apps() {
         case WZD_PAGE_INDEX_C4TV_TUNER_SCAN:
         case WZD_PAGE_INDEX_C4TV_TUNER_COMPLETE:
         case WZD_PAGE_INDEX_C4TV_IR_REMOTE:
+        case WZD_PAGE_INDEX_C4TV_LANGUAGE:
+        case WZD_PAGE_INDEX_C4TV_LOCATION:
+        case WZD_PAGE_INDEX_C4TV_CUSTOM_LOCATION:
+        case WZD_PAGE_INDEX_C4TV_SELECT_WIFI:
+        case WZD_PAGE_INDEX_C4TV_BLUETOOTH_REMOTE:
+        case WZD_PAGE_INDEX_C4TV_ACCEPT_ACTIVITY_DATA:
+        case WZD_PAGE_INDEX_C4TV_ACCEPT_ACTIVITY_DATA_ONETRUST:
+        case WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS_GOOGLE:
+        case WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS_VIEWING_DATA:
+        case WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS_VIEWING_DATA_ONETRUST:
+        case WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS_ONETRUST:
+        case WZD_PAGE_INDEX_C4TV_VIZIO_HOME:
+        {
             a_nav_ipts_select_virtual_input("SMARTCAST");
+            std::string stateName = a_oobe_page_index_to_state_name(ui1_page_idx);
+            REST_LOG_I("[WZD] Reset OOBE state to %s\n", stateName.c_str());
+            RET_ON_ERR(a_wzd_resume_state_only_c4tv(WZD_STATE_RESUME_C4TV,
+                                                              ui1_page_idx));
             c_strncpy(app.app_id, "1", 15);
-            msg = "http://127.0.0.1:12345/scfs/oobe/main.html?SESSION=";
+            msg = "http://127.0.0.1:12345/scfs/oobe/main.html?stateName=";
+            msg += stateName;
+            msg += "&SESSION=";
             msg += app.session;
             _rest_app_update_overlay_app(false);
+        }
             break;
         case WZD_PAGE_INDEX_C4TV_STORE_DEMO:
             _rest_app_update_overlay_app(true);

@@ -2355,8 +2355,8 @@ static INT32 _list_item_proc_fct(
                     TV_WIN_ID_T                 e_focus_id;
                     ISL_REC_T                   t_isl_rec;
 
-                    // ToS should be shown in SCTV instead of a menu
-                    DBG_LOG_PRINT(("Launching SCTV Home\n"));
+                    // Deep-link into OOBE VIZIO ToS
+                    DBG_LOG_PRINT(("Deep-linked OOBE TOS Page launch\n"));
 
                     i4_ret = a_tv_get_focus_win(&e_focus_id);
                     NAV_LOG_ON_FAIL(i4_ret);
@@ -2369,7 +2369,9 @@ static INT32 _list_item_proc_fct(
                         DBG_LOG_PRINT(("Switching source to SmartCast.\n"));
                         change_source_way = TRUE;
                     }
-                    a_rest_launch_sc_home();
+
+                    a_wzd_resume_state_only_c4tv(WZD_STATE_RESUME_C4TV, WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS);
+                    a_rest_app_launch_cast_to_conjure_apps();
 
                     // Hide menu
                     menu_leave(FALSE, 0);

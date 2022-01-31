@@ -100,6 +100,8 @@
 #include "u_drv_cust.h"
 #include "cmd_convert.h"
 
+#include "wizard_anim/a_wzd.h"
+#include "wizard_anim/wzd.h"
 #include "wizard/a_wzd.h"
 #include "wizard/wzd.h"
 
@@ -118,7 +120,6 @@
 
 #include "nav/input_src/a_input_src.h"
 #include "res/app_util/icl/a_icl_custom.h"
-#include "wizard_anim/a_wzd.h"
 #ifdef APP_MENU_MMP_COEXIST
 #include "mmp/a_mmp.h"
 #endif
@@ -136,12 +137,10 @@
 
 #include "rest/a_rest_event.h"
 #include "app_util/a_screen_mode.h"
-#include "wizard_anim/wzd.h"
 #include "menu2/menu_device/menu_page_device_setting.h"
 #include "menu2/menu_dbg.h"
 #include "res/revolt/revolt_settings_mlm.h"
 
-#define WZD_STATE_RESUME_C4TV                 MAKE_BIT_MASK_8 (5)
 extern INT32 a_wzd_resume_c4tv(UINT8 ui1_state, UINT8 ui1_page_idx);
 
 
@@ -2048,18 +2047,30 @@ static VOID _set_acr_idx(UINT16 ui2_idx)
 {
     if(1 == ui2_idx)
     {
-        ui2_idx = ACFG_ACR_ON;
+        TV_WIN_ID_T                 e_focus_id;
+        ISL_REC_T                   t_isl_rec;
 
-        /* viewing data have showed. */
-        a_tv_custom_set_viewing_data_show(TRUE);
-        if(FALSE == a_tv_custom_get_viewing_data_accepted())
+        // Deep-link into OOBE Viewing Data
+        DBG_LOG_PRINT(("Deep-linked Viewing Data OOBE launch\n"));
+
+        INT32 i4_ret = a_tv_get_focus_win(&e_focus_id);
+        NAV_LOG_ON_FAIL(i4_ret);
+        i4_ret = a_tv_get_isl_rec_by_win_id(e_focus_id,&t_isl_rec);
+        NAV_LOG_ON_FAIL(i4_ret);
+
+        if (INP_SRC_TYPE_VTRL != t_isl_rec.e_src_type
+            && DEV_VTRL_CAST != t_isl_rec.t_avc_info.e_video_type)
         {
-            MENU_LOG_ON_FAIL (menu_nav_go (ui4_g_menu_page_terms_sub, NULL)) ;
+            DBG_LOG_PRINT(("Switching source to SmartCast.\n"));
+            change_source_way = TRUE;
         }
-        else
-        {
-            a_cfg_custom_set_acr(ui2_idx);
-        }
+
+        a_wzd_resume_state_only_c4tv(WZD_STATE_RESUME_C4TV, WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS_VIEWING_DATA);
+        a_rest_app_launch_cast_to_conjure_apps();
+
+        // Hide menu
+        menu_leave(FALSE, 0);
+        return MENUR_OK;
     }
     else if (0 == ui2_idx)
     {

@@ -279,7 +279,6 @@ static VOID _wzd_show_power_off_dlg_hdlr(VOID* pv_tag1, VOID* pv_tag2, VOID* pv_
 
 extern INT32 a_c4tv_apron_suspend_cast(c4tv_apron_custom_nfy_fct pf_nfy,C4TV_APRON_SUSPEND_REASON e_suspend_reason);
 extern INT32 a_c4tv_apron_register_launch_nfy(c4tv_apron_custom_nfy_fct pf_nfy);
-
 /*-----------------------------------------------------------------------------
                     function declarations
  ----------------------------------------------------------------------------*/
@@ -1932,19 +1931,6 @@ static void _wzd_set_page_process(VOID)
                 a_nav_updater_uli_set_oobe_update_finished(TRUE);
 
                 a_cfg_cust_set_wzd_sys_upgrade_status (APP_CFG_CUST_WZD_SYS_UPDATE_INIT);
-            }
-            else if (ui1_page_index == WZD_PAGE_INDEX_C4TV_START_OOBE)
-            {
-                /* just for trigger acfg notify */
-                DBG_LOG_PRINT(("[WZD] %s() %d: Cast TV, set to be WZD_PAGE_INDEX_C4TV_START_OOBE.\n\r", __FUNCTION__, __LINE__));
-                a_cfg_set_wzd_status (WZD_UTIL_SET_STATUS(WZD_STATE_RESUME_C4TV, WZD_PAGE_INDEX_C4TV_START_OOBE));
-                rest_event_notify("oobe/currentstate", 0, "START_OOBE");
-            }
-            else
-            {
-                DBG_LOG_PRINT(("[WZD] %s() %d: Cast TV, set to be WZD_PAGE_INDEX_C4TV_DEVICE_PAIR.\n\r", __FUNCTION__, __LINE__));
-                a_cfg_set_wzd_status (WZD_UTIL_SET_STATUS(WZD_STATE_RESUME_C4TV, WZD_PAGE_INDEX_C4TV_DEVICE_PAIR));
-                rest_event_notify("oobe/currentstate", 0, "DEVICE_PAIR");
             }
         }
     }

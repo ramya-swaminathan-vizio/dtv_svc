@@ -109,7 +109,128 @@ OobeGroupURI  oobeGroupURIs[] = {
 static BOOL interrupt_all_set = FALSE;
 static BOOL b_pair_state = FALSE;
 
+namespace {
 
+/*
+   We need to find pageindex using state name and vice versa. boost::multi_index would be
+   perfect option here, but since we don't have it here - just going std::map.
+   For "state name to page index" it will be O(log(n)) string comparisons,
+   for "page index to state name" it will be O(N) int comparisons.
+ */
+const std::map<std::string, WZD_PAGE_INDEX_T> kStateNameToPageIndexMap {
+    {"START_OOBE",                WZD_PAGE_INDEX_C4TV_START_OOBE },
+    {"DEVICE_PAIR",               WZD_PAGE_INDEX_C4TV_DEVICE_PAIR },
+    {"OOBE_DID_START",            WZD_PAGE_INDEX_C4TV_OOBE_DID_START },
+    {"MODE",                      WZD_PAGE_INDEX_C4TV_MODE },
+    {"ENTER_CODE",                WZD_PAGE_INDEX_C4TV_ENTER_CODE },
+    {"SUCCESS_PAIR",              WZD_PAGE_INDEX_C4TV_SUCCESS_PAIR },
+    {"CONNECT_WIFI",              WZD_PAGE_INDEX_C4TV_CONNECT_WIFI },
+    {"UPDATING_SMARTCAST",        WZD_PAGE_INDEX_C4TV_UPDATING_SMARTCAST },
+    {"UPDATE_COMPLETE",           WZD_PAGE_INDEX_C4TV_UPDATE_COMPLETE },
+    {"ADD_GOOGLE_ACCOUNT",        WZD_PAGE_INDEX_C4TV_ADD_GOOGLE_ACCOUNT },
+    {"NAME_DISPLAY",              WZD_PAGE_INDEX_C4TV_NAME_DISPLAY },
+    {"NAME_SAVED",                WZD_PAGE_INDEX_C4TV_NAME_SAVED },
+    {"ACCEPT_TERMS",              WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS },
+    {"REGISTER_DISPLAY",          WZD_PAGE_INDEX_C4TV_REGISTER_DISPLAY },
+    {"ALL_SET",                   WZD_PAGE_INDEX_C4TV_ALL_SET },
+    {"REFRESH",                   WZD_PAGE_INDEX_C4TV_REFRESH },
+    {"DOWNLOADING_UPDATE",        WZD_PAGE_INDEX_C4TV_DOWNLOADING_UPDATE },
+    {"ERROR",                     WZD_PAGE_INDEX_C4TV_ERROR },
+    {"LINK_START",                WZD_PAGE_INDEX_C4TV_LINK_START },
+    {"TUNER_SETUP",               WZD_PAGE_INDEX_C4TV_TUNER_SETUP },
+    {"TUNER_SCAN",                WZD_PAGE_INDEX_C4TV_TUNER_SCAN },
+    {"TUNER_COMPLETE",            WZD_PAGE_INDEX_C4TV_TUNER_COMPLETE },
+    {"IR_REMOTE",                 WZD_PAGE_INDEX_C4TV_IR_REMOTE },
+    {"STORE_DEMO",                WZD_PAGE_INDEX_C4TV_STORE_DEMO },
+    // new pages
+    {"LANGUAGE",                           WZD_PAGE_INDEX_C4TV_LANGUAGE },
+    {"LOCATION",                           WZD_PAGE_INDEX_C4TV_LOCATION },
+    {"CUSTOM_LOCATION",                    WZD_PAGE_INDEX_C4TV_CUSTOM_LOCATION },
+    {"SELECT_WIFI",                        WZD_PAGE_INDEX_C4TV_SELECT_WIFI },
+    {"BLUETOOTH_REMOTE",                   WZD_PAGE_INDEX_C4TV_BLUETOOTH_REMOTE },
+    {"ACCEPT_ACTIVITY_DATA",               WZD_PAGE_INDEX_C4TV_ACCEPT_ACTIVITY_DATA },
+    {"ACCEPT_ACTIVITY_DATA_ONETRUST",      WZD_PAGE_INDEX_C4TV_ACCEPT_ACTIVITY_DATA_ONETRUST },
+    {"ACCEPT_TERMS_GOOGLE",                WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS_GOOGLE },
+    {"ACCEPT_TERMS_VIEWING_DATA",          WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS_VIEWING_DATA },
+    {"ACCEPT_TERMS_VIEWING_DATA_ONETRUST", WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS_VIEWING_DATA_ONETRUST },
+    {"ACCEPT_TERMS_ONETRUST",              WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS_ONETRUST },
+    {"VIZIO_HOME",                         WZD_PAGE_INDEX_C4TV_VIZIO_HOME },
+};
+
+/**
+ * @brief Converts OOBE state name into page index
+ * @param [in] state_name the name of the OOBE state as reported by SCPL/OOBE web app
+ * @return page index corresponding to state name or WZD_PAGE_INDEX_C4TV_START_OOBE
+ *         for unknown state names
+ * @see kStateNameToPageIndexMap for conversion map
+ */
+WZD_PAGE_INDEX_T _oobe_state_name_to_page_index(const char* state_name) {
+    WZD_PAGE_INDEX_T page_index = WZD_PAGE_INDEX_C4TV_START_OOBE;
+
+    auto iter = kStateNameToPageIndexMap.find(state_name);
+    if (iter != kStateNameToPageIndexMap.end()) {
+        page_index = iter->second;
+    } else {
+        REST_LOG_E("_to_page_index: unknown oobe state name: %s\n", state_name);
+    }
+    return page_index;
+}
+
+/**
+ * @brief Converts OOBE page index into state name
+ * @param [in] page_index the WZD page index
+ * @return state name corresponding to page index or DEVICE_PAIR
+ *         if page index is unknown
+ * @see kStateNameToPageIndexMap for conversion map
+ */
+const char * _oobe_page_index_to_state_name(WZD_PAGE_INDEX_T page_index) {
+    // keeping as before - for unknown index default to DEVICE_PAIR
+    const char* state_name = "DEVICE_PAIR";
+
+    for (const auto& pair : kStateNameToPageIndexMap) {
+        if (pair.second == page_index) {
+            state_name = pair.first.c_str();
+            break;
+        }
+    }
+
+    return state_name;
+}
+
+/**
+ * @brief Reads the "VALUE" contents of the root JSON
+ * @param [in]  root JSON root object for the payload of oobe/current
+ * @param [out] value JSON object corresponding to "VALUE" field
+ *
+ * @note Because jsoncpp library is build with C++03 (or older standard)
+ *       it is impossible write here a function that returns Json::Value -
+ *       linking fails with underined reference to Json::Value move
+ *       constructor. Because of this I had to use ugly return parameter.
+ */
+void _get_value_json(const Json::Value& root, Json::Value& value) {
+    const Json::Value msg = root["message"];
+    value = msg["VALUE"];
+
+    if (value.isString()) {
+        // "for historical reasons" contents of VALUE is string, even though
+        // it is actually a JSON object.
+        const std::string valueString = value.asString();
+
+        Json::Value parsedValue;
+        Json::Reader reader;
+        if(reader.parse(valueString, parsedValue)) {
+            value = parsedValue;
+        } else {
+            REST_LOG_E("Couldn't parse VALUE: '%s'\n", valueString.c_str());
+            value = {};
+        }
+    } else if (!value.isObject()) {
+        REST_LOG_E("Unexpected format of VALUE field\n");
+        value = {};
+    }
+}
+
+} // anonymous namespace
 
 static VOID _oobe_stop_revoke_nfy_interrupt(VOID* pv_param1, VOID* pv_param2, VOID* pv_param3)
 {
@@ -213,6 +334,8 @@ VOID _oobe_stop_revoke_nfy(VOID* pv_param1, VOID* pv_param2, VOID* pv_param3)
 		s_sync();
 	}
 
+    // TODO: if user skipped network setup we should also land on HDMI-1 according to OOBE PRD:
+    // https://vizioirvine.atlassian.net/wiki/spaces/PM/pages/185429483048/VIZIO+Home+OOBE+MP+PRD, item 11
     if (a_tv_custom_get_tos())
     {
         int nCount = 0;
@@ -269,6 +392,16 @@ static INT32 _chg_inp_src_to_cast(VOID)
     return -1;
 }
 
+static void _stop_tuner_scan_if_any() {
+    /* if in scanning, need stop it */
+    if(nav_is_channel_scan_active())
+    {
+        REST_LOG_I("Stop oobe scan.\n");
+        rest_async_invoke(a_tuner_setup_stop_scan, NULL, 0, TRUE);
+        _chg_inp_src_to_cast();
+    }
+}
+
 int currentstate(Json::Value & root, Json::Value & response)
 {
     REST_LOG_I("Enter\n\r");
@@ -309,66 +442,16 @@ int currentstate(Json::Value & root, Json::Value & response)
             Json::Value state;
             Json::FastWriter writer;
 
+            const std::string current_state = _oobe_page_index_to_state_name((WZD_PAGE_INDEX_T)ui1_page_idx);
+            REST_LOG_I("CURRENT STATE: [%d] %s\n", (int)ui1_page_idx, current_state.c_str());
+
+            state["CS"] = current_state;
+
+            // some states had some special handling before refactoring, keeping as it was
             switch (ui1_page_idx)
             {
-                case WZD_PAGE_INDEX_C4TV_START_OOBE:
-                {
-                    REST_LOG_I("START_OOBE\n\r");
-                    state["CS"] = "START_OOBE";
-                    response["VALUE"] = writer.write(state);
-                    /* Update oobe started state for wzd checking */
-                    a_wzd_set_oobe_started();
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_DEVICE_PAIR:
-                {
-                    REST_LOG_I("DEVICE_PAIR\n\r");
-                    state["CS"] = "DEVICE_PAIR";
-                    response["VALUE"] = writer.write(state);
-                    /* Update oobe started state for wzd checking */
-                    a_wzd_set_oobe_started();
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_OOBE_DID_START:
-                {
-                    REST_LOG_I("OOBE_DID_START\n\r");
-                    state["CS"] = "OOBE_DID_START";
-                    response["VALUE"] = writer.write(state);
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_MODE:
-                {
-                    REST_LOG_I("MODE\n\r");
-                    state["CS"] = "MODE";
-                    response["VALUE"] = writer.write(state);
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_ENTER_CODE:
-                {
-                    REST_LOG_I("ENTER_CODE\n\r");
-                    state["CS"] = "ENTER_CODE";
-                    response["VALUE"] = writer.write(state);
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_SUCCESS_PAIR:
-                {
-                    REST_LOG_I("SUCCESS_PAIR\n\r");
-                    state["CS"] = "SUCCESS_PAIR";
-                    response["VALUE"] = writer.write(state);
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_CONNECT_WIFI:
-                {
-                    REST_LOG_I("CONNECT_WIFI\n\r");
-                    state["CS"] = "CONNECT_WIFI";
-                    response["VALUE"] = writer.write(state);
-                    break;
-                }
                 case WZD_PAGE_INDEX_C4TV_UPDATING_SMARTCAST:
                 {
-                    REST_LOG_I("UPDATING_SMARTCAST\n\r");
-                    state["CS"] = "UPDATING_SMARTCAST";
-
                     UINT8   ui1_idx_ir_mode = WZD_OOBE_IR_MODE;
                     a_cfg_cust_get_oobe_ir_mode(&ui1_idx_ir_mode);
                     if(ui1_idx_ir_mode == WZD_OOBE_IR_MODE) {
@@ -379,103 +462,15 @@ int currentstate(Json::Value & root, Json::Value & response)
                     } else {
                         REST_LOG_I("current state is UPDATING_SMARTCAST(get), IR Mode status is UNKNOWN.\n\r", __FUNCTION__, __LINE__);
                     }
-
-                    response["VALUE"] = writer.write(state);
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_UPDATE_COMPLETE:
-                {
-                    REST_LOG_I("UPDATE_COMPLETE\n\r");
-                    state["CS"] = "UPDATE_COMPLETE";
-                    response["VALUE"] = writer.write(state);
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_ADD_GOOGLE_ACCOUNT:
-                {
-                    REST_LOG_I("ADD_GOOGLE_ACCOUNT\n\r");
-                    state["CS"] = "ADD_GOOGLE_ACCOUNT";
-                    response["VALUE"] = writer.write(state);
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_NAME_DISPLAY:
-                {
-                    REST_LOG_I("NAME_DISPLAY\n\r");
-                    state["CS"] = "NAME_DISPLAY";
-                    response["VALUE"] = writer.write(state);
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_NAME_SAVED:
-                {
-                    REST_LOG_I("NAME_SAVED\n\r");
-                    state["CS"] = "NAME_SAVED";
-                    response["VALUE"] = writer.write(state);
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS:
-                {
-                    REST_LOG_I("ACCEPT_TERMS\n\r");
-                    state["CS"] = "ACCEPT_TERMS";
-                    response["VALUE"] = writer.write(state);
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_REGISTER_DISPLAY:
-                {
-                    REST_LOG_I("REGISTER_DISPLAY\n\r");
-                    state["CS"] = "REGISTER_DISPLAY";
-                    response["VALUE"] = writer.write(state);
                     break;
                 }
                 case WZD_PAGE_INDEX_C4TV_ALL_SET:
                 {
-                    REST_LOG_I("ALL_SET\n\r");
-                    state["CS"] = "ALL_SET";
-                    response["VALUE"] = writer.write(state);
                     interrupt_all_set = TRUE;
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_REFRESH:
-                {
-                    REST_LOG_I("REFRESH\n\r");
-                    state["CS"] = "REFRESH";
-                    response["VALUE"] = writer.write(state);
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_DOWNLOADING_UPDATE:
-                {
-                    REST_LOG_I("DOWNLOADING_UPDATE\n\r");
-                    state["CS"] = "DOWNLOADING_UPDATE";
-                    response["VALUE"] = writer.write(state);
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_ERROR:
-                {
-                    REST_LOG_I("ERROR\n\r");
-                    state["CS"] = "ERROR";
-                    response["VALUE"] = writer.write(state);
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_LINK_START:
-                {
-                    REST_LOG_I("LINK_START\n\r");
-                    state["CS"] = "LINK_START";
-                    response["VALUE"] = writer.write(state);
-                    /* Update oobe started state for wzd checking */
-                    a_wzd_set_oobe_started();
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_TUNER_SETUP:
-                {
-                    REST_LOG_I("TUNER_SETUP\n\r");
-                    state["CS"] = "TUNER_SETUP";
-                    response["VALUE"] = writer.write(state);
                     break;
                 }
                 case WZD_PAGE_INDEX_C4TV_TUNER_SCAN:
                 {
-                    REST_LOG_I("TUNER_SCAN\n\r");
-                    state["CS"] = "TUNER_SCAN";
-                    response["VALUE"] = writer.write(state);
-
                     INT32 percent  = 0;
                     tuner_setup_range_get_val(&percent);
                     if(percent == 100)
@@ -484,246 +479,81 @@ int currentstate(Json::Value & root, Json::Value & response)
                     }
                     break;
                 }
-                case WZD_PAGE_INDEX_C4TV_TUNER_COMPLETE:
-                {
-                    REST_LOG_I("TUNER_COMPLETE\n\r");
-                    state["CS"] = "TUNER_COMPLETE";
-                    response["VALUE"] = writer.write(state);
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_IR_REMOTE:
-                {
-                    REST_LOG_I("IR_REMOTE\n\r");
-                    state["CS"] = "IR_REMOTE";
-                    response["VALUE"] = writer.write(state);
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_STORE_DEMO:
-                {
-                    REST_LOG_I("Launch store demo\n\r");
-                    state["CS"] = "STORE_DEMO";
-                    response["VALUE"] = writer.write(state);
-
-                    break;
-                }
-                case WZD_PAGE_INDEX_C4TV_END:
-                {
-                    REST_LOG_I("ALL_SET\n\r");
-                    state["CS"] = "ALL_SET";
-                    response["VALUE"] = writer.write(state);
-                    break;
-                }
                 default:
-                {
-                    REST_LOG_E("Unknown page index, set to DEVICE_PAIR\n\r");
-                    //REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_DEVICE_PAIR\n\r");
-                    //a_cfg_set_wzd_status (WZD_UTIL_SET_STATUS(WZD_STATE_RESUME_C4TV, WZD_PAGE_INDEX_C4TV_DEVICE_PAIR));
-                    state["CS"] = "DEVICE_PAIR";
-                    response["VALUE"] = writer.write(state);
-
                     break;
-                }
             }
 
+            response["VALUE"] = writer.write(state);
             break;
         }
 
         case argument::RequestType::REQUEST_SET:
         {
-            Json::Value msg;
             Json::Value value;
-            std::string ss;
-            CHAR state[128] = {0};
+            _get_value_json(root, value);
 
-            msg = root["message"];
-            value = msg["VALUE"];
+            // to avoid exceptions check format beforehand
+            if (!value.isObject() ||
+                !value["CS"].isString()) {
+                REST_LOG_E("Invalid VALUE format\n");
+                break;
+            }
 
-            UINT8   ui1_new_index = 0;
+            const std::string new_state = value["CS"].asString();
 
-            c_strcpy(state, value.asString().c_str());
+            // due to some reasons the state name reported back is different
+            // from the one requested
+            std::string new_state_to_report = new_state;
 
-            if (c_strstr(state, "START_OOBE"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_START_OOBE\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_START_OOBE;
-                ss = std::string("START_OOBE");
-            }
-            else if (c_strstr(state, "DEVICE_PAIR"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_DEVICE_PAIR\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_DEVICE_PAIR;
-                ss = std::string("DEVICE_PAIR");
-            }
-            else if (c_strstr(state, "OOBE_DID_START"))
-            {
-                REST_LOG_I("OOBE_DID_START\n\r");
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_OOBE_DID_START\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_OOBE_DID_START;
-                ss = std::string("OOBE_DID_START");
-            }
-            else if (c_strstr(state, "ENTER_CODE"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_ENTER_CODE\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_ENTER_CODE;
-                ss = std::string("ENTER_CODE");
-            }
-            else if (c_strstr(state, "SUCCESS_PAIR"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_SUCCESS_PAIR\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_SUCCESS_PAIR;
-                ss = std::string("SUCCESS_PAIR");
-				b_pair_state = TRUE;
-                a_revolt_info_play_audio_tone();
-            }
-            else if (c_strstr(state, "CONNECT_WIFI"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_CONNECT_WIFI\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_CONNECT_WIFI;
-                ss = std::string("CONNECT_WIFI");
-            }
-            else if (c_strstr(state, "UPDATING_SMARTCAST"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_UPDATING_SMARTCAST\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_UPDATING_SMARTCAST;
+            const UINT8 new_index = static_cast<UINT8>(_oobe_state_name_to_page_index(new_state.c_str()));
 
-                UINT8   ui1_idx_ir_mode = WZD_OOBE_IR_MODE;
-                if(c_strstr(state, "IRMode")) {
-                    ui1_idx_ir_mode = WZD_OOBE_IR_MODE;
-                    ss = std::string("UPDATING_SMARTCAST_IR");
-                } else {
-                    ui1_idx_ir_mode = WZD_OOBE_SC_MODE;
-                    ss = std::string("UPDATING_SMARTCAST");
-                }
-                a_cfg_cust_set_oobe_ir_mode(ui1_idx_ir_mode);
-            }
-            else if (c_strstr(state, "UPDATE_COMPLETE"))
+            // some states had some special handling before refactoring, keeping as it was
+            switch (new_index)
             {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_UPDATE_COMPLETE\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_UPDATE_COMPLETE;
-                ss = std::string("UPDATE_COMPLETE");
-            }
-            else if (c_strstr(state, "ADD_GOOGLE_ACCOUNT"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_ADD_GOOGLE_ACCOUNT\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_ADD_GOOGLE_ACCOUNT;
-                ss = std::string("ADD_GOOGLE_ACCOUNT");
-            }
-            else if (c_strstr(state, "NAME_DISPLAY"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_NAME_DISPLAY\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_NAME_DISPLAY;
-                ss = std::string("NAME_DISPLAY");
+                case WZD_PAGE_INDEX_C4TV_SUCCESS_PAIR:
+                    b_pair_state = TRUE;
+                    a_revolt_info_play_audio_tone();
+                    break;
 
-                /* if in scanning, need stop it */
-                if(nav_is_channel_scan_active())
+                case WZD_PAGE_INDEX_C4TV_UPDATING_SMARTCAST:
                 {
-                    REST_LOG_I("Stop oobe scan. \n\r");
-                    rest_async_invoke(a_tuner_setup_stop_scan, NULL, 0, TRUE);
-                    _chg_inp_src_to_cast();
+                    UINT8 ir_mode = WZD_OOBE_SC_MODE;
+                    if (value["IRMode"].isString()) {
+                        const std::string ir_mode_string = value["IRMode"].asString();
+                        if (ir_mode_string == "1") {
+                            ir_mode = WZD_OOBE_IR_MODE;
+                            new_state_to_report = "UPDATING_SMARTCAST_IR";
+                        } else {
+                            ir_mode = WZD_OOBE_SC_MODE;
+                            new_state_to_report = "UPDATING_SMARTCAST";
+                        }
+                    }
+                    a_cfg_cust_set_oobe_ir_mode(ir_mode);
+                    break;
                 }
-            }
-            else if (c_strstr(state, "NAME_SAVED"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_NAME_SAVED\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_NAME_SAVED;
-                ss = std::string("NAME_SAVED");
-            }
-            else if (c_strstr(state, "ACCEPT_TERMS"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS;
-                ss = std::string("ACCEPT_TERMS");
-                /* if in scanning, need stop it */
-                if(nav_is_channel_scan_active())
-                {
-                    REST_LOG_I("Stop oobe scan. \n\r");
-                    rest_async_invoke(a_tuner_setup_stop_scan, NULL, 0, TRUE);
-                    _chg_inp_src_to_cast();
-                }
-            }
-            else if (c_strstr(state, "REGISTER_DISPLAY"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_REGISTER_DISPLAY\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_REGISTER_DISPLAY;
-                ss = std::string("REGISTER_DISPLAY");
-            }
-            else if (c_strstr(state, "ALL_SET"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_ALL_SET\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_ALL_SET;
-                ss = std::string("ALL_SET");
-            }
-            else if (c_strstr(state, "REFRESH"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_REFRESH\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_REFRESH;
-                ss = std::string("REFRESH");
-            }
-            else if (c_strstr(state, "DOWNLOADING_UPDATE"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_DOWNLOADING_UPDATE\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_DOWNLOADING_UPDATE;
-                ss = std::string("DOWNLOADING_UPDATE");
-            }
-            else if (c_strstr(state, "ERROR"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_ERROR\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_ERROR;
-                ss = std::string("ERROR");
-            }
-            else if (c_strstr(state, "LINK_START"))
-            {
-                REST_LOG_E("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_LINK_START\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_LINK_START;
-                ss = std::string("LINK_START");
-            }
-            else if (c_strstr(state, "TUNER_SETUP"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_TUNER_SETUP\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_TUNER_SETUP;
-                ss = std::string("TUNER_SETUP");
-            }
-            else if (c_strstr(state, "TUNER_SCAN"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_TUNER_SCAN\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_TUNER_SCAN;
-                ss = std::string("TUNER_SCAN");
-                a_cfg_cust_set_ch_scan_progress(0);  //clean last channel scan progress
-            }
-            else if (c_strstr(state, "TUNER_COMPLETE"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_TUNER_COMPLETE\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_TUNER_COMPLETE;
-                ss = std::string("TUNER_COMPLETE");
-            }
-            else if (c_strstr(state, "IR_REMOTE"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_IR_REMOTE\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_IR_REMOTE;
-                ss = std::string("IR_REMOTE");
-            }
-            else if (c_strstr(state, "STORE_DEMO"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_STORE_DEMO\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_STORE_DEMO;
-                ss = std::string("STORE_DEMO");
-            }
-            else if (c_strstr(state, "MODE"))
-            {
-                REST_LOG_I("a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_MODE\n\r");
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_MODE;
-                ss = std::string("MODE");
-            }
-            else
-            {
-                REST_LOG_E("Unknown status, state from oobe = [%s]; a_cfg_set_wzd_status, WZD_PAGE_INDEX_C4TV_START_OOBE\n\r", state);
-                ui1_new_index = WZD_PAGE_INDEX_C4TV_START_OOBE;
-                ss = std::string("START_OOBE");
+
+                case WZD_PAGE_INDEX_C4TV_NAME_DISPLAY:
+                case WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS:
+                case WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS_GOOGLE:
+                case WZD_PAGE_INDEX_C4TV_ACCEPT_ACTIVITY_DATA:
+                case WZD_PAGE_INDEX_C4TV_ACCEPT_ACTIVITY_DATA_ONETRUST:
+                case WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS_VIEWING_DATA_ONETRUST:
+                case WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS_ONETRUST:
+                case WZD_PAGE_INDEX_C4TV_ACCEPT_TERMS_VIEWING_DATA:
+                case WZD_PAGE_INDEX_C4TV_SINGLE_TERMS:
+                    _stop_tuner_scan_if_any();
+                    break;
+
+                case WZD_PAGE_INDEX_C4TV_TUNER_SCAN:
+                    a_cfg_cust_set_ch_scan_progress(0);  //clean last channel scan progress
+                    break;
             }
 
-            rest_event_notify("oobe/currentstate", 0, ss.c_str());
+            // report back
+            rest_event_notify("oobe/currentstate", 0, new_state_to_report.c_str());
 
-            if (ui1_new_index == WZD_PAGE_INDEX_C4TV_ALL_SET)
+            // additional legacy logic
+            if (new_index == WZD_PAGE_INDEX_C4TV_ALL_SET)
             {
                 a_cfg_set_wzd_status (WZD_UTIL_SET_STATUS(ui1_state, WZD_PAGE_INDEX_C4TV_ALL_SET));
 
@@ -735,13 +565,15 @@ int currentstate(Json::Value & root, Json::Value & response)
             }
             else
             {
-                a_cfg_set_wzd_status (WZD_UTIL_SET_STATUS(ui1_state, ui1_new_index));
+                DBG_LOG_PRINT(("Setting new page index: %s (%d)\n",
+                          _oobe_page_index_to_state_name((WZD_PAGE_INDEX_T)new_index), new_index));
+                a_cfg_set_wzd_status (WZD_UTIL_SET_STATUS(ui1_state, new_index));
             }
 
             /* if current is store demo, restart oobe app */
             if (ui1_state    == WZD_STATE_RESUME_C4TV &&
                 ui1_page_idx == WZD_PAGE_INDEX_C4TV_STORE_DEMO &&
-                ui1_new_index != WZD_PAGE_INDEX_C4TV_STORE_DEMO)
+                new_index    != WZD_PAGE_INDEX_C4TV_STORE_DEMO)
             {
             #ifdef APP_RETAIL_MODE_SUPPORT
                 i4_ret = a_cfg_custom_set_retail_mode_setting(ACFG_RETAIL_MODE_HOME);
@@ -750,9 +582,8 @@ int currentstate(Json::Value & root, Json::Value & response)
                     REST_LOG_E("acfg set_retail_mode_setting failed\n\r");
                 }
             #endif
-                a_wzd_resume_c4tv(ui1_state, ui1_new_index);
+                a_wzd_resume_c4tv(ui1_state, new_index);
             }
-
             break;
         }
 
@@ -941,6 +772,14 @@ int is_complete(Json::Value & root, Json::Value & response)
     }
 
     return 0;
+}
+
+UINT8 a_oobe_state_name_to_page_index(const char* state_name) {
+    return static_cast<UINT8>(_oobe_state_name_to_page_index(state_name));
+}
+
+const char * a_oobe_page_index_to_state_name(UINT8 page_index) {
+    return _oobe_page_index_to_state_name(static_cast<WZD_PAGE_INDEX_T>(page_index));
 }
 
 handler oobe_handler[] =
