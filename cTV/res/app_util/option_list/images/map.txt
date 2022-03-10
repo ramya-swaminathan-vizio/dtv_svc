@@ -1,0 +1,68 @@
+[FILE = OPTL_IMG]
+PATH = "..\optl_img.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_optl_main_lst_hlt]
+CONFIG_VARIABLE_NAME = "t_g_optl_main_lst_hlt"
+IMPLEMENT_FILE = "OPTL_IMG"
+SOURCE_FILE = ".\list_hlt.png"
+#MASK_PIXEL = "(0, 0)"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "HO"
+SEGMENT_DIMENSION = "(98,0)"
+
+[IMAGE_CONFIG = t_g_optl_main_lst_hlt_oled]
+CONFIG_VARIABLE_NAME = "t_g_optl_main_lst_hlt_oled"
+IMPLEMENT_FILE = "OPTL_IMG"
+SOURCE_FILE = ".\list_hlt_oled.png"
+#MASK_PIXEL = "(0, 0)"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "HO"
+SEGMENT_DIMENSION = "(98,0)"
+
+[IMAGE_CONFIG = t_g_back_bar_nr]
+CONFIG_VARIABLE_NAME = "t_g_back_bar_nr"
+IMPLEMENT_FILE = "OPTL_IMG"
+SOURCE_FILE = ".\back_bar_bk.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_back_bar_nr_oled]
+CONFIG_VARIABLE_NAME = "t_g_back_bar_nr_oled"
+IMPLEMENT_FILE = "OPTL_IMG"
+SOURCE_FILE = ".\back_bar_bk_oled.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_back_bar_hlt]
+CONFIG_VARIABLE_NAME = "t_g_back_bar_hlt"
+IMPLEMENT_FILE = "OPTL_IMG"
+SOURCE_FILE = ".\back_bar_bk_hlt.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_back_bar_hlt_oled]
+CONFIG_VARIABLE_NAME = "t_g_back_bar_hlt_oled"
+IMPLEMENT_FILE = "OPTL_IMG"
+SOURCE_FILE = ".\back_bar_bk_hlt_oled.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+

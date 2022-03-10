@@ -1,0 +1,268 @@
+/*----------------------------------------------------------------------------*
+ * Copyright Statement:                                                       *
+ *                                                                            *
+ *   This software/firmware and related documentation ("MediaTek Software")   *
+ * are protected under international and related jurisdictions'copyright laws *
+ * as unpublished works. The information contained herein is confidential and *
+ * proprietary to MediaTek Inc. Without the prior written permission of       *
+ * MediaTek Inc., any reproduction, modification, use or disclosure of        *
+ * MediaTek Software, and information contained herein, in whole or in part,  *
+ * shall be strictly prohibited.                                              *
+ * MediaTek Inc. Copyright (C) 2010. All rights reserved.                     *
+ *                                                                            *
+ *   BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND     *
+ * AGREES TO THE FOLLOWING:                                                   *
+ *                                                                            *
+ *   1)Any and all intellectual property rights (including without            *
+ * limitation, patent, copyright, and trade secrets) in and to this           *
+ * Software/firmware and related documentation ("MediaTek Software") shall    *
+ * remain the exclusive property of MediaTek Inc. Any and all intellectual    *
+ * property rights (including without limitation, patent, copyright, and      *
+ * trade secrets) in and to any modifications and derivatives to MediaTek     *
+ * Software, whoever made, shall also remain the exclusive property of        *
+ * MediaTek Inc.  Nothing herein shall be construed as any transfer of any    *
+ * title to any intellectual property right in MediaTek Software to Receiver. *
+ *                                                                            *
+ *   2)This MediaTek Software Receiver received from MediaTek Inc. and/or its *
+ * representatives is provided to Receiver on an "AS IS" basis only.          *
+ * MediaTek Inc. expressly disclaims all warranties, expressed or implied,    *
+ * including but not limited to any implied warranties of merchantability,    *
+ * non-infringement and fitness for a particular purpose and any warranties   *
+ * arising out of course of performance, course of dealing or usage of trade. *
+ * MediaTek Inc. does not provide any warranty whatsoever with respect to the *
+ * software of any third party which may be used by, incorporated in, or      *
+ * supplied with the MediaTek Software, and Receiver agrees to look only to   *
+ * such third parties for any warranty claim relating thereto.  Receiver      *
+ * expressly acknowledges that it is Receiver's sole responsibility to obtain *
+ * from any third party all proper licenses contained in or delivered with    *
+ * MediaTek Software.  MediaTek is not responsible for any MediaTek Software  *
+ * releases made to Receiver's specifications or to conform to a particular   *
+ * standard or open forum.                                                    *
+ *                                                                            *
+ *   3)Receiver further acknowledge that Receiver may, either presently       *
+ * and/or in the future, instruct MediaTek Inc. to assist it in the           *
+ * development and the implementation, in accordance with Receiver's designs, *
+ * of certain softwares relating to Receiver's product(s) (the "Services").   *
+ * Except as may be otherwise agreed to in writing, no warranties of any      *
+ * kind, whether express or implied, are given by MediaTek Inc. with respect  *
+ * to the Services provided, and the Services are provided on an "AS IS"      *
+ * basis. Receiver further acknowledges that the Services may contain errors  *
+ * that testing is important and it is solely responsible for fully testing   *
+ * the Services and/or derivatives thereof before they are used, sublicensed  *
+ * or distributed. Should there be any third party action brought against     *
+ * MediaTek Inc. arising out of or relating to the Services, Receiver agree   *
+ * to fully indemnify and hold MediaTek Inc. harmless.  If the parties        *
+ * mutually agree to enter into or continue a business relationship or other  *
+ * arrangement, the terms and conditions set forth herein shall remain        *
+ * effective and, unless explicitly stated otherwise, shall prevail in the    *
+ * event of a conflict in the terms in any agreements entered into between    *
+ * the parties.                                                               *
+ *                                                                            *
+ *   4)Receiver's sole and exclusive remedy and MediaTek Inc.'s entire and    *
+ * cumulative liability with respect to MediaTek Software released hereunder  *
+ * will be, at MediaTek Inc.'s sole discretion, to replace or revise the      *
+ * MediaTek Software at issue.                                                *
+ *                                                                            *
+ *   5)The transaction contemplated hereunder shall be construed in           *
+ * accordance with the laws of Singapore, excluding its conflict of laws      *
+ * principles.  Any disputes, controversies or claims arising thereof and     *
+ * related thereto shall be settled via arbitration in Singapore, under the   *
+ * then current rules of the International Chamber of Commerce (ICC).  The    *
+ * arbitration shall be conducted in English. The awards of the arbitration   *
+ * shall be final and binding upon both parties and shall be entered and      *
+ * enforceable in any court of competent jurisdiction.                        *
+ *---------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+  * $RCSfile: menu_animation.c,v $
+  * $Revision: #1 $
+  * $Date: 2015/05/29 $
+  * $Author: brianpc.huang $
+  * $CCRevision: /main/DTV_X_HQ_int/DTV_X_ATSC/23 $
+  * $SWAuthor:
+  * $MD5HEX:
+  *
+  * Description:
+  *      This file contains the implementation of GUI-related functions of the
+  * menu application
+  *---------------------------------------------------------------------------*/
+
+#include "mmp_common_ui_animation.h"
+#include "mmp/mmp_tools.h"
+#include "res/mmp/common_ui/mmp_common_ui_rc.h"
+#include "c_dbg.h"
+
+
+static HANDLE_T    h_g_mmp_animation = NULL_HANDLE;
+static HANDLE_T    h_g_mmp_anim_icon = NULL_HANDLE;
+static BOOL        b_is_anmation_run = FALSE;
+
+static INT32 _mmp_common_ui_animation_icon_create(HANDLE_T  h_parent_frame)
+{
+    INT32           i4_ret;
+    GL_RECT_T       t_rect;
+
+    SET_RECT_BY_SIZE(&t_rect,
+                     MMP_ANIMATION_ICON_X,
+                     MMP_ANIMATION_ICON_Y,
+                     MMP_ANIMATION_ICON_W,
+                     MMP_ANIMATION_ICON_H);
+
+    i4_ret = c_wgl_create_widget(h_parent_frame,
+                                 HT_WGL_WIDGET_ICON,
+                                 WGL_CONTENT_ICON_DEF,
+                                 WGL_BORDER_NULL,
+                                 &t_rect,
+                                 NULL,
+                                 MMP_COM_UI_DEFAULT_ALPHA,
+                                 (VOID*)WGL_STL_GL_NO_BK,
+                                 NULL,
+                                 &h_g_mmp_animation);
+    MMPR_LOG_ON_FAIL(i4_ret);
+
+    i4_ret = c_wgl_do_cmd(h_g_mmp_animation,
+                          WGL_CMD_ICON_SET_ALIGN,
+                          WGL_PACK(WGL_AS_CENTER_CENTER),
+                          NULL);
+    MMPR_LOG_ON_FAIL(i4_ret);
+
+    i4_ret = c_wgl_set_visibility(h_g_mmp_animation,
+                                  WGL_SW_HIDE);
+    MMPR_LOG_ON_FAIL(i4_ret);
+
+    return MMPR_OK;
+}
+
+INT32 mmp_common_ui_animation_get_handle(HANDLE_T* p_h_animation)
+{
+    if (NULL_HANDLE == h_g_mmp_animation)
+    {
+        *p_h_animation = NULL_HANDLE;
+        return MMPR_FAIL;
+    }
+    else
+    {
+        *p_h_animation = h_g_mmp_animation;
+        return MMPR_OK;
+    }
+}
+
+INT32 mmp_common_ui_animation_init(HANDLE_T     h_parent_frame)
+{
+    INT32 i4_ret = MMPR_OK;
+
+   DBG_LOG_PRINT(("\nmmp_common_ui_animation_init.\t\n"));
+
+    b_is_anmation_run = FALSE;
+
+    i4_ret = _mmp_common_ui_animation_icon_create(h_parent_frame);
+    MMPR_LOG_ON_FAIL(i4_ret);
+
+    i4_ret = loading_anim_init();
+    MMPR_LOG_ON_FAIL(i4_ret);
+
+    i4_ret = loading_anim_create(h_g_mmp_animation, &h_g_mmp_anim_icon);
+    MMPR_LOG_ON_FAIL(i4_ret);
+
+    return MMPR_OK;
+}
+
+INT32 mmp_common_ui_animation_start(UINT16 ui2_count,
+                                     BOOL b_is_sync)
+{
+    INT32   i4_ret = MMPR_OK;
+
+   DBG_LOG_PRINT(("\nmmp_common_ui_animation_start.\t\n"));
+
+    b_is_anmation_run = TRUE;
+
+    i4_ret = loading_anim_start_animation(h_g_mmp_anim_icon, ui2_count, b_is_sync);
+    MMPR_LOG_ON_FAIL(i4_ret);
+
+    i4_ret = c_wgl_set_visibility(h_g_mmp_animation,
+                                  WGL_SW_NORMAL);
+    MMPR_LOG_ON_FAIL(i4_ret);
+
+    return MMPR_OK;
+}
+
+INT32 mmp_common_ui_animation_show(VOID)
+{
+    INT32   i4_ret = MMPR_OK;
+
+    i4_ret = c_wgl_set_visibility(h_g_mmp_animation,
+                                  WGL_SW_NORMAL);
+    MMPR_LOG_ON_FAIL(i4_ret);
+
+    i4_ret = c_wgl_repaint(h_g_mmp_animation,
+                           NULL,
+                           TRUE);
+    MMPR_LOG_ON_FAIL(i4_ret);
+
+    return MMPR_OK;
+}
+
+INT32 mmp_common_ui_animation_hide(VOID)
+{
+    INT32   i4_ret = MMPR_OK;
+
+    i4_ret = c_wgl_set_visibility(h_g_mmp_animation,
+                                  WGL_SW_HIDE);
+    MMPR_LOG_ON_FAIL(i4_ret);
+
+    i4_ret = c_wgl_repaint(h_g_mmp_animation,
+                           NULL,
+                           TRUE);
+    MMPR_LOG_ON_FAIL(i4_ret);
+
+    return MMPR_OK;
+}
+
+INT32 mmp_common_ui_animation_stop(VOID)
+{
+    INT32   i4_ret = MMPR_OK;
+
+   DBG_LOG_PRINT(("\nmmp_common_ui_animation_stop.\t\n"));
+
+    if (!b_is_anmation_run)
+    {
+        return MMPR_OK;
+    }
+
+    b_is_anmation_run = FALSE;
+
+    i4_ret = loading_anim_stop_animation(h_g_mmp_anim_icon);
+    MMPR_LOG_ON_FAIL(i4_ret);
+
+    i4_ret = c_wgl_set_visibility(h_g_mmp_animation,
+                                  WGL_SW_HIDE);
+    MMPR_LOG_ON_FAIL(i4_ret);
+
+    i4_ret = c_wgl_repaint(h_g_mmp_animation, NULL, TRUE);
+    MMPR_LOG_ON_FAIL(i4_ret);
+
+    return MMPR_OK;
+}
+
+INT32 mmp_common_ui_animation_set_callback_fct(wgl_app_anim_callback_fct    pf_anim_nfy_fct,
+                                               VOID*                        pv_tag)
+{
+    INT32   i4_ret = MMPR_OK;
+
+   DBG_LOG_PRINT(("\nmmp_common_ui_animation_set_callback_fct.\t\n"));
+
+    i4_ret = loading_anim_set_cb(h_g_mmp_anim_icon, pf_anim_nfy_fct, pv_tag);
+    MMPR_LOG_ON_FAIL(i4_ret);
+
+    return MMPR_OK;
+}
+
+INT32 mmp_common_ui_animation_deinit(VOID)
+{
+    if(NULL_HANDLE != h_g_mmp_animation)
+    {
+        c_wgl_destroy_widget(h_g_mmp_animation);
+        h_g_mmp_animation = NULL_HANDLE;
+    }
+    return MMPR_OK;
+}
+

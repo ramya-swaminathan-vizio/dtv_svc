@@ -1,0 +1,46 @@
+[FILE=LOGO_IMG_8888]
+PATH = "..\logo_img_8888.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_logo_img_vialogo]
+CONFIG_VARIABLE_NAME  = "t_logo_img_vialogo"
+IMPLEMENT_FILE        = "LOGO_IMG_8888"
+SOURCE_FILE           = "background_V_720.bmp"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_logo_img_via_logo]
+CONFIG_VARIABLE_NAME  = "t_logo_img_via_logo"
+IMPLEMENT_FILE        = "LOGO_IMG_8888"
+SOURCE_FILE           = "background_V_540_24bit_sub.JPG."
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+MASK_PIXEL            = "(0,0)"
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_logo_img_via_logo_QRE]
+CONFIG_VARIABLE_NAME  = "t_logo_img_via_logo_QRE"
+IMPLEMENT_FILE        = "LOGO_IMG_8888"
+SOURCE_FILE           = "background_V_540_24bi_QREt.JPG"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+MASK_PIXEL            = "(0,0)"
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+
+[IMAGE_CONFIG = t_logo_img_via_logo_720]
+CONFIG_VARIABLE_NAME  = "t_logo_img_via_logo_720"
+IMPLEMENT_FILE        = "LOGO_IMG_8888"
+SOURCE_FILE           = "background_V_540_24bit_1280x720.bmp."
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1

@@ -1,0 +1,977 @@
+[FILE=WZD_IMG]
+PATH = "../wzd_img_2013.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_wzd_dlg_btn_icon_off]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_dlg_btn_icon_off"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "button_arrow_off.png"
+OUTPUT_FORMAT           = "8888"
+MSG_REPORT              = 0
+COMPRESSED              = 1
+
+[IMAGE_CONFIG = t_g_wzd_dlg_btn_icon_on]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_dlg_btn_icon_on"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "button_arrow_on.png"
+OUTPUT_FORMAT           = "8888"
+MSG_REPORT              = 0
+COMPRESSED              = 1
+
+[IMAGE_CONFIG = t_g_wzd_img_button_off_1]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_button_off_1"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "button_off.png"
+OUTPUT_FORMAT           = "8888"
+DEFAULT_ALPHA           = 255
+MSG_REPORT              = 0
+COMPRESSED              = 1
+
+[IMAGE_CONFIG = t_g_wzd_img_button_on_1]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_button_on_1"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "button_on.png"
+OUTPUT_FORMAT           = "8888"
+DEFAULT_ALPHA           = 255
+MSG_REPORT              = 0
+COMPRESSED              = 1
+
+[IMAGE_CONFIG = t_g_wzd_img_con_tv_lb_ht]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_con_tv_lb_ht"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "con_tv_btn.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_con_tv_lang_lb_bg]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_con_tv_lang_lb_bg"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "con_tv_lang_list_bg.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_con_tv_lb_bg]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_con_tv_lb_bg"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "con_tv_list_bg.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_divider_dotted]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_divider_dotted"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "divider_dotted.png"
+OUTPUT_FORMAT           = "8888"
+MSG_REPORT              = 0
+COMPRESSED              = 1
+SEGMENT_TYPE            = "HO"
+SEGMENT_DIMENSION       = "(350, 0)"
+
+[IMAGE_CONFIG = t_g_wzd_input_box_square]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_input_box_square"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "input_box_square.png"
+OUTPUT_FORMAT           = "8888"
+MSG_REPORT              = 0
+COMPRESSED              = 1
+SEGMENT_TYPE            = "HV"
+SEGMENT_DIMENSION       = "(9, 9)"
+
+[IMAGE_CONFIG = t_g_wzd_img_tv_setup_green_check]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_tv_setup_green_check"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "icon_green_check.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_error_iocn]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_error_iocn"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "icon_red_cross.png"
+OUTPUT_FORMAT           = "8888"
+MSG_REPORT              = 0
+COMPRESSED              = 1
+
+[IMAGE_CONFIG 			= t_g_wzd_img_scan_bar_level]
+CONFIG_VARIABLE_NAME 	= "t_g_wzd_img_scan_bar_level"
+IMPLEMENT_FILE 			= "WZD_IMG"
+SOURCE_FILE 			= "progress_bar.png"
+OUTPUT_FORMAT 			= "8888"
+DEFAULT_ALPHA 			= 255
+#SEGMENT_TYPE 			= "HO"
+#SEGMENT_DIMENSION 		= "(20, 16)"
+MSG_REPORT 				= 0
+COMPRESSED 				= 1
+
+[IMAGE_CONFIG = t_g_wzd_img_scan_bar_bk]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_scan_bar_bk"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "progress_base.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG        = t_g_wzd_simple_dialog_bk]
+CONFIG_VARIABLE_NAME = "t_g_wzd_simple_dialog_bk"
+IMPLEMENT_FILE       = "WZD_IMG"
+SOURCE_FILE          = "simple_dialog_bk.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_wzd_simple_btn_selected]
+CONFIG_VARIABLE_NAME = "t_g_wzd_simple_btn_selected"
+IMPLEMENT_FILE       = "WZD_IMG"
+SOURCE_FILE          = "simple_dialog_selected.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_wzd_simple_btn_unselected]
+CONFIG_VARIABLE_NAME = "t_g_wzd_simple_btn_unselected"
+IMPLEMENT_FILE       = "WZD_IMG"
+SOURCE_FILE          = "simple_dialog_unselected.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG = t_g_wzd_img_tv_setup_small_frm_off]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_tv_setup_small_frm_off"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "tv_setup_small_frm_off.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_tv_setup_small_frm_on]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_tv_setup_small_frm_on"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "tv_setup_small_frm_on.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_button_off_0]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_button_off_0"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "wzd_button_off_0.png"
+OUTPUT_FORMAT           = "8888"
+DEFAULT_ALPHA           = 255
+MSG_REPORT              = 0
+COMPRESSED              = 1
+
+[IMAGE_CONFIG = t_g_wzd_img_button_on_0]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_button_on_0"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "wzd_button_on_0.png"
+OUTPUT_FORMAT           = "8888"
+DEFAULT_ALPHA           = 255
+MSG_REPORT              = 0
+COMPRESSED              = 1
+
+[IMAGE_CONFIG        = t_g_wzd_dropdown_bkg]
+CONFIG_VARIABLE_NAME = "t_g_wzd_dropdown_bkg"
+IMPLEMENT_FILE       = "WZD_IMG"
+SOURCE_FILE          = "dropdown_bkg.png"
+OUTPUT_FORMAT        = "8888"
+SEGMENT_TYPE         = "HV"
+SEGMENT_DIMENSION    = "(77, 38)"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_wzd_dropdown_hlt]
+CONFIG_VARIABLE_NAME = "t_g_wzd_dropdown_hlt"
+IMPLEMENT_FILE       = "WZD_IMG"
+SOURCE_FILE          = "dropdown_hlt.png"
+OUTPUT_FORMAT 		 = "8888"
+DEFAULT_ALPHA 		 = 255
+MSG_REPORT 			 = 0
+COMPRESSED 			 = 1
+
+[IMAGE_CONFIG = t_g_wzd_drop_down_arrow_up_on]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_drop_down_arrow_up_on"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "arrow_up_on.png"
+OUTPUT_FORMAT           = "8888"
+MSG_REPORT              = 0
+COMPRESSED              = 1
+
+[IMAGE_CONFIG = t_g_wzd_drop_down_arrow_down_on]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_drop_down_arrow_down_on"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "arrow_down_on.png"
+OUTPUT_FORMAT           = "8888"
+MSG_REPORT              = 0
+COMPRESSED              = 1
+
+[IMAGE_CONFIG = t_g_wzd_wps_logo]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_wps_logo"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "wps_logo.png"
+OUTPUT_FORMAT           = "8888"
+MSG_REPORT              = 0
+COMPRESSED              = 1
+
+[IMAGE_CONFIG        = t_g_wzd_remote_control_green]
+CONFIG_VARIABLE_NAME = "t_g_wzd_remote_control_green"
+IMPLEMENT_FILE       = "WZD_IMG"
+SOURCE_FILE          = "button_greenbar.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_wzd_remote_control_red]
+CONFIG_VARIABLE_NAME = "t_g_wzd_remote_control_red"
+IMPLEMENT_FILE       = "WZD_IMG"
+SOURCE_FILE          = "button_reddot.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_wzd_dev_pwr]
+CONFIG_VARIABLE_NAME = "t_g_wzd_dev_pwr"
+IMPLEMENT_FILE       = "WZD_IMG"
+SOURCE_FILE          = "Device-pwr.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_wzd_img_energy_star]
+CONFIG_VARIABLE_NAME = "t_g_wzd_img_energy_star"
+IMPLEMENT_FILE       = "WZD_IMG"
+SOURCE_FILE          = "energy_star_logo.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG = t_g_wzd_img_backgroud]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_backgroud"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "backgroud.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_background_with_box]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_background_with_box"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "background_with_box.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_title_dash]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_title_dash"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "title_dash.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_remote]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_remote"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "remote.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_remote_pairing]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_remote_pairing"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "remote_pairing.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_remote_pairing_hands]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_remote_pairing_hands"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "remote_pairing_hands.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_full_screen_dialog]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_full_screen_dialog"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "full_screen_dialog.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_energystar_logo]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_energystar_logo"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "energystar_logo.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_dialog]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_dialog"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "dialog.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_button]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_button"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "button.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_button_highlight]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_button_highlight"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "button_highlight.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_checkbox_checked]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_checkbox_checked"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "checkbox_checked.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_checkbox_no_check]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_checkbox_no_check"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "checkbox_no_check.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_remote_pairing_with_hands]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_remote_pairing_with_hands"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "remote_pairing_with_hands.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_checkmark_white_dialog]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_checkmark_white_dialog"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "checkmark_white_dialog.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_select_box]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_select_box"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "selectBox.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_select_box_highlight]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_select_box_highlight"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "selectBox_highlight.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_signal_1of5]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_signal_1of5"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "signal1of5.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_signal_2of5]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_signal_2of5"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "signal2of5.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_signal_3of5]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_signal_3of5"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "signal3of5.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_signal_4of5]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_signal_4of5"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "signal4of5.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_signal_5of5]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_signal_5of5"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "signal5of5.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_network_lock]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_network_lock"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "network_lock.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_warning_icon]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_warning_icon"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "warning.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_text_box]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_text_box"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "textBox_passcode.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_text_box_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_text_box_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "textBox_passcode_highlight.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_text_box_cursor]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_text_box_cursor"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "textBox_passcode_cursor.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+AUTO_STRETCH            = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_text_box_asterisk]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_text_box_asterisk"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "textBox_passcode_asterisk.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+AUTO_STRETCH            = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_textBox_register]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_textBox_register"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "textBox_register.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_textBox_register_highlight]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_textBox_register_highlight"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "textBox_register_highlight.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_checkbox]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_checkbox"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "checkbox.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+
+[IMAGE_CONFIG = t_g_wzd_img_checkbox_check]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_checkbox_check"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "checkbox_check.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+
+[IMAGE_CONFIG = t_g_wzd_img_checkbox_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_checkbox_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "checkbox_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+
+[IMAGE_CONFIG = t_g_wzd_img_checkbox_check_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_checkbox_check_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "checkbox_check_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_antenna]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_antenna"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_antenna.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_antenna_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_antenna_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_antenna_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_cableBox]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_cableBox"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_cableBox.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_cableBox_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_cableBox_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_cableBox_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_coax]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_coax"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_coax.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_coax_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_coax_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_coax_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_satellite_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_satellite_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_satellite_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_scan_background]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_scan_background"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "scan_background.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_scan_progressBar]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_scan_progressBar"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "scan_progressBar.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+#################################################
+#       tv remote device setup img              #
+#################################################
+
+[IMAGE_CONFIG = t_g_wzd_img_selectbox_small]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_selectbox_small"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "selectBox_small.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_selectbox_small_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_selectbox_small_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "selectBox_small_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_selectbox_small_1]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_selectbox_small_1"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "selectBox_small_1.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_selectbox_small_hlt_1]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_selectbox_small_hlt_1"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "selectBox_small_hlt_1.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_checkmark_green_small]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_checkmark_green_small"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "checkmark_green_small.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_checkmark_green_large]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_checkmark_green_large"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "checkmark_green_large.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_bluray]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_bluray"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_bluray.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_bluray_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_bluray_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_bluray_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_cable]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_cable"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_cable.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_cable_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_cable_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_cable_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_computer]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_computer"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_computer.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_computer_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_computer_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_computer_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_dvd]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_dvd"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_dvd.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_dvd_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_dvd_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_dvd_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_dvr]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_dvr"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_dvr.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_dvr_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_dvr_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_dvr_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_game]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_game"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_game.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+[IMAGE_CONFIG = t_g_wzd_img_device_game_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_game_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_game_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_sat]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_sat"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_sat.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_sat_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_sat_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_sat_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_vcr]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_vcr"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_vcr.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_vcr_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_vcr_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_vcr_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_avr]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_avr"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_avr.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_avr_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_avr_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_avr_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_soundbar]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_soundbar"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_soundbar.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_soundbar_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_soundbar_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_soundbar_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_icon_comp_gray]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_icon_comp_gray"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "icon_comp_gray.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_icon_hdmi_gray]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_icon_hdmi_gray"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "icon_hdmi_gray.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_icon_comp_white]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_icon_comp_white"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "icon_comp_white.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_icon_hdmi_white]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_icon_hdmi_white"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "icon_hdmi_white.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_text_focus]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_text_focus"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "text_focus.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_Remote_Key_Device_Power]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_Remote_Key_Device_Power"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "Remote_Key_Device_Power.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_cableBox]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_cableBox"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_cableBox.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_cableBox_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_cableBox_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_cableBox_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_satellite]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_satellite"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_satellite.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_device_satellite_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_device_satellite_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "device_satellite_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_dropdown_brand_hlt]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_dropdown_brand_hlt"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "dropdown_brand_hlt.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_drop_down_background]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_drop_down_background"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "drop_down_background.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_dropdown_brand]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_dropdown_brand"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "dropdown_brand.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_img_dropdown_brand_scrollbar]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_img_dropdown_brand_scrollbar"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "dropdown_brand_scrollbar.png"
+OUTPUT_FORMAT           = "8888"
+COMPRESSED              = 1
+MSG_REPORT              = 0
+
+[IMAGE_CONFIG = t_g_wzd_tos_scroll_down]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_tos_scroll_down"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "tos_scroll_down.png"
+OUTPUT_FORMAT           = "8888"
+MSG_REPORT              = 0
+COMPRESSED              = 1
+
+[IMAGE_CONFIG = t_g_wzd_tos_scroll_down_highlight]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_tos_scroll_down_highlight"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "tos_scroll_down_highlight.png"
+OUTPUT_FORMAT           = "8888"
+MSG_REPORT              = 0
+COMPRESSED              = 1
+
+[IMAGE_CONFIG = t_g_wzd_tos_scroll_up]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_tos_scroll_up"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "tos_scroll_up.png"
+OUTPUT_FORMAT           = "8888"
+MSG_REPORT              = 0
+COMPRESSED              = 1
+
+[IMAGE_CONFIG = t_g_wzd_tos_scroll_up_highlight]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_tos_scroll_up_highlight"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "tos_scroll_up_highlight.png"
+OUTPUT_FORMAT           = "8888"
+MSG_REPORT              = 0
+COMPRESSED              = 1
+
+[IMAGE_CONFIG = t_g_wzd_OK_key_select]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_OK_key_select"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "Ok_key_select.png"
+OUTPUT_FORMAT           = "8888"
+MSG_REPORT              = 0
+COMPRESSED              = 1
+
+[IMAGE_CONFIG = t_g_wzd_input_icon_RF]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_input_icon_RF"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "input_icon_RF.png"
+OUTPUT_FORMAT           = "8888"
+MSG_REPORT              = 0
+COMPRESSED              = 1
+
+[IMAGE_CONFIG = t_g_wzd_input_icon_rf_white]
+CONFIG_VARIABLE_NAME    = "t_g_wzd_input_icon_rf_white"
+IMPLEMENT_FILE          = "WZD_IMG"
+SOURCE_FILE             = "input_icon_rf_white.png"
+OUTPUT_FORMAT           = "8888"
+MSG_REPORT              = 0
+COMPRESSED              = 1

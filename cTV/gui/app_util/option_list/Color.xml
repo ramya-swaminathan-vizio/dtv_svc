@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ColorSet version="1.0.0.0">
+	<Color>
+		<Alias>yellow</Alias>
+		<Alpha>255</Alpha>
+		<u1>255</u1>
+		<u2>255</u2>
+		<u3>0</u3>
+	</Color>
+	<Color>
+		<Alias>disable</Alias>
+		<Alpha>255</Alpha>
+		<u1>82</u1>
+		<u2>82</u2>
+		<u3>82</u3>
+	</Color>
+	<Color>
+		<Alias>white</Alias>
+		<Alpha>255</Alpha>
+		<u1>255</u1>
+		<u2>255</u2>
+		<u3>255</u3>
+	</Color>
+</ColorSet>

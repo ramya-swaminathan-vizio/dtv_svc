@@ -1,0 +1,3 @@
+Z:\ws_linux\DTV\DEV_BR\e_IDTV0801_LINUX_002200_2_001_2_001_AP_BR\vm_linux\project_x\custom\Vizio\cTV\res\wfd\images\wfd_2013\Backgd_Plain.png		0
+Z:\ws_linux\DTV\DEV_BR\e_IDTV0801_LINUX_002200_2_001_2_001_AP_BR\vm_linux\project_x\custom\Vizio\cTV\res\wfd\images\wfd_2013\Bar_Highlight.png		65520
+Z:\ws_linux\DTV\DEV_BR\e_IDTV0801_LINUX_002200_2_001_2_001_AP_BR\vm_linux\project_x\custom\Vizio\cTV\res\wfd\images\wfd_2013\Bar.png		65520

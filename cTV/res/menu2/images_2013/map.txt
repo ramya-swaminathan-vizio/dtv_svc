@@ -1,0 +1,1603 @@
+[FILE=MENU_IMG]
+PATH = "..\menu_img_2013.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_menu_back_bar_bk]
+CONFIG_VARIABLE_NAME = "t_g_menu_back_bar_bk"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "back_bar_bk.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_connected_icon]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_connected_icon"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "65_Connected_Icon.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_back_bar_bk_hlt]
+CONFIG_VARIABLE_NAME = "t_g_menu_back_bar_bk_hlt"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "back_highlight.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_back_left_arrow]
+CONFIG_VARIABLE_NAME = "t_g_menu_back_left_arrow"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "back_left_arrow.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_bk0]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_bk0"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "sidebar_background.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#SEGMENT_TYPE = "HO"
+#SEGMENT_DIMENSION = "(103, 540)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_item_bk]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_item_bk"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "Bar.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_item_bk_large]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_item_bk_large"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "Bar.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+SEGMENT_TYPE = "VO"
+SEGMENT_DIMENSION = "(397, 11)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_item_bar_plain]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_item_bar_plain"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "bar_plain.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_item_hlt_bk]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_item_hlt_bk"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "sidebar_highlight.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_unskip]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_unskip"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "box.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(3, 3)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_skip]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_skip"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "channelskip_skip.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(3, 3)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_skip_hlt]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_skip_hlt"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "channelskip_skip.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(3, 3)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_checkbox_board]
+CONFIG_VARIABLE_NAME = "t_g_menu_checkbox_board"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE =  "checkbox_board.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_checkbox_off]
+CONFIG_VARIABLE_NAME = "t_g_menu_checkbox_off"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE =  "checkbox_white.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_checkbox_on]
+CONFIG_VARIABLE_NAME = "t_g_menu_checkbox_on"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE =  "checkbox_white_checked.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_checkbox_on_hlt_check]
+CONFIG_VARIABLE_NAME = "t_g_menu_checkbox_on_hlt_check"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE =  "checkbox_grey_checked.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+
+[IMAGE_CONFIG = t_g_menu_img_eq_background]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_eq_background"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "eq_Background.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_eq_item_ind]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_eq_item_ind"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "eq_indicat.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_eq_item_hlt]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_eq_item_hlt"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "eq_item_hlt.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_eq_item_nor]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_eq_item_nor"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "eq_item_nor.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_eq_item_sel]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_eq_item_sel"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "eq_item_select.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_eq_level]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_eq_level"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "eq_level_bar.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_home_img]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_home_img"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "Home_Icon.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_home_bar]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_home_bar"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "Homebar.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_home_bar_hlt]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_home_bar_hlt"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "Homebar_hlt.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_list_item_leftarrow]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_list_item_leftarrow"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "sidebar_highlight_arrow_left.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_pg_blue]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_pg_blue"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "slider_indicator.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#SEGMENT_TYPE = "HV"
+#SEGMENT_DIMENSION = "(5, 60)"
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_pg_silver]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_pg_silver"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "slider_background.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_pg_silver_hlt]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_pg_silver_hlt"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "menulist_slider_silver_hlt.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_list_item_rightarrow]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_list_item_rightarrow"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "sidebar_highlight_arrow_right.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_terms_arrow_down_off]
+CONFIG_VARIABLE_NAME = "t_g_menu_terms_arrow_down_off"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE =  "terms_arrow_down_off.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_terms_arrow_down_on]
+CONFIG_VARIABLE_NAME = "t_g_menu_terms_arrow_down_on"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE =  "terms_arrow_down_on.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_terms_arrow_up_off]
+CONFIG_VARIABLE_NAME = "t_g_menu_terms_arrow_up_off"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE =  "terms_arrow_up_off.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_terms_arrow_up_on]
+CONFIG_VARIABLE_NAME = "t_g_menu_terms_arrow_up_on"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE =  "terms_arrow_up_on.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_terms_box_off]
+CONFIG_VARIABLE_NAME = "t_g_menu_terms_box_off"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE =  "terms_box_off.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "HV"
+SEGMENT_DIMENSION = "(32, 16)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_terms_box_on]
+CONFIG_VARIABLE_NAME = "t_g_menu_terms_box_on"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE =  "terms_box_on.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "HV"
+SEGMENT_DIMENSION = "(32, 16)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_tv_rate_lock]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_tv_rate_lock"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "TVRating_lock.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_tv_rate_lock_hlt]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_tv_rate_lock_hlt"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "TVRating_lock_hlt.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_tv_rate_unlock]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_tv_rate_unlock"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "TVRating_unlock.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_tv_rate_unlock_hlt]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_tv_rate_unlock_hlt"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "TVRating_unlock_hlt.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_tv_rate_bk]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_tv_rate_bk"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "TVRatings_bkgd.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_icon_lock]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_icon_lock"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "_icon_lock.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_icon_unlock]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_icon_unlock"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "_icon_unlock1.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_checkbox_off]
+CONFIG_VARIABLE_NAME = "t_g_menu_checkbox_off"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE =  "checkbox_off.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_checkbox_on]
+CONFIG_VARIABLE_NAME = "t_g_menu_checkbox_on"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE =  "checkbox_on.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_clrmem_pwd_unempty]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_clrmem_pwd_unempty"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "clear_memory_pwd_input.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_clrmem_pwd_empty]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_clrmem_pwd_empty"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "clear_memory_pwd_uninput.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_clrmem_pwd_empty_hlt]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_clrmem_pwd_empty_hlt"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "clear_memory_pwd_uninput_hlt.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA         = 255
+MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+
+
+
+[IMAGE_CONFIG = t_g_menu_img_tv_home_bar_bk]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_tv_home_bar_bk"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "Home-bar-background.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_tv_home_bar_focs]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_tv_home_bar_focs"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "Home-bar-focus.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_text_entry]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_text_entry"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "text_entry.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_text_entry_large]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_text_entry_large"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "text_entry_large.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_text_entry_small]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_text_entry_small"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "text_entry_small.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_text_entry_small_1]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_text_entry_small_1"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "text_entry_small_1.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+SEGMENT_TYPE = "HO"
+SEGMENT_DIMENSION = "(30, 33)"
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_last_shadow_new]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_last_shadow_new"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "lastshadow_new.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+
+
+
+[IMAGE_CONFIG = t_g_menu_img_ethernet_off]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_ethernet_off"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "ethernet_off.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_ethernet_on]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_ethernet_on"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "ethernet_on.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_keypad_hlt]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_keypad_hlt"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "KeypadHighlight.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_keypad_hlt_big]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_keypad_hlt_big"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "KeypadHighlightBig.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_keypad_hlt_space]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_keypad_hlt_space"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "KeypadHighlightSpace.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_lastshadow_new]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_lastshadow_new"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "lastshadow_new.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_NewKeypad_bg]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_NewKeypad_bg"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "NewKeypadBackground.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_TVRating_hlt]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_TVRating_hlt"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "TVRating_hlt.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_new_arrow_up]
+CONFIG_VARIABLE_NAME  = "t_g_menu_new_arrow_up"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "NewArrowUp.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_new_arrow_down]
+CONFIG_VARIABLE_NAME  = "t_g_menu_new_arrow_down"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "NewArrowDown.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+
+[IMAGE_CONFIG = t_g_menu_tvrating_bkgd_hlt]
+CONFIG_VARIABLE_NAME  = "t_g_menu_tvrating_bkgd_hlt"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "TVRatings_bkgd_hlt.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_x]
+CONFIG_VARIABLE_NAME  = "t_g_menu_x"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "x.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_checkbox_on_hlt]
+CONFIG_VARIABLE_NAME  = "t_g_menu_checkbox_on_hlt"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "checkbox_grey.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_ch_lock]
+CONFIG_VARIABLE_NAME = "t_g_menu_ch_lock"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "ch_lock.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_ch_unlock]
+CONFIG_VARIABLE_NAME = "t_g_menu_ch_unlock"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "ch_unlock.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_ch_lock_with_arrow]
+CONFIG_VARIABLE_NAME = "t_g_menu_ch_lock_with_arrow"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "Lock_with_Arrow.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_ch_unlock_with_arrow]
+CONFIG_VARIABLE_NAME = "t_g_menu_ch_unlock_with_arrow"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "Unlock_with_Arrow.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_lastshadow_new]
+CONFIG_VARIABLE_NAME = "t_g_menu_lastshadow_new"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "lastshadow_new.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_settings_icon_audio]
+CONFIG_VARIABLE_NAME = "t_g_menu_settings_icon_audio"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "settings_icon_audio.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_settings_icon_cc]
+CONFIG_VARIABLE_NAME = "t_g_menu_settings_icon_cc"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "settings_icon_cc.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_settings_icon_devices]
+CONFIG_VARIABLE_NAME = "t_g_menu_settings_icon_devices"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "settings_icon_devices.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_settings_icon_guided_setup]
+CONFIG_VARIABLE_NAME = "t_g_menu_settings_icon_guided_setup"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "settings_icon_guided_setup.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_settings_icon_network]
+CONFIG_VARIABLE_NAME = "t_g_menu_settings_icon_network"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "settings_icon_network.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_settings_icon_picture]
+CONFIG_VARIABLE_NAME = "t_g_menu_settings_icon_picture"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "settings_icon_picture.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_settings_icon_system]
+CONFIG_VARIABLE_NAME = "t_g_menu_settings_icon_system"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "settings_icon_system.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_settings_icon_timers]
+CONFIG_VARIABLE_NAME = "t_g_menu_settings_icon_timers"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "settings_icon_timers.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_settings_icon_tuner]
+CONFIG_VARIABLE_NAME = "t_g_menu_settings_icon_tuner"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "settings_icon_tuner.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_signal_lock]
+CONFIG_VARIABLE_NAME = "t_g_menu_signal_lock"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "signal_lock.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_signal_1of5]
+CONFIG_VARIABLE_NAME = "t_g_menu_signal_1of5"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "signal_1of5.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_signal_2of5]
+CONFIG_VARIABLE_NAME = "t_g_menu_signal_2of5"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "signal_2of5.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_signal_3of5]
+CONFIG_VARIABLE_NAME = "t_g_menu_signal_3of5"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "signal_3of5.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_signal_4of5]
+CONFIG_VARIABLE_NAME = "t_g_menu_signal_4of5"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "signal_4of5.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_signal_5of5]
+CONFIG_VARIABLE_NAME = "t_g_menu_signal_5of5"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "signal_5of5.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_settings_icon_tuner]
+CONFIG_VARIABLE_NAME = "t_g_menu_settings_icon_tuner"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "settings_icon_tuner.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_3d_setting_2d]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_3d_setting_2d"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "3D_2D.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_3d_setting_2d_hlt]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_3d_setting_2d_hlt"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "3D_2D_hlt.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_3d_setting_3d]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_3d_setting_3d"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "3D_3D.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_3d_setting_3d_hlt]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_3d_setting_3d_hlt"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "3D_3D_hlt.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_3d_setting_sbs]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_3d_setting_sbs"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "3D_SBS.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_3d_setting_sbs_hlt]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_3d_setting_sbs_hlt"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "3D_SBS_hlt.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_3d_setting_sensio]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_3d_setting_sensio"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "3D_Sensio.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_3d_setting_sensio_hlt]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_3d_setting_sensio_hlt"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "3D_Sensio_hlt.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_3d_setting_tb]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_3d_setting_tb"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "3D_TB.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_3d_setting_tb_hlt]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_3d_setting_tb_hlt"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "3D_TB_hlt.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_3D_content_mode_bkg]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_3D_content_mode_bkg"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "3D_content_mode_bkg.png"
+OUTPUT_FORMAT         = "8888"
+SEGMENT_TYPE 				  = "HO"
+SEGMENT_DIMENSION = "(151, 129)"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_3D_output_mode_bkg]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_3D_output_mode_bkg"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "3D_output_mode_bkg.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_back_bar_bk_main]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_back_bar_bk_main"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "back_bar_bk_main.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_homebar_main]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_homebar_main"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "homebar_main.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_unskip_hlt]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_unskip_hlt"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "box.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(3, 3)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_ch_lst_arrow_down]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_ch_lst_arrow_down"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "NewArrowDown.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_ch_lst_arrow_up]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_ch_lst_arrow_up"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "NewArrowUp.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_not_ava]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_not_ava"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "x.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_lock]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_lock"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "_icon_lock.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_lock_hlt]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_lock_hlt"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "_icon_lock.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_unlock]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_unlock"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "_icon_unlock1.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_unlock_hlt]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_unlock_hlt"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "_icon_unlock1.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_title_bar_bk]
+CONFIG_VARIABLE_NAME = "t_g_menu_title_bar_bk"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "back_bar_bk_main.png"
+OUTPUT_FORMAT        = "8888"
+OUTPUT_LINE_PIXELS   = 16
+DEFAULT_ALPHA        = 255
+MSG_REPORT           = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_pb_bk]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_pb_bk"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "pb_bk.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+SEGMENT_TYPE = "HV"
+SEGMENT_DIMENSION = "(6, 13)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_pb_bar]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_pb_bar"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "pb_bar.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#MASK_PIXEL = "(0, 0)"
+SEGMENT_TYPE = "HO"
+SEGMENT_DIMENSION = "(6, 13)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_list_elem_bk]
+CONFIG_VARIABLE_NAME = "t_g_menu_list_elem_bk"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "list_box_elem_bk.png"
+OUTPUT_FORMAT        = "8888"
+OUTPUT_LINE_PIXELS   = 16
+DEFAULT_ALPHA        = 255
+MSG_REPORT           = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_clear_memory_bk]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_clear_memory_bk"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "clear_memory_pwd_dialog_bk.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_menu_img_settings_icon_user_manual]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_settings_icon_user_manual"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "settings_icon_user_manual.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG        = t_g_menu_icon_green]
+CONFIG_VARIABLE_NAME = "t_g_menu_icon_green"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "button_greenbar.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_icon_record]
+CONFIG_VARIABLE_NAME = "t_g_menu_icon_record"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "button_reddot.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG = t_g_menu_img_bar_background]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_bar_background"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "Warning_Bar.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#SEGMENT_TYPE = "HO"
+#SEGMENT_DIMENSION = "(137, 720)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_back]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_back"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_back.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_button_off]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_button_off"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_Button_off.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_button_on]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_button_on"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_Button_on.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_digit_arrows]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_digit_arrows"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_digit_arrows.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_digit_hlt]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_digit_hlt"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "color_tuner_digit_highlight.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_grid]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_grid"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_grid.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_passcode_entry]
+CONFIG_VARIABLE_NAME = "t_g_menu_passcode_entry"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "passcode_entry.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_passcode_entry_highlight]
+CONFIG_VARIABLE_NAME = "t_g_menu_passcode_entry_highlight"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "passcode_entry_highlight.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_Button_box]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_Button_box"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_Button_box.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_test_back]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_test_back"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_test_back.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_test_back2]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_test_back2"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_test_back2.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_Button_box_OFF_mov]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_Button_box_OFF_mov"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_Button_box_OFF_mov.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_Button_box_On_mov]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_Button_box_On_mov"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_Button_box_On_mov.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_digit_hlt_new]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_digit_hlt_new"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_digit_hlt_new.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_position_size_adjust]
+CONFIG_VARIABLE_NAME = "t_g_menu_position_size_adjust"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "Adjust.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_adjust_position_down]
+CONFIG_VARIABLE_NAME = "t_g_menu_adjust_position_down"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "AdjustPos_down.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_adjust_position_up]
+CONFIG_VARIABLE_NAME = "t_g_menu_adjust_position_up"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "AdjustPos_up.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_adjust_position_left]
+CONFIG_VARIABLE_NAME = "t_g_menu_adjust_position_left"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "AdjustPos_left.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_adjust_position_right]
+CONFIG_VARIABLE_NAME = "t_g_menu_adjust_position_right"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "AdjustPos_right.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_adjust_size_vertical_add]
+CONFIG_VARIABLE_NAME = "t_g_menu_adjust_size_vertical_add"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "AdjustSize_vertical+.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_adjust_size_vertical_minus]
+CONFIG_VARIABLE_NAME = "t_g_menu_adjust_size_vertical_minus"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "AdjustSize_Vertical-.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_adjust_size_horizontal_add]
+CONFIG_VARIABLE_NAME = "t_g_menu_adjust_size_horizontal_add"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "AdjustSize_horizontal+.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_adjust_size_horizontal_minus]
+CONFIG_VARIABLE_NAME = "t_g_menu_adjust_size_horizontal_minus"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "AdjustSize_horizontal-.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_bottom_right]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_bottom_right"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_bottom_right.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_ColorOff]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_ColorOff"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_ColorOff.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_left_arrow]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_left_arrow"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_left_arrow.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_left_arrow_hlt]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_left_arrow_hlt"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_left_arrow_hlt.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_RGB_bar]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_RGB_bar"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_RGB_bar.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_right_arrow]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_right_arrow"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_right_arrow.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_right_arrow_hlt]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_right_arrow_hlt"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_right_arrow_hlt.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_top_arrows_hlt]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_top_arrows_hlt"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_top_arrows_hlt.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_top_hlt]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_top_hlt"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "color_tuner_top_highlight.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_img_clrmem_pwd_unempty_hlt]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_clrmem_pwd_unempty_hlt"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "clear_memory_pwd_input_hlt.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_img_Remote_Key_Device_Power]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_Remote_Key_Device_Power"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "Remote_Key_Device_Power.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_img_Text_clear_all]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_Text_clear_all"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "Text_clear_all.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_img_Text_clear_all_hlt]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_Text_clear_all_hlt"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "Text_clear_all_hlt.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_img_ColorTuner_grid_test]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_ColorTuner_grid_test"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_grid_test.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_img_ColorTuner_grid_whiteBalance]
+CONFIG_VARIABLE_NAME = "t_g_menu_img_ColorTuner_grid_whiteBalance"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_grid_whiteBalance.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_with_rgb_back]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_with_rgb_back"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_with_rgb_back.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_ColorTuner_digit_hlt_arrows]
+CONFIG_VARIABLE_NAME = "t_g_menu_ColorTuner_digit_hlt_arrows"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "ColorTuner_digit_hlt_arrows.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG = t_g_warning_icon]
+CONFIG_VARIABLE_NAME  = "t_g_warning_icon"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "error_triangle.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_arrow_bottom]
+CONFIG_VARIABLE_NAME  = "t_g_arrow_bottom"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "arrow_bottom.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_arrow_left]
+CONFIG_VARIABLE_NAME  = "t_g_arrow_left"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "arrow_left.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_arrow_right]
+CONFIG_VARIABLE_NAME  = "t_g_arrow_right"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "arrow_right.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_arrow_up]
+CONFIG_VARIABLE_NAME  = "t_g_arrow_up"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "arrow_up.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_ok_key_select]
+CONFIG_VARIABLE_NAME  = "t_g_ok_key_select"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "Ok_key_select.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_pw_enter_small]
+CONFIG_VARIABLE_NAME  = "t_g_pw_enter_small"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "passcode_entry_small.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_pw_enter_ipt_small]
+CONFIG_VARIABLE_NAME  = "t_g_pw_enter_ipt_small"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "passcode_entry_ipt_small.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_pw_enter_small_hlt]
+CONFIG_VARIABLE_NAME  = "t_g_pw_enter_small_hlt"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "passcode_entry_small_highlight.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_lock_pic_mode_Bar_big]
+CONFIG_VARIABLE_NAME  = "t_g_lock_pic_mode_Bar_big"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "lock_pic_mode_Bar_big.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_Warning_Bar_button_hlt]
+CONFIG_VARIABLE_NAME  = "t_g_Warning_Bar_button_hlt"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "Warning_Bar_button_hlt.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_Warning_Bar_button]
+CONFIG_VARIABLE_NAME  = "t_g_Warning_Bar_button"
+IMPLEMENT_FILE        = "MENU_IMG"
+SOURCE_FILE           = "Warning_Bar_button.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_tos_scrollbar]
+CONFIG_VARIABLE_NAME = "t_g_tos_scrollbar"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "scrollbar.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#SEGMENT_TYPE = "VO"
+#SEGMENT_DIMENSION = "(5, 60)"
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_tos_scrollbar_indicator]
+CONFIG_VARIABLE_NAME = "t_g_tos_scrollbar_indicator"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "scrollbar_indicator2.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#SEGMENT_TYPE = "VO"
+#SEGMENT_DIMENSION = "(2, 2)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_energy_Star_Logo_menu_icon]
+CONFIG_VARIABLE_NAME = "t_g_energy_Star_Logo_menu_icon"
+IMPLEMENT_FILE = "MENU_IMG"
+SOURCE_FILE = "energy_Star_Logo_menu_icon.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG        = t_g_menu_color_tuner_2020]
+CONFIG_VARIABLE_NAME = "t_g_menu_color_tuner_2020"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "color_tuner_2020.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = t_g_menu_white_balance_tuner_2020]
+CONFIG_VARIABLE_NAME = "t_g_menu_white_balance_tuner_2020"
+IMPLEMENT_FILE       = "MENU_IMG"
+SOURCE_FILE          = "white_balance_tuner_2020.png"
+OUTPUT_FORMAT        = "8888"
+MSG_REPORT           = 0
+COMPRESSED           = 1

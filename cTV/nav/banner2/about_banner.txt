@@ -1,0 +1,7 @@
+this file will record all banner issues
+1.	issue:	always show "retrying date" during time shift processing
+2.	issue:	1) change to a locked channel and enter PIN code to temporary unlock it.
+						2) went to menu and block TV input source. 
+						exit menu, press <INFO> key to show banner, 
+						banner state is incorrect.
+						

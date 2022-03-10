@@ -1,0 +1,167 @@
+         {
+           186,/*E320i-BO Sharp                         */
+              {
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_DISP_BACK_LIGHT     ,85 } ,
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_VID_SHP             ,10 } ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_VID_SHP             ,10 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_DISP_BACK_LIGHT     ,42 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_VID_SHP             ,10 } ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_VID_SHP             ,15 } ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_VID_SHP             ,10 } ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_VID_SHP             ,10 } ,
+              }
+         },
+
+         {
+           190,/*E390i-BO AUO                           */
+              {
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_DISP_BACK_LIGHT     ,85 } ,
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_DISP_BACK_LIGHT     ,49 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_VID_SHP             ,65 } ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_VID_SHP             ,0  } ,
+              }
+         },
+
+         {
+           189,/*E390i-BO INX                           */
+              {
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_DISP_BACK_LIGHT     ,85 } ,
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_DISP_BACK_LIGHT     ,39 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_VID_SHP             ,65 } ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_VID_SHP             ,0  } ,
+              }
+         },
+
+         {
+           191,/*E420i-BO AUO                           */
+              {
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_DISP_BACK_LIGHT     ,85 } ,
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_DISP_BACK_LIGHT     ,51 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_VID_SHP             ,40 } ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_VID_SHP             ,70 } ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_VID_SHP             ,0  } ,
+              }
+         },
+
+         {
+           187,/*E320i-BO LGD                           */
+              {
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_DISP_BACK_LIGHT     ,85 } ,
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_DISP_BACK_LIGHT     ,55 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_VID_SHP             ,40 } ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_VID_SHP             ,70 } ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_VID_SHP             ,0  } ,
+              }
+         },
+
+         {
+           188,/*E320i-BO AUO                           */
+              {
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_DISP_BACK_LIGHT     ,85 } ,
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_VID_SHP             ,30 } ,
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_VID_BRI             ,52 } ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_VID_SHP             ,30 } ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_VID_BRI             ,52 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_DISP_BACK_LIGHT     ,48 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_VID_SHP             ,30 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_VID_BRI             ,51 } ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_VID_SHP             ,50 } ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_VID_BRI             ,50 } ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_VID_SHP             ,30 } ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_VID_BRI             ,52 } ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_VID_SHP             ,0  } ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_VID_BRI             ,52 } ,
+              }
+         },
+
+         {
+           192,/*E420i-BO LGD                           */
+              {
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_DISP_BACK_LIGHT     ,85 } ,
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_DISP_BACK_LIGHT     ,55 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_VID_SHP             ,70 } ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_VID_SHP             ,0  } ,
+              }
+         },
+
+         {
+           193,/*E420i-AO LGD                           */
+              {
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_DISP_BACK_LIGHT     ,55 } ,
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_DISP_BACK_LIGHT     ,40 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_VID_SHP             ,40 } ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_VID_SHP             ,70 } ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_VID_SHP             ,0  } ,
+              }
+         },
+
+         {
+           195,/*E550i-A0 AUO                           */
+              {
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_DISP_BACK_LIGHT     ,55 } ,
+               { ACFG_CUST_PIC_MODE_STANDARD            , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_BRIGHT_ROOM         , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_DISP_BACK_LIGHT     ,30 } ,
+               { ACFG_CUST_PIC_MODE_DARK_ROOM           , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_RETAIL              , IDX_VID_SHP             ,70 } ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_GAME                , IDX_VID_SHP             ,60 } ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_DISP_BACK_LIGHT     ,100} ,
+               { ACFG_CUST_PIC_MODE_COMPUTER            , IDX_VID_SHP             ,0  } ,
+              }
+         },

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AuthoringProject ToolVer="1.1" Version="0.03" ProjectName="gui" Author="mtk" Description="" Width="1920" Height="1080" OutputPath="..\res">
+	<Resources>
+		<Resource FileName="ResSetMgr.xml"/>
+	</Resources>
+	<ColorMode>ARGB_D8888</ColorMode>
+	<Applications>
+		<Application Name="mmp" SavePath=".\mmp" OutputPath=".\mmp\">
+			<Components>
+				<Component Name="file_operator" SavePath=".\file_operator" OutputPath=".\file_operator\">
+					<Resources>
+						<Resource FileName="ResSetMgr.xml"/>
+					</Resources>
+					<Views>
+						<View FileName="pg.xml"/>
+						<View FileName="msg.xml"/>
+						<View FileName="replace.xml"/>
+					</Views>
+				</Component>
+				<Component Name="common_ui" SavePath=".\common_ui" OutputPath=".\common_ui\">
+					<Resources>
+						<Resource FileName="ResSetMgr.xml"/>
+					</Resources>
+					<Views>
+						<View FileName="diag_2_option.xml"/>
+					</Views>
+				</Component>
+			</Components>
+			<Resources>
+				<Resource FileName="ResSetMgr.xml"/>
+			</Resources>
+			<Views>
+				<View FileName="tm_focus.xml"/>
+				<View FileName="lm_focus.xml"/>
+				<View FileName="tm_ap.xml"/>
+				<View FileName="lm_ap.xml"/>
+				<View FileName="vp.xml"/>
+				<View FileName="tp.xml"/>
+				<View FileName="tp_preview.xml"/>
+				<View FileName="pp_tb.xml"/>
+				<View FileName="vp_tb.xml"/>
+				<View FileName="ap_tb.xml"/>
+				<View FileName="tp_tb.xml"/>
+				<View FileName="vdp.xml"/>
+				<View FileName="pdp.xml"/>
+				<View FileName="adp.xml"/>
+				<View FileName="tdp.xml"/>
+				<View FileName="lm_custom.xml"/>
+				<View FileName="audio_control.xml"/>
+				<View FileName="video_control.xml"/>
+				<View FileName="mmp.xml"/>
+				<View FileName="pop_up_photo.xml"/>
+				<View FileName="media_type_bg.xml"/>
+			</Views>
+		</Application>
+		<Application Name="app_util" SavePath=".\app_util" OutputPath=".\app_util\">
+			<Components>
+				<Component Name="option_list" SavePath=".\option_list" OutputPath=".\option_list\">
+					<Resources>
+						<Resource FileName="ResSetMgr.xml"/>
+					</Resources>
+					<Views>
+						<View FileName="option_list.xml"/>
+					</Views>
+				</Component>
+			</Components>
+			<Resources>
+				<Resource FileName="ResSetMgr.xml"/>
+			</Resources>
+			<Views/>
+		</Application>
+		<Application Name="wfd" SavePath=".\wfd" OutputPath=".\wfd">
+			<Components/>
+			<Resources>
+				<Resource FileName="ResSetMgr.xml"/>
+			</Resources>
+			<Views>
+				<View FileName="wfd_main.xml"/>
+				<View FileName="wfd_connect.xml"/>
+				<View FileName="wfd_play.xml"/>
+				<View FileName="wfd_status.xml"/>
+				<View FileName="wfd_msg.xml"/>
+			</Views>
+		</Application>
+	</Applications>
+	<Language>ENG</Language>
+</AuthoringProject>

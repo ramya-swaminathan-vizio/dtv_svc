@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FontSet version="1.0.0.0">
+	<Font>
+		<Alias>fnt_WZD</Alias>
+		<FontType TtfFontType="MEM_TTF_FONT">FONT_TYPE_TTF_FILE</FontType>
+		<FontIniData>
+			<IniMetaData>
+				<File>..\..\..\dev\fonts\mtk_font_eu\tt7268m_.i</File>
+				<Small>15</Small>
+				<Medium>18</Medium>
+				<Large>24</Large>
+			</IniMetaData>
+		</FontIniData>
+	</Font>
+	<Font>
+		<Alias>fnt_Default</Alias>
+		<FontType TtfFontType="MEM_TTF_FONT">FONT_TYPE_TTF_FILE</FontType>
+		<FontIniData>
+			<IniMetaData>
+				<File>..\..\..\dev\fonts\mtk_font_eu\tt7268m_.i</File>
+				<Small>18</Small>
+				<Medium>20</Medium>
+				<Large>22</Large>
+			</IniMetaData>
+		</FontIniData>
+	</Font>
+	<Font>
+		<Alias>fnt_DefaultBig</Alias>
+		<FontType TtfFontType="MEM_TTF_FONT">FONT_TYPE_TTF_FILE</FontType>
+		<FontIniData>
+			<IniMetaData>
+				<File>..\..\..\dev\fonts\mtk_font_eu\tt7268m_.i</File>
+				<Small>26</Small>
+				<Medium>32</Medium>
+				<Large>40</Large>
+			</IniMetaData>
+		</FontIniData>
+	</Font>
+	<Font>
+		<Alias>fnt_DefaultSmall</Alias>
+		<FontType TtfFontType="MEM_TTF_FONT">FONT_TYPE_TTF_FILE</FontType>
+		<FontIniData>
+			<IniMetaData>
+				<File>..\..\..\dev\fonts\mtk_font_eu\tt7268m_.i</File>
+				<Small>16</Small>
+				<Medium>18</Medium>
+				<Large>20</Large>
+			</IniMetaData>
+		</FontIniData>
+	</Font>
+</FontSet>

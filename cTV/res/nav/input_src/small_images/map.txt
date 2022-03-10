@@ -1,0 +1,39 @@
+[FILE=NAV_IPTS_LIST_IMG]
+PATH = "..\input_src_list_img_s.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_nav_ipts_lst_bar_disable]
+CONFIG_VARIABLE_NAME = "t_g_nav_ipts_lst_bar_disable"
+IMPLEMENT_FILE = "NAV_IPTS_LIST_IMG"
+SOURCE_FILE = "disable.bmp"
+OUTPUT_FORMAT = "4444"
+DEFAULT_ALPHA = 255
+MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_nav_ipts_lst_bar_disable_ht]
+CONFIG_VARIABLE_NAME = "t_g_nav_ipts_lst_bar_disable_ht"
+IMPLEMENT_FILE = "NAV_IPTS_LIST_IMG"
+SOURCE_FILE = "disable_ht.bmp"
+OUTPUT_FORMAT = "4444"
+DEFAULT_ALPHA = 255
+MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_nav_ipts_lst_bar_active]
+CONFIG_VARIABLE_NAME = "t_g_nav_ipts_lst_bar_active"
+IMPLEMENT_FILE = "NAV_IPTS_LIST_IMG"
+SOURCE_FILE = "active.bmp"
+OUTPUT_FORMAT = "4444"
+DEFAULT_ALPHA = 255
+MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_nav_ipts_lst_bar_active_ht]
+CONFIG_VARIABLE_NAME = "t_g_nav_ipts_lst_bar_active_ht"
+IMPLEMENT_FILE = "NAV_IPTS_LIST_IMG"
+SOURCE_FILE = "active_ht.bmp"
+OUTPUT_FORMAT = "4444"
+DEFAULT_ALPHA = 255
+MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0

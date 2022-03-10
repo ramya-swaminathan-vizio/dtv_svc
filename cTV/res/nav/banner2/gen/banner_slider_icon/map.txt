@@ -1,0 +1,93 @@
+[FILE=TEST_IMGS]
+PATH   = ".\banner_slider_icon\banner_slider_icon.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_banner_slider_icon_prg]
+CONFIG_VARIABLE_NAME  = "t_g_banner_slider_icon_prg"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "banner_slider_icon\images\Pro_Gaming_Engine.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_banner_slider_icon_fmm]
+CONFIG_VARIABLE_NAME  = "t_g_banner_slider_icon_fmm"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "banner_slider_icon\images\FMM_LOGO_ALL_WHITE_SML.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_banner_slider_icon_freesync]
+CONFIG_VARIABLE_NAME  = "t_g_banner_slider_icon_freesync"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "banner_slider_icon\images\AMD_FreeSync.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_banner_slider_icon_dolby_audio]
+CONFIG_VARIABLE_NAME  = "t_g_banner_slider_icon_dolby_audio"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "banner_slider_icon\images\Dolby_Audio_116x43.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_banner_slider_icon_dolby_atmos]
+CONFIG_VARIABLE_NAME  = "t_g_banner_slider_icon_dolby_atmos"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "banner_slider_icon\images\Dolby_Atmos_116x43.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_banner_slider_icon_dolby_vision]
+CONFIG_VARIABLE_NAME  = "t_g_banner_slider_icon_dolby_vision"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "banner_slider_icon\images\Dolby_Vision_116x43_InfoBar_ONLY.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_banner_slider_icon_v_gaming_engine]
+CONFIG_VARIABLE_NAME  = "t_g_banner_slider_icon_v_gaming_engine"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "banner_slider_icon\images\V_Gaming_Engine.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_banner_slider_icon_hlg]
+CONFIG_VARIABLE_NAME  = "t_g_banner_slider_icon_hlg"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "banner_slider_icon\images\HLG_Logo.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_banner_slider_icon_hdr10]
+CONFIG_VARIABLE_NAME  = "t_g_banner_slider_icon_hdr10"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "banner_slider_icon\images\HDR10_Logo.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_banner_slider_icon_freesync_premium]
+CONFIG_VARIABLE_NAME  = "t_g_banner_slider_icon_freesync_premium"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "banner_slider_icon\images\AMD_Freesync_Premium.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1

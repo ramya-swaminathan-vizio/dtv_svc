@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ALP version="1.0">
+	<Project name="gui">
+		<Loading>1</Loading>
+		<GenInfo>
+			<Resource>1</Resource>
+		</GenInfo>
+		<Application name="mmp">
+			<Loading>1</Loading>
+			<GenInfo>
+				<Resource>1</Resource>
+				<View name="tm_focus">1</View>
+				<View name="lm_focus">1</View>
+				<View name="tm_ap">1</View>
+				<View name="lm_ap">1</View>
+				<View name="vp">1</View>
+				<View name="tp">1</View>
+				<View name="tp_preview">1</View>
+				<View name="pp_tb">1</View>
+				<View name="vp_tb">1</View>
+				<View name="ap_tb">1</View>
+				<View name="tp_tb">1</View>
+				<View name="vdp">1</View>
+				<View name="pdp">1</View>
+				<View name="adp">1</View>
+				<View name="tdp">1</View>
+				<View name="lm_custom">1</View>
+				<View name="audio_control">1</View>
+				<View name="video_control">1</View>
+				<View name="mmp">1</View>
+				<View name="pop_up_photo">1</View>
+				<View name="media_type_bg">1</View>
+			</GenInfo>
+			<Component name="file_operator">
+				<Loading>1</Loading>
+				<GenInfo>
+					<Resource>1</Resource>
+					<View name="pg">1</View>
+					<View name="msg">1</View>
+					<View name="replace">1</View>
+				</GenInfo>
+			</Component>
+			<Component name="common_ui">
+				<Loading>1</Loading>
+				<GenInfo>
+					<Resource>1</Resource>
+					<View name="diag_2_option">1</View>
+				</GenInfo>
+			</Component>
+		</Application>
+		<Application name="app_util">
+			<Loading>1</Loading>
+			<GenInfo>
+				<Resource>1</Resource>
+			</GenInfo>
+			<Component name="option_list">
+				<Loading>1</Loading>
+				<GenInfo>
+					<Resource>1</Resource>
+					<View name="option_list">1</View>
+				</GenInfo>
+			</Component>
+		</Application>
+		<Application name="wfd">
+			<Loading>1</Loading>
+			<GenInfo>
+				<Resource>1</Resource>
+				<View name="wfd_main">1</View>
+				<View name="wfd_connect">1</View>
+				<View name="wfd_play">1</View>
+				<View name="wfd_status">1</View>
+				<View name="wfd_msg">1</View>
+			</GenInfo>
+		</Application>
+	</Project>
+</ALP>

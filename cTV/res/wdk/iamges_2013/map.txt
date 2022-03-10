@@ -1,0 +1,702 @@
+[FILE=WDK_IMG]
+PATH   = "..\wdk_img_2013.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_wdk_cnt_indctr_down_img]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_cnt_indctr_down_img"
+IMPLEMENT_FILE        = "WDK_IMG"
+SOURCE_FILE           = "down_arrow.png"
+MASK_PIXEL            = "(0, 6)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_cnt_indctr_left_img]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_cnt_indctr_left_img"
+IMPLEMENT_FILE        = "WDK_IMG"
+SOURCE_FILE           = "left_arrow.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_cnt_indctr_right_img]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_cnt_indctr_right_img"
+IMPLEMENT_FILE        = "WDK_IMG"
+SOURCE_FILE           = "right_arrow.png"
+MASK_PIXEL            = "(6, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_img_loading_icon_1]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_loading_icon_1"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "spinnerlist1.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 0
+
+[IMAGE_CONFIG = t_g_wdk_img_loading_icon_1]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_loading_icon_1"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "spinnerlist1.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 0
+
+[IMAGE_CONFIG = t_g_wdk_img_loading_icon_2]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_loading_icon_2"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "spinnerlist2.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 0
+
+[IMAGE_CONFIG = t_g_wdk_img_loading_icon_3]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_loading_icon_3"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "spinnerlist3.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 0
+
+[IMAGE_CONFIG = t_g_wdk_img_loading_icon_4]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_loading_icon_4"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "spinnerlist4.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 0
+
+[IMAGE_CONFIG = t_g_wdk_img_loading_icon_5]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_loading_icon_5"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "spinnerlist5.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 0
+
+[IMAGE_CONFIG = t_g_wdk_img_loading_icon_6]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_loading_icon_6"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "spinnerlist6.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 0
+
+[IMAGE_CONFIG = t_g_wdk_img_loading_icon_7]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_loading_icon_7"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "spinnerlist7.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 0
+
+[IMAGE_CONFIG = t_g_wdk_img_loading_icon_8]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_loading_icon_8"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "spinnerlist8.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 0
+
+[IMAGE_CONFIG = t_g_wdk_img_loading_icon_9]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_loading_icon_9"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "spinnerlist9.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 0
+
+[IMAGE_CONFIG = t_g_wdk_img_loading_icon_10]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_loading_icon_10"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "spinnerlist10.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 0
+
+[IMAGE_CONFIG = t_g_wdk_img_loading_icon_11]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_loading_icon_11"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "spinnerlist11.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 0
+
+[IMAGE_CONFIG = t_g_wdk_img_loading_icon_12]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_loading_icon_12"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "spinnerlist12.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 0
+
+[IMAGE_CONFIG = t_g_wdk_cnt_indctr_up_img]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_cnt_indctr_up_img"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "up_arrow.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_eq_hash_mark]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_eq_hash_mark"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "eq_hash_mark.png"
+OUTPUT_FORMAT         = "8888" 
+OUTPUT_LINE_PIXELS    = 16 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_single_select_list]
+CONFIG_VARIABLE_NAME  = "t_g_single_select_list"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "single_select_list.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_setting_slider]
+CONFIG_VARIABLE_NAME  = "t_g_setting_slider"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "setting_slider.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_string_toast]
+CONFIG_VARIABLE_NAME  = "t_g_string_toast"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "string_toast.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_warning_toast]
+CONFIG_VARIABLE_NAME  = "t_g_warning_toast"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "warning_toast.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_energy_star]
+CONFIG_VARIABLE_NAME  = "t_g_energy_star"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "energyStar_small_FINAL.png"
+#MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_energy_star_gray]
+CONFIG_VARIABLE_NAME  = "t_g_energy_star_gray"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "energyStar_small_FINAL_gray.png"
+#MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_zoom_energy_star]
+CONFIG_VARIABLE_NAME  = "t_g_zoom_energy_star"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "energyStar_zoom_FINAL.png"
+#MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_zoom_energy_star_gray]
+CONFIG_VARIABLE_NAME  = "t_g_zoom_energy_star_gray"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "energyStar_zoom_FINAL_gray.png"
+#MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_gradient_btm]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_gradient_btm"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "gradient-btm.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_gradient_center]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_gradient_center"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "gradient-center.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_gradient_top]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_gradient_top"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "gradient-top.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_content_box_bk_img]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_content_box_bk_img"
+IMPLEMENT_FILE        = "WDK_IMG"
+SOURCE_FILE           = "custom_test.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "HV"
+SEGMENT_DIMENSION     = "(100, 100)"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_wdk_toast_box]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_toast_box"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "toast-box.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_toast_box_settings]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_toast_box_settings"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "toast-box-settings.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_toast_box_vol]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_toast_box_vol"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "toast-box-vol.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_track_cap_left]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_track_cap_left"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "track-cap-left.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_track_cap_right]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_track_cap_right"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "track-cap-right.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_track_fill]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_track_fill"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "track-fill.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+
+[IMAGE_CONFIG = t_g_wdk_warning]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_warning"
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = "warning.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_vkb_text_entry_large]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_vkb_text_entry_large"
+IMPLEMENT_FILE        = "WDK_IMG"
+SOURCE_FILE           = ".\vkb\text_entry_large.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_vkb_capslock_keypad_dis_img] 
+CONFIG_VARIABLE_NAME  = "t_g_wdk_vkb_capslock_keypad_dis_img" 
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = ".\vkb\capslock_dis.png" 
+#MASK_PIXEL            = "(0, 0)" 
+OUTPUT_FORMAT         = "8888" 
+OUTPUT_LINE_PIXELS    = 16 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1 
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_vkb_capslock_keypad_hlt_img] 
+CONFIG_VARIABLE_NAME  = "t_g_wdk_vkb_capslock_keypad_hlt_img" 
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = ".\vkb\capslock_hlt.png" 
+#MASK_PIXEL            = "(0, 0)" 
+OUTPUT_FORMAT         = "8888" 
+OUTPUT_LINE_PIXELS    = 16 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1 
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_vkb_capslock_keypad_img] 
+CONFIG_VARIABLE_NAME  = "t_g_wdk_vkb_capslock_keypad_img" 
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = ".\vkb\capslock_nor.png" 
+#MASK_PIXEL            = "(0, 0)" 
+OUTPUT_FORMAT         = "8888" 
+OUTPUT_LINE_PIXELS    = 16 DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1 
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_vkb_delete_keypad_hlt_img] 
+CONFIG_VARIABLE_NAME  = "t_g_wdk_vkb_delete_keypad_hlt_img" 
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = ".\vkb\delete_hlt.png" 
+#MASK_PIXEL            = "(0, 0)" 
+OUTPUT_FORMAT         = "8888" 
+OUTPUT_LINE_PIXELS    = 16 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1 
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_vkb_delete_keypad_img] 
+CONFIG_VARIABLE_NAME  = "t_g_wdk_vkb_delete_keypad_img" 
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = ".\vkb\delete_nor.png" 
+#MASK_PIXEL            = "(0, 0)" 
+OUTPUT_FORMAT         = "8888" 
+OUTPUT_LINE_PIXELS    = 16 DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1 
+SEGMENT_TYPE          = "NONE" 
+
+[IMAGE_CONFIG = t_g_wdk_vkb_main_frm_background_img]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_vkb_main_frm_background_img"
+IMPLEMENT_FILE        = "WDK_IMG"
+SOURCE_FILE           = ".\vkb\NewKeypadBackground.png"
+#MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_vkb_keypad_hlt_img]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_vkb_keypad_hlt_img"
+IMPLEMENT_FILE        = "WDK_IMG"
+SOURCE_FILE           = ".\vkb\KeypadHighlight.png"
+#MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_vkb_big_keypad_hlt_img]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_vkb_big_keypad_hlt_img"
+IMPLEMENT_FILE        = "WDK_IMG"
+SOURCE_FILE           = ".\vkb\KeypadHighlightBig.png"
+#MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_wdk_vkb_space_keypad_hlt_img]
+CONFIG_VARIABLE_NAME  = "t_g_wdk_vkb_space_keypad_hlt_img"
+IMPLEMENT_FILE        = "WDK_IMG"
+SOURCE_FILE           = ".\vkb\KeypadHighlightSpace.png"
+#MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_wdk_vkb_keypad_bar_hlt_img] 
+CONFIG_VARIABLE_NAME  = "t_g_wdk_vkb_keypad_bar_hlt_img" 
+IMPLEMENT_FILE        = "WDK_IMG" 
+SOURCE_FILE           = ".\vkb\Bar_Highlight.png" 
+OUTPUT_FORMAT         = "8888" 
+OUTPUT_LINE_PIXELS    = 16 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_wdk_img_signal_icon_1]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_signal_icon_1"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "signal_1of5.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_signal_icon_2]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_signal_icon_2"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "signal_2of5.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_signal_icon_3]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_signal_icon_3"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "signal_3of5.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_signal_icon_4]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_signal_icon_4"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "signal_4of5.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_signal_icon_5]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_signal_icon_5"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = "signal_5of5.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_Bar]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_Bar"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\Bar.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_eb_clear]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_eb_clear"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\Text_clear_all.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_eb_clear_hlt]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_eb_clear_hlt"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\Text_clear_all_hlt.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_key_hlt]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_key_hlt"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\key_highlight.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_key_spa_hlt]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_key_spa_hlt"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\key_space_highlight.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_key_symb_hlt]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_key_symb_hlt"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\key_symbol_highlight.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_key_board]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_key_board"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\Keyboard.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_key_carat_passcode]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_key_carat_passcode"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\keyboard_carat_passcode.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_key_character_shift]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_key_character_shift"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\character_shift.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_key_character_shift_hlt]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_key_character_shift_hlt"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\character_shift_hlt.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_key_character_back]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_key_character_back"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\character_back.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_key_character_back_hlt]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_key_character_back_hlt"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\character_back_hlt.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_key_back_highlight]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_key_back_highlight"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\key_back_highlight.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_key_back_unhighlight]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_key_back_unhighlight"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\key_back_unhighlight.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_key_shift_highlight]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_key_shift_highlight"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\key_shift_highlight.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_key_shift_unhighlight]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_key_shift_unhighlight"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\key_shift_unhighlight.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_key_shift_gray]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_key_shift_gray"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\capslock_gray.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_wdk_img_delete_gray]
+CONFIG_VARIABLE_NAME = "t_g_wdk_img_delete_gray"
+IMPLEMENT_FILE = "WDK_IMG"
+SOURCE_FILE = ".\vkb\backspace_gray.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1

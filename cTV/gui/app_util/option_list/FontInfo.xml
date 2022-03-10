@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FontInfoSet version="1.0.0.0">
+	<FontInfo>
+		<Alias>font</Alias>
+		<FontSize>FE_FNT_SIZE_SMALL</FontSize>
+		<FontStyle>FE_FNT_STYLE_REGULAR</FontStyle>
+		<FontCmapEncoding>FE_CMAP_ENC_UNICODE</FontCmapEncoding>
+		<FontName>fnt_DefaultSmall</FontName>
+		<FontWidth>0</FontWidth>
+	</FontInfo>
+	<FontInfo>
+		<Alias>font_medium</Alias>
+		<FontSize>FE_FNT_SIZE_MEDIUM</FontSize>
+		<FontStyle>FE_FNT_STYLE_REGULAR</FontStyle>
+		<FontCmapEncoding>FE_CMAP_ENC_UNICODE</FontCmapEncoding>
+		<FontName>fnt_Default</FontName>
+		<FontWidth>0</FontWidth>
+	</FontInfo>
+</FontInfoSet>

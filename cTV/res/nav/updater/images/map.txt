@@ -1,0 +1,164 @@
+[FILE=NAV_UPDATER_IMG]
+PATH = "..\nav_updater_img.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_nav_updater_back_bar_bk]
+CONFIG_VARIABLE_NAME = "t_g_nav_updater_back_bar_bk"
+IMPLEMENT_FILE = "NAV_UPDATER_IMG"
+SOURCE_FILE = "back_bar_bk.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_nav_updater_back_bar_bk_hlt]
+CONFIG_VARIABLE_NAME = "t_g_nav_updater_back_bar_bk_hlt"
+IMPLEMENT_FILE = "NAV_UPDATER_IMG"
+SOURCE_FILE = "back_bar_bk_hlt.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_nav_updater_home_bar]
+CONFIG_VARIABLE_NAME = "t_g_nav_updater_home_bar"
+IMPLEMENT_FILE = "NAV_UPDATER_IMG"
+SOURCE_FILE = "Homebar.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_nav_updater_home_bar_hlt]
+CONFIG_VARIABLE_NAME = "t_g_nav_updater_home_bar_hlt"
+IMPLEMENT_FILE = "NAV_UPDATER_IMG"
+SOURCE_FILE = "Homebar_hlt.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_nav_updater_bk_plain]
+CONFIG_VARIABLE_NAME = "t_g_nav_updater_bk_plain"
+IMPLEMENT_FILE = "NAV_UPDATER_IMG"
+SOURCE_FILE = "Backgd_Plain.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_nav_updater_banner_bk]
+CONFIG_VARIABLE_NAME = "t_g_nav_updater_banner_bk"
+IMPLEMENT_FILE = "NAV_UPDATER_IMG"
+SOURCE_FILE = "banner_bk.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+SEGMENT_TYPE          = "HO"
+SEGMENT_DIMENSION     = "(128, 0)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_nav_updater_progress_bar_bk]
+CONFIG_VARIABLE_NAME = "t_g_nav_updater_progress_bar_bk"
+IMPLEMENT_FILE       = "NAV_UPDATER_IMG"
+SOURCE_FILE          = "progress_bar_bk.png"
+OUTPUT_FORMAT        = "8888"
+DEFAULT_ALPHA        = 255
+SEGMENT_TYPE         = "HO"	
+SEGMENT_DIMENSION    = "(135, 32)"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG = t_g_nav_updater_progress_bar_level]
+CONFIG_VARIABLE_NAME = "t_g_nav_updater_progress_bar_level"
+IMPLEMENT_FILE       = "NAV_UPDATER_IMG"
+SOURCE_FILE          = "progress_bar_level.png"
+OUTPUT_FORMAT        = "8888"
+DEFAULT_ALPHA        = 255
+SEGMENT_TYPE         = "HV"
+SEGMENT_DIMENSION    = "(66, 30)"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG = t_g_nav_updater_progress_bar_bk_rightshadow]
+CONFIG_VARIABLE_NAME = "t_g_nav_updater_progress_bar_bk_rightshadow"
+IMPLEMENT_FILE = "NAV_UPDATER_IMG"
+SOURCE_FILE = "progress_bar_bk_rightshadow.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_nav_updater_progress_bar_bk_leftshadow]
+CONFIG_VARIABLE_NAME = "t_g_nav_updater_progress_bar_bk_leftshadow"
+IMPLEMENT_FILE = "NAV_UPDATER_IMG"
+SOURCE_FILE = "progress_bar_bk_leftshadow.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_nav_updater_bk_plain_exit]
+CONFIG_VARIABLE_NAME = "t_g_nav_updater_bk_plain_exit"
+IMPLEMENT_FILE = "NAV_UPDATER_IMG"
+SOURCE_FILE = "bk_plain_exit.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_nav_updater_warning_toast]
+CONFIG_VARIABLE_NAME  = "t_g_nav_updater_warning_toast"
+IMPLEMENT_FILE        = "NAV_UPDATER_IMG" 
+SOURCE_FILE           = "warning_toast.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_nav_updater_track_fill_toast]
+CONFIG_VARIABLE_NAME  = "t_g_nav_updater_track_fill_toast"
+IMPLEMENT_FILE        = "NAV_UPDATER_IMG" 
+SOURCE_FILE           = "track-fill.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_nav_updater_track_cap_left_toast]
+CONFIG_VARIABLE_NAME  = "t_g_nav_updater_track_cap_left_toast"
+IMPLEMENT_FILE        = "NAV_UPDATER_IMG" 
+SOURCE_FILE           = "track-cap-left.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_nav_updater_track_cap_right_toast]
+CONFIG_VARIABLE_NAME  = "t_g_nav_updater_track_cap_right_toast"
+IMPLEMENT_FILE        = "NAV_UPDATER_IMG" 
+SOURCE_FILE           = "track-cap-right.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_nav_updater_homebar_main]
+CONFIG_VARIABLE_NAME = "t_g_nav_updater_homebar_main"
+IMPLEMENT_FILE = "NAV_UPDATER_IMG"
+SOURCE_FILE = "homebar_main.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1

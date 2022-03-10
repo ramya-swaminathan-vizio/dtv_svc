@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view version="1.0.2.0">
+	<name>pp_hide</name>
+	<width>1920</width>
+	<height>1080</height>
+	<hierarchy>
+		<component value="view::canvas">
+			<widget_node id="frame::pp_view_hide"/>
+		</component>
+	</hierarchy>
+	<widget id="frame::pp_view_hide">
+		<type>frame</type>
+		<name>pp_view_hide</name>
+		<rect>
+			<left>0</left>
+			<top>0</top>
+			<right>1280</right>
+			<bottom>720</bottom>
+			<width>1280</width>
+			<height>720</height>
+		</rect>
+		<style>WGL_STL_GL_NO_IMG_UI</style>
+		<border>
+			<type>WGL_BORDER_NULL</type>
+		</border>
+		<alpha>255</alpha>
+		<bg_clr>
+			<type>WGL_COLOR_SET_STANDARD</type>
+			<enable>t_g_mmp_thumb_bk</enable>
+			<disable>t_g_mmp_thumb_bk</disable>
+			<highlight>t_g_mmp_thumb_bk</highlight>
+			<highlight_inactive>NULL</highlight_inactive>
+			<push>NULL</push>
+			<push_unhighlight>NULL</push_unhighlight>
+		</bg_clr>
+		<bg_img>
+			<type>WGL_IMG_SET_BASIC</type>
+			<enable>NULL</enable>
+			<disable>NULL</disable>
+			<highlight>NULL</highlight>
+			<highlight_inactive>NULL</highlight_inactive>
+			<push>NULL</push>
+			<push_unhighlight>NULL</push_unhighlight>
+		</bg_img>
+		<enable>TRUE</enable>
+		<visible>WGL_SW_NORMAL</visible>
+	</widget>
+	<focused_widget>NULL</focused_widget>
+</view>

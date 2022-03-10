@@ -1,0 +1,137 @@
+[FILE = BANNER_IMG]
+PATH = "..\gen\banner_img.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_banner_ch_bar_bmp]
+CONFIG_VARIABLE_NAME = "t_g_banner_ch_bar_bmp"
+IMPLEMENT_FILE = "BANNER_IMG"
+SOURCE_FILE = ".\bnr_first.bmp"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_banner_3d_bar_bmp]
+CONFIG_VARIABLE_NAME = "t_g_banner_3d_bar_bmp"
+IMPLEMENT_FILE = "BANNER_IMG"
+SOURCE_FILE = ".\banner_for_3D.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_banner_prog_bar_bmp]
+CONFIG_VARIABLE_NAME = "t_g_banner_prog_bar_bmp"
+IMPLEMENT_FILE = "BANNER_IMG"
+SOURCE_FILE = ".\bnr_second.bmp"
+OUTPUT_FORMAT = "8888"
+MASK_PIXEL = "(492,16)"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_banner_frame_bk_bmp]
+CONFIG_VARIABLE_NAME = "t_g_banner_frame_bk_bmp"
+IMPLEMENT_FILE = "BANNER_IMG"
+SOURCE_FILE = ".\NAV_PROG_DETAIL_FRAME.bmp"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "HO"
+SEGMENT_DIMENSION = "(104,77)"
+
+[IMAGE_CONFIG = t_g_banner_lock_img]
+CONFIG_VARIABLE_NAME = "t_g_banner_lock_img"
+IMPLEMENT_FILE = "BANNER_IMG"
+SOURCE_FILE = "Nav_banner_icon_lock.png"
+OUTPUT_FORMAT = "8888"
+#MASK_PIXEL = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+SEGMENT_DIMENSION = "(18, 18)"
+
+[IMAGE_CONFIG = t_g_banner_caption_img]
+CONFIG_VARIABLE_NAME = "t_g_banner_caption_img"
+IMPLEMENT_FILE = "BANNER_IMG"
+SOURCE_FILE = ".\Nav_banner_icon_CC.png"
+OUTPUT_FORMAT = "8888"
+#MASK_PIXEL = "(0, 0)"
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+MSG_REPORT = 0
+SEGMENT_DIMENSION = "(0,0 )"
+
+[IMAGE_CONFIG = t_g_banner_ttx_img]
+CONFIG_VARIABLE_NAME = "t_g_banner_ttx_img"
+IMPLEMENT_FILE = "BANNER_IMG"
+SOURCE_FILE = "Nav_banner_icon_TTX.png"
+OUTPUT_FORMAT = "8888"
+##MASK_PIXEL = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+SEGMENT_DIMENSION = "(28, 18)"
+
+[IMAGE_CONFIG = t_g_banner_favorite_img]
+CONFIG_VARIABLE_NAME = "t_g_banner_favorite_img"
+IMPLEMENT_FILE = "BANNER_IMG"
+SOURCE_FILE = "Nav_banner_icon_Favorite.png"
+OUTPUT_FORMAT = "8888"
+#MASK_PIXEL = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+SEGMENT_DIMENSION = "(30, 30)"
+
+[IMAGE_CONFIG = t_g_banner_fav_full_img]
+CONFIG_VARIABLE_NAME = "t_g_banner_fav_full_img"
+IMPLEMENT_FILE = "BANNER_IMG"
+SOURCE_FILE = "Nav_banner_icon_Favorite_full.png"
+OUTPUT_FORMAT = "8888"
+#MASK_PIXEL = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+SEGMENT_DIMENSION = "(30, 30)"
+
+[IMAGE_CONFIG = t_g_banner_arrow_up_img]
+CONFIG_VARIABLE_NAME = "t_g_banner_arrow_up_img"
+IMPLEMENT_FILE = "BANNER_IMG"
+SOURCE_FILE = "NAV_Icon_arrow_up_hlt.png"
+OUTPUT_FORMAT = "8888"
+#MASK_PIXEL = "(0, 0)"
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+MSG_REPORT = 0
+SEGMENT_DIMENSION = "(25, 25)"
+
+[IMAGE_CONFIG = t_g_banner_arrow_down_img]
+CONFIG_VARIABLE_NAME = "t_g_banner_arrow_down_img"
+IMPLEMENT_FILE = "BANNER_IMG"
+SOURCE_FILE = "NAV_Icon_arrow_down_hlt.png"
+OUTPUT_FORMAT = "8888"
+#MASK_PIXEL = "(0, 0)"
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+MSG_REPORT = 0
+SEGMENT_DIMENSION = "(25,25 )"
+
+[IMAGE_CONFIG = t_g_banner_ad_ear_img]
+CONFIG_VARIABLE_NAME = "t_g_banner_ad_ear_img"
+IMPLEMENT_FILE = "BANNER_IMG"
+SOURCE_FILE = "Nav_banner_icon_ad_ear.png"
+OUTPUT_FORMAT = "8888"
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+SEGMENT_TYPE = "NONE"
+#SEGMENT_DIMENSION = "(28, 18)"
+
+[IMAGE_CONFIG = t_g_banner_ad_eye_img]
+CONFIG_VARIABLE_NAME = "t_g_banner_ad_eye_img"
+IMPLEMENT_FILE = "BANNER_IMG"
+SOURCE_FILE = "Nav_banner_icon_ad_eye.png"
+OUTPUT_FORMAT = "8888"
+#MASK_PIXEL = "(0, 0)"
+MSG_REPORT = 0
+SEGMENT_TYPE = "NONE"
+#SEGMENT_DIMENSION = "(28, 18)"

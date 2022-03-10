@@ -1,0 +1,25 @@
+[FILE=TEST_IMGS]
+PATH   = ".\dolby_vision_icon\dolby_vision_icon.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_dolby_vision_vert_icon_2k21_120x50]
+CONFIG_VARIABLE_NAME  = "t_g_dolby_vision_vert_icon_2k21_120x50"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = ".\dolby_vision_icon\dolby_vision_vert_icon_2k21_120x50.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+
+[IMAGE_CONFIG = t_g_dolby_vision_vert_icon_2k21_108x45]
+CONFIG_VARIABLE_NAME  = "t_g_dolby_vision_vert_icon_2k21_108x45"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = ".\dolby_vision_icon\dolby_vision_vert_icon_2k21_108x45.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+
+

@@ -1,0 +1,30 @@
+[FILE=NAV_ZOOM_INDICAT_IMG]
+PATH = "..\nav_zoom_indicate_img.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG        = tg_sector_hilite_img]
+CONFIG_VARIABLE_NAME = "tg_sector_hilite_img"
+IMPLEMENT_FILE       = "NAV_ZOOM_INDICAT_IMG"
+SOURCE_FILE          = "sector_hilite_icon.png"
+OUTPUT_FORMAT        = "8888"
+SEGMENT_TYPE          = "NONE"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG        = tg_sector_img]
+CONFIG_VARIABLE_NAME = "tg_sector_img"
+IMPLEMENT_FILE       = "NAV_ZOOM_INDICAT_IMG"
+SOURCE_FILE          = "sector_icon.png"
+OUTPUT_FORMAT        = "8888"
+SEGMENT_TYPE          = "NONE"
+MSG_REPORT           = 0
+COMPRESSED           = 1
+
+[IMAGE_CONFIG = tg_sector_img_oled]
+CONFIG_VARIABLE_NAME  = "tg_sector_img_oled"
+IMPLEMENT_FILE        = "NAV_ZOOM_INDICAT_IMG"
+SOURCE_FILE           = "Zoom_mode_sector_indicator_highlight_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 

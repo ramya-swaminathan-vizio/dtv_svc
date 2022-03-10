@@ -1,0 +1,340 @@
+[FILE=UI_IMG]
+PATH = "..\ui_img_960x540_8888.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_ui_slider_bar_bk0_png]
+CONFIG_VARIABLE_NAME  = "t_g_ui_slider_bar_bk0_png"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "pic_settings_bkg.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_ui_slider_bar_pg_bar_png]
+CONFIG_VARIABLE_NAME  = "t_g_ui_slider_bar_pg_bar_png"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "Flat-Highlight.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_ui_slider_bar_pg_bk0_png]
+CONFIG_VARIABLE_NAME  = "t_g_ui_slider_bar_pg_bk0_png"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "pic_settings_plus_minus_v2.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+#SEGMENT_TYPE          = "HO"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_ui_simple_dialog_bk0_png]
+CONFIG_VARIABLE_NAME  = "t_g_ui_simple_dialog_bk0_png"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "Bar_Background.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+SEGMENT_TYPE          = "HV"
+SEGMENT_DIMENSION     = "(30, 30)"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+
+[IMAGE_CONFIG = t_g_ui_simple_dialog_selected_png]
+CONFIG_VARIABLE_NAME  = "t_g_ui_simple_dialog_selected_png"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "Bar_Highlight.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_ui_simple_dialog_unselected_png]
+CONFIG_VARIABLE_NAME  = "t_g_ui_simple_dialog_unselected_png"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "Bar.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "HO" 
+SEGMENT_DIMENSION     = "(8, 45)"
+
+[IMAGE_CONFIG = t_g_ui_slider_arrow_left]
+CONFIG_VARIABLE_NAME  = "t_g_ui_slider_arrow_left"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "slider_arrow_left.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_ui_slider_arrow_right]
+CONFIG_VARIABLE_NAME  = "t_g_ui_slider_arrow_right"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "slider_arrow_right.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_ui_vol_slider_bar_pg_bar_bmp]
+CONFIG_VARIABLE_NAME  = "t_g_ui_vol_slider_bar_pg_bar_bmp"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "vol_blue_x2.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_ui_slider_bar_pg_bar_new_png]
+CONFIG_VARIABLE_NAME  = "t_g_ui_slider_bar_pg_bar_new_png"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "vol_blue_x2_new.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_ui_vol_slider_bar_pg_bk0_bmp]
+CONFIG_VARIABLE_NAME  = "t_g_ui_vol_slider_bar_pg_bk0_bmp"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "vol_background_plus.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_ui_vol_slider_bar_pg_bar_mute_bmp]
+CONFIG_VARIABLE_NAME  = "t_g_ui_vol_slider_bar_pg_bar_mute_bmp"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "mute_bar_red.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1 
+
+[IMAGE_CONFIG = t_g_ui_vol_slider_bar_pg_bar_mute_bmp]
+CONFIG_VARIABLE_NAME  = "t_g_ui_vol_slider_bar_pg_bar_mute_bmp"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "mute_bar_red.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1 
+
+[IMAGE_CONFIG = t_g_ui_vol_slider_bar_pg_bk0_mute_bmp]
+CONFIG_VARIABLE_NAME  = "t_g_ui_vol_slider_bar_pg_bk0_mute_bmp"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "mute_background_plain.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1 
+
+[IMAGE_CONFIG = t_g_ui_vol__mute_plus_minus]
+CONFIG_VARIABLE_NAME  = "t_g_ui_vol__mute_plus_minus"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "vol__mute_plus_minus.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1 
+
+[IMAGE_CONFIG = t_g_ui_vol__mute_shadow_half]
+CONFIG_VARIABLE_NAME  = "t_g_ui_vol__mute_shadow_half"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "vol__mute_shadow_half.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1 
+
+[IMAGE_CONFIG = t_g_ui_vol_mute_fill_leftcap]
+CONFIG_VARIABLE_NAME  = "t_g_ui_vol_mute_fill_leftcap"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "vol_mute_fill_leftcap.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1 
+
+[IMAGE_CONFIG = t_g_ui_Warning_Bar_button_hlt]
+CONFIG_VARIABLE_NAME  = "t_g_ui_Warning_Bar_button_hlt"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "dialog_button_highlight.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1 
+
+[IMAGE_CONFIG = t_g_ui_Warning_Bar_button]
+CONFIG_VARIABLE_NAME  = "t_g_ui_Warning_Bar_button"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "dialog_button_gray.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1 
+
+[IMAGE_CONFIG = t_g_ui_Warning_Bar]
+CONFIG_VARIABLE_NAME  = "t_g_ui_Warning_Bar"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "dialog_box.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1 
+
+[IMAGE_CONFIG = t_g_ui_demo_dialog_bkg]
+CONFIG_VARIABLE_NAME  = "t_g_ui_demo_dialog_bkg"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "demo_dialog_bkg.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1 
+
+[IMAGE_CONFIG = t_g_ui_Dialog_info_icon]
+CONFIG_VARIABLE_NAME  = "t_g_ui_Dialog_info_icon"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "error_triangle.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_ui_new_track_mute_cap_right_icon]
+CONFIG_VARIABLE_NAME  = "t_g_ui_new_track_mute_cap_right_icon"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "new_track_mute_cap_right.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_ui_new_vo_mute_icon]
+CONFIG_VARIABLE_NAME  = "t_g_ui_new_vo_mute_icon"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "new_vo_mute.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_ui_new_vol_active_icon]
+CONFIG_VARIABLE_NAME  = "t_g_ui_new_vol_active_icon"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "new_vol_active.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_ui_new_vo_zoom_mute_icon]
+CONFIG_VARIABLE_NAME  = "t_g_ui_new_vo_zoom_mute_icon"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "new_vol_zoom_mute.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_ui_new_vol_zoom_active_icon]
+CONFIG_VARIABLE_NAME  = "t_g_ui_new_vol_zoom_active_icon"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "new_vol_zoom_active.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_ui_new_track_cap_left_icon]
+CONFIG_VARIABLE_NAME  = "t_g_ui_new_track_cap_left_icon"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "new_track_cap_left.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_ui_new_track_cap_righ_icon]
+CONFIG_VARIABLE_NAME  = "t_g_ui_new_track_cap_righ_icon"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "new_track_cap_right.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_ui_new_track_mute_cap_left_icon]
+CONFIG_VARIABLE_NAME  = "t_g_ui_new_track_mute_cap_left_icon"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "new_track_mute_cap_left.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_ui_new_vol_toast_box_icon]
+CONFIG_VARIABLE_NAME  = "t_g_ui_new_vol_toast_box_icon"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "new_vol_toast_box.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_ui_new_vol_gradient_btm_icon]
+CONFIG_VARIABLE_NAME  = "t_g_ui_new_vol_gradient_btm_icon"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "new_vol_gradient_btm.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_ui_new_track_mute_fill_small_icon]
+CONFIG_VARIABLE_NAME  = "t_g_ui_new_track_mute_fill_small_icon"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "new_track_mute_fill_small_icon.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_ui_new_track_mute_fill_icon]
+CONFIG_VARIABLE_NAME  = "t_g_ui_new_track_mute_fill_icon"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "new_track_mute_fill_icon.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_ui_new_track_fill_icon]
+CONFIG_VARIABLE_NAME  = "t_g_ui_new_track_fill_icon"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "new_track_fill.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_ui_new_track_mute_fill_big_icon]
+CONFIG_VARIABLE_NAME  = "t_g_ui_new_track_mute_fill_big_icon"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "track_mute_fill_big_icon.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED = 1
+

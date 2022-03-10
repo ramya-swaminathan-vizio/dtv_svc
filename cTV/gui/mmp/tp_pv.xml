@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view version="1.0.0.1">
+	<name>tp_pv</name>
+	<width>1920</width>
+	<height>1080</height>
+	<hierarchy>
+		<component value="canvas"/>
+	</hierarchy>
+</view>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ResourceSetMgr version="1.0.0.0">
+	<ResourceSet>
+		<ResType>RES_TYPE_IMAGE</ResType>
+		<File>..\..\res\mmp\img\images\map.txt</File>
+	</ResourceSet>
+	<ResourceSet>
+		<ResType>RES_TYPE_MESSAGE</ResType>
+		<File>..\..\res\mmp\mmp_mlm.txt</File>
+	</ResourceSet>
+	<ResourceSet>
+		<ResType>RES_TYPE_FONT_INFO</ResType>
+		<File>FontInfo.xml</File>
+	</ResourceSet>
+	<ResourceSet>
+		<ResType>RES_TYPE_COLOR</ResType>
+		<File>Color.xml</File>
+	</ResourceSet>
+</ResourceSetMgr>

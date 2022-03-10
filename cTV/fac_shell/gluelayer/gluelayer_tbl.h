@@ -1,0 +1,183 @@
+#ifndef _GLUE_LAYER_TBL_H_
+#define _GLUE_LAYER_TBL_H_
+
+#include "u_common.h"
+
+#if 1
+extern INT32 FACTORYR_OK ;   
+extern INT32 FACTORYR_NOT_INIT ;   
+extern INT32 FACTORYR_OUT_OF_MEMORY ;   
+extern INT32 FACTORYR_FAIL ;   
+extern INT32 FACTORY_COMMAND_HEADER ;   
+extern INT32 FACTORY_COMMAND_TAIL ;   
+extern INT32 FACTORY_COMMAND_LENGTH ;   
+extern INT32 FACTORY_DATA_TRANSFER_MODE_LENGTH ;   
+  
+extern INT32 IDX_CLR_FAC_GAIN_R ;   
+extern INT32 IDX_CLR_FAC_GAIN_G ;   
+extern INT32 IDX_CLR_FAC_GAIN_B ;   
+extern INT32 IDX_CLR_FAC_OFFSET_R ;   
+extern INT32 IDX_CLR_FAC_OFFSET_G ;   
+extern INT32 IDX_CLR_FAC_OFFSET_B ;   
+   
+extern INT32 IDX_FAC_CUST_RESERV_0 ;   
+extern INT32 IDX_FAC_CUST_RESERV_1 ;   
+extern INT32 IDX_FAC_CUST_RESERV_2 ;   
+extern INT32 IDX_FAC_CUST_RESERV_3 ;   
+extern INT32 IDX_FAC_CUST_RESERV_4 ;   
+extern INT32 IDX_FAC_CUST_RESERV_5 ;   
+extern INT32 IDX_FAC_CUST_RESERV_6 ;   
+extern INT32 IDX_FAC_CUST_RESERV_7 ;   
+extern INT32 IDX_FAC_CUST_RESERV_8 ;   
+extern INT32 IDX_FAC_CUST_RESERV_9 ;   
+extern INT32 IDX_FAC_CUST_RESERV_10 ;   
+extern INT32 IDX_FAC_CUST_RESERV_11 ;   
+extern INT32 IDX_FAC_CUST_RESERV_12 ;   
+extern INT32 IDX_FAC_CUST_RESERV_13 ;   
+extern INT32 IDX_FAC_CUST_RESERV_14 ;   
+extern INT32 IDX_FAC_CUST_RESERV_15 ;   
+extern INT32 IDX_FAC_CUST_RESERV_16 ;   
+extern INT32 IDX_FAC_CUST_RESERV_17 ;   
+extern INT32 IDX_FAC_CUST_RESERV_18 ;   
+extern INT32 IDX_FAC_CUST_RESERV_19 ;   
+extern INT32 IDX_FAC_CUST_RESERV_20 ;   
+extern INT32 IDX_FAC_CUST_RESERV_21 ;   
+
+extern INT32 IDX_FAC_CUST_RESERV_2_0 ;   
+extern INT32 IDX_FAC_CUST_RESERV_2_1 ;   
+extern INT32 IDX_FAC_CUST_RESERV_2_2 ;   
+extern INT32 IDX_FAC_CUST_RESERV_2_3 ;   
+
+extern INT32 IDX_FAC_CUST_RESERV_4_0 ;   
+extern INT32 IDX_FAC_CUST_RESERV_4_1 ;   
+
+extern INT32 IDX_FAC_CMD_RESERV ;   
+extern INT32 APP_CFG_RECID_VID_FAC_GAIN_R ;   
+extern INT32 APP_CFG_RECID_VID_FAC_GAIN_G ;   
+extern INT32 APP_CFG_RECID_VID_FAC_GAIN_B ;   
+extern INT32 APP_CFG_RECID_VID_FAC_OFFSET_R ;   
+extern INT32 APP_CFG_RECID_VID_FAC_OFFSET_G ;   
+extern INT32 APP_CFG_RECID_VID_FAC_OFFSET_B ;   
+extern INT32 APP_CFG_RECID_FAC_CMD_RESERV ;   
+
+
+extern INT32 APP_CFG_RECID_FAC_CUST_RESERV_0 ;   
+extern INT32 APP_CFG_RECID_FAC_CUST_RESERV_1 ;   
+extern INT32 APP_CFG_RECID_FAC_CUST_RESERV_2 ;   
+extern INT32 APP_CFG_RECID_FAC_CUST_RESERV_3 ; 
+#endif
+#if 0
+extern INT32 EEP_OFFSET_FAC_CLR_OFFSET_MAGIC ;   
+extern INT32 EEP_OFFSET_EEP2_START ;   
+extern INT32 EEP_OFFSET_FAC_CUST_SN ;   
+extern INT32 EEP_OFFSET_FAC_CUST_AGING_OP_TIMER ;   
+extern INT32 EEP_OFFSET_FAC_CUST_AGING_POWER_ON_MINS ;   
+extern INT32 EEP_OFFSET_FAC_CUST_AGING_POWER_ON_TIMES ;   
+extern INT32 EEP_OFFSET_FAC_CUST_PN ;   
+extern INT32 EEP_OFFSET_FAC_CUST_MBN ;   
+extern INT32 EEP_GAMMA_END ;   
+extern INT32 EEP_WB_BACKUP ;   
+extern INT32 EEP_WB_MAGIC ;     
+ 
+extern INT32 EEP_OFFSET_FAC_CLR_GAIN_R ;   
+extern INT32 EEP_OFFSET_FAC_CLR_GAIN_G ;   
+extern INT32 EEP_OFFSET_FAC_CLR_GAIN_B ;   
+  
+extern INT32 EEP_OFFSET_FAC_CLR_OFFSET_R ;   
+extern INT32 EEP_OFFSET_FAC_CLR_OFFSET_G ;   
+extern INT32 EEP_OFFSET_FAC_CLR_OFFSET_B ;   
+
+
+extern INT32 EEP_OFFSET_ACFG_MISC ;   
+extern INT32 ACFG_FILESYS_CLR_INPUT_SRC_NUM ;   
+extern INT32 ACFG_ODM_CLR_GAIN_OFFSET_MIN ;   
+extern INT32 ACFG_ODM_CLR_GAIN_OFFSET_MAX ;   
+
+//extern INT32 DRV_CUSTOM_CUST_SPEC_TYPE_VIZIO_LED_LOGO_CTRL ;   
+//extern INT32 DRV_CUSTOM_CUST_SPEC_TYPE_INFO_BURNIN_MODE ;   
+
+extern INT32 EQ_DRV_MIN ;   
+extern INT32 EQ_DRV_MAX ;   
+
+//extern const INT32 AUDIO_OUTPUT_TYPE_LINE_OUT ;   
+//extern const INT32 AUDIO_OUTPUT_TYPE_HEADPHONE ;   
+//extern const INT32 AUDIO_OUTPUT_TYPE_BOTH ;   
+//extern const INT32 AUDIO_OUTPUT_TYPE_END ;   
+extern INT32 PLF_OPT_MODEL_NAME_LEN ;   
+ 
+extern INT32 NAV_COMP_ID_FAC_MSG ;
+extern INT32 COMP_EXC_SET_CPL_FAC_CHECK ;
+#endif
+#if 0
+extern INT32 MLM_ISL_NUM_KEY ;   
+extern INT32 MLM_ISL_KEY_MSG_TV ;   
+extern INT32 MLM_ISL_KEY_MSG_TV_DTV ;   
+extern INT32 MLM_ISL_KEY_MSG_TV_ATV ;   
+extern INT32 MLM_ISL_KEY_MSG_COMBI ;   
+extern INT32 MLM_ISL_KEY_MSG_COMBI_0 ;   
+extern INT32 MLM_ISL_KEY_MSG_COMBI_1 ;   
+extern INT32 MLM_ISL_KEY_MSG_COMBI_2 ;   
+extern INT32 MLM_ISL_KEY_MSG_COMBI_3 ;   
+extern INT32 MLM_ISL_KEY_MSG_CVBS ;   
+extern INT32 MLM_ISL_KEY_MSG_CVBS_0 ;   
+extern INT32 MLM_ISL_KEY_MSG_CVBS_1 ;   
+extern INT32 MLM_ISL_KEY_MSG_CVBS_2 ;   
+extern INT32 MLM_ISL_KEY_MSG_CVBS_3 ;   
+extern INT32 MLM_ISL_KEY_MSG_S_VIDEO ;   
+extern INT32 MLM_ISL_KEY_MSG_S_VIDEO_0 ;   
+extern INT32 MLM_ISL_KEY_MSG_S_VIDEO_1 ;   
+extern INT32 MLM_ISL_KEY_MSG_S_VIDEO_2 ;   
+extern INT32 MLM_ISL_KEY_MSG_S_VIDEO_3 ;   
+extern INT32 MLM_ISL_KEY_MSG_YPBPR ;   
+extern INT32 MLM_ISL_KEY_MSG_YPBPR_0 ;   
+extern INT32 MLM_ISL_KEY_MSG_YPBPR_1 ;   
+extern INT32 MLM_ISL_KEY_MSG_YPBPR_2 ;   
+extern INT32 MLM_ISL_KEY_MSG_YPBPR_3 ;   
+extern INT32 MLM_ISL_KEY_MSG_SCART ;   
+extern INT32 MLM_ISL_KEY_MSG_SCART_0 ;   
+extern INT32 MLM_ISL_KEY_MSG_SCART_1 ;   
+extern INT32 MLM_ISL_KEY_MSG_SCART_2 ;   
+extern INT32 MLM_ISL_KEY_MSG_SCART_3 ;   
+extern INT32 MLM_ISL_KEY_MSG_HDMI ;   
+extern INT32 MLM_ISL_KEY_MSG_HDMI_0 ;   
+extern INT32 MLM_ISL_KEY_MSG_HDMI_1 ;   
+extern INT32 MLM_ISL_KEY_MSG_HDMI_2 ;   
+extern INT32 MLM_ISL_KEY_MSG_HDMI_3 ;   
+extern INT32 MLM_ISL_KEY_MSG_DVI ;   
+extern INT32 MLM_ISL_KEY_MSG_DVI_0 ;   
+extern INT32 MLM_ISL_KEY_MSG_DVI_1 ;   
+extern INT32 MLM_ISL_KEY_MSG_DVI_2 ;   
+extern INT32 MLM_ISL_KEY_MSG_DVI_3 ;   
+extern INT32 MLM_ISL_KEY_MSG_VGA ;   
+extern INT32 MLM_ISL_KEY_MSG_VGA_0 ;   
+extern INT32 MLM_ISL_KEY_MSG_VGA_1 ;   
+extern INT32 MLM_ISL_KEY_MSG_VGA_2 ;   
+extern INT32 MLM_ISL_KEY_MSG_VGA_3 ;   
+extern INT32 MLM_ISL_KEY_MSG_DVD_0 ;   
+extern INT32 MLM_ISL_KEY_MSG_AUDIO_0 ;   
+extern INT32 MLM_ISL_KEY_MSG_MMP ;   
+extern INT32 MLM_ISL_KEY_MSG_MMP_0 ;   
+extern INT32 MLM_ISL_KEY_MSG_MMP_1 ;   
+extern INT32 MLM_ISL_KEY_MSG_MMP_2 ;   
+extern INT32 MLM_ISL_KEY_MSG_UNKNOWN ;   
+#endif
+#if 0
+extern BOOL a_app_cfg_fac_clr_temp(VOID);
+extern BOOL a_app_cust_fac(VOID);
+extern BOOL a_app_cust_plt_opt(VOID);
+extern BOOL a_app_cfg_update_gamma_in_pic_mode(VOID);
+extern BOOL a_app_cfg_custom_pq_def_tbl(VOID);
+extern BOOL a_app_cfg_custom_pro_pq_def_tbl(VOID);
+extern BOOL a_app_cust_reset_daylight_saving_setting_in_tv_reset(VOID);                                                                          
+extern BOOL a_app_clr_temp_custome_4_retail_mode(VOID);
+extern BOOL a_app_cust_reduce_blur_support(VOID);
+extern BOOL a_app_cfg_store_demo_led(VOID);
+extern BOOL a_app_cust_spec_type(VOID);
+extern BOOL a_app_menu_custom_drc_lightsensor(VOID);
+#endif
+
+extern T_CMD_DATA_MAP at_mac_cmd_map[];
+extern T_CMD_DATA_MAP_API at_api_cmd_map[];
+extern T_CMD_DATA_MAP at_stru_cmd_map[];
+
+#endif //_GLUE_LAYER_TBL_H_

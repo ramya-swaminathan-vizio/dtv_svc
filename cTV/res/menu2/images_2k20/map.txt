@@ -1,0 +1,157 @@
+[FILE=MENU_IMG_MAIN_PAGE]
+PATH   = ".\images_2k20\menu_img_2020_main_page.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_menu_img_main_accessiblity]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_main_accessiblity"
+IMPLEMENT_FILE        = "MENU_IMG_MAIN_PAGE"
+SOURCE_FILE           = "images_2k20\first_main_page\accessiblity.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_menu_img_main_admin]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_main_admin"
+IMPLEMENT_FILE        = "MENU_IMG_MAIN_PAGE"
+SOURCE_FILE           = "images_2k20\first_main_page\admin.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_menu_img_main_audio]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_main_audio"
+IMPLEMENT_FILE        = "MENU_IMG_MAIN_PAGE"
+SOURCE_FILE           = "images_2k20\first_main_page\audio.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_menu_img_main_channels]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_main_channels"
+IMPLEMENT_FILE        = "MENU_IMG_MAIN_PAGE"
+SOURCE_FILE           = "images_2k20\first_main_page\channels.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_menu_img_main_network]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_main_network"
+IMPLEMENT_FILE        = "MENU_IMG_MAIN_PAGE"
+SOURCE_FILE           = "images_2k20\first_main_page\network.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_menu_img_main_picture]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_main_picture"
+IMPLEMENT_FILE        = "MENU_IMG_MAIN_PAGE"
+SOURCE_FILE           = "images_2k20\first_main_page\picture.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_menu_img_main_system]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_main_system"
+IMPLEMENT_FILE        = "MENU_IMG_MAIN_PAGE"
+SOURCE_FILE           = "images_2k20\first_main_page\system.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_menu_img_main_user_manual]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_main_user_manual"
+IMPLEMENT_FILE        = "MENU_IMG_MAIN_PAGE"
+SOURCE_FILE           = "images_2k20\first_main_page\user_manual.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_menu_img_main_accessiblity_oled]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_main_accessiblity_oled"
+IMPLEMENT_FILE        = "MENU_IMG_MAIN_PAGE"
+SOURCE_FILE           = "images_2k20\first_main_page\oled\accessiblity.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_menu_img_main_admin_oled]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_main_admin_oled"
+IMPLEMENT_FILE        = "MENU_IMG_MAIN_PAGE"
+SOURCE_FILE           = "images_2k20\first_main_page\oled\admin.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_menu_img_main_audio_oled]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_main_audio_oled"
+IMPLEMENT_FILE        = "MENU_IMG_MAIN_PAGE"
+SOURCE_FILE           = "images_2k20\first_main_page\oled\audio.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_menu_img_main_channels_oled]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_main_channels_oled"
+IMPLEMENT_FILE        = "MENU_IMG_MAIN_PAGE"
+SOURCE_FILE           = "images_2k20\first_main_page\oled\channels.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_menu_img_main_network_oled]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_main_network_oled"
+IMPLEMENT_FILE        = "MENU_IMG_MAIN_PAGE"
+SOURCE_FILE           = "images_2k20\first_main_page\oled\network.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_menu_img_main_picture_oled]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_main_picture_oled"
+IMPLEMENT_FILE        = "MENU_IMG_MAIN_PAGE"
+SOURCE_FILE           = "images_2k20\first_main_page\oled\picture.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_menu_img_main_system_oled]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_main_system_oled"
+IMPLEMENT_FILE        = "MENU_IMG_MAIN_PAGE"
+SOURCE_FILE           = "images_2k20\first_main_page\oled\system.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_menu_img_main_user_manual_oled]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_main_user_manual_oled"
+IMPLEMENT_FILE        = "MENU_IMG_MAIN_PAGE"
+SOURCE_FILE           = "images_2k20\first_main_page\oled\user_manual.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_menu_img_main_tv_channels_grayed_out]
+CONFIG_VARIABLE_NAME  = "t_g_menu_img_main_tv_channels_grayed_out"
+IMPLEMENT_FILE        = "MENU_IMG_MAIN_PAGE"
+SOURCE_FILE           = "images_2k20\first_main_page\channels_gray.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1 
+

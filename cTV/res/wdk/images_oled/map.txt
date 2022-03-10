@@ -1,0 +1,216 @@
+[FILE=WDK_IMG_OLED]
+PATH   = ".\wdk_img_oled.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_keyboad_backspace_hlt_oled]
+CONFIG_VARIABLE_NAME  = "t_g_keyboad_backspace_hlt_oled"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\vkb\keyboad_backspace_hlt_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_keyboad_cap_hlt_oled]
+CONFIG_VARIABLE_NAME  = "t_g_keyboad_cap_hlt_oled"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\vkb\keyboad_cap_hlt_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_keyboard_highlight_oled]
+CONFIG_VARIABLE_NAME  = "t_g_keyboard_highlight_oled"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\vkb\keyboard_highlight_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+SEGMENT_TYPE		  = "HV"
+SEGMENT_DIMENSION	  = "(53, 53)"
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_text_entry_clear_all_hlt_oled]
+CONFIG_VARIABLE_NAME  = "t_g_text_entry_clear_all_hlt_oled"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\vkb\text_entry_clear_all_hlt_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_text_entry_highlight_oled]
+CONFIG_VARIABLE_NAME  = "t_g_text_entry_highlight_oled"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\vkb\text_entry_highlight_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_text_entry_oled]
+CONFIG_VARIABLE_NAME  = "t_g_text_entry_oled"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\vkb\text_entry.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_PopUp_Button_Teal_oled]
+CONFIG_VARIABLE_NAME  = "t_g_PopUp_Button_Teal_oled"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\Cast_PopUp\PopUp_Button_Teal_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_track_cap_left_oled]
+CONFIG_VARIABLE_NAME  = "t_g_track_cap_left_oled"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\slider_bar\track-cap-left.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_track_cap_right_oled]
+CONFIG_VARIABLE_NAME  = "t_g_track_cap_right_oled"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\slider_bar\track-cap-right.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_track_fill_oled]
+CONFIG_VARIABLE_NAME  = "t_g_track_fill_oled"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\slider_bar\track-fill.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_spinnerlist1_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_spinnerlist1_OLED"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\loading\spinnerlist1_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_spinnerlist2_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_spinnerlist2_OLED"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\loading\spinnerlist2_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+
+[IMAGE_CONFIG = t_g_spinnerlist3_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_spinnerlist3_OLED"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\loading\spinnerlist3_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+
+[IMAGE_CONFIG = t_g_spinnerlist4_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_spinnerlist4_OLED"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\loading\spinnerlist4_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+
+[IMAGE_CONFIG = t_g_spinnerlist5_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_spinnerlist5_OLED"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\loading\spinnerlist5_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+
+[IMAGE_CONFIG = t_g_spinnerlist6_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_spinnerlist6_OLED"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\loading\spinnerlist6_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_spinnerlist7_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_spinnerlist7_OLED"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\loading\spinnerlist7_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_spinnerlist8_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_spinnerlist8_OLED"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\loading\spinnerlist8_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_spinnerlist9_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_spinnerlist9_OLED"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\loading\spinnerlist9_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_spinnerlist10_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_spinnerlist10_OLED"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\loading\spinnerlist10_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_spinnerlist11_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_spinnerlist11_OLED"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\loading\spinnerlist11_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_spinnerlist12_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_spinnerlist12_OLED"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\loading\spinnerlist12_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_warning_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_warning_OLED"
+IMPLEMENT_FILE        = "WDK_IMG_OLED"
+SOURCE_FILE           = "images_oled\common\warning.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1

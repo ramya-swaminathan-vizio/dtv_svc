@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AuthoringProject ToolVer="1.1" Version="0.02" ProjectName="gui" Author="mtk" Description="" Width="1920" Height="1080" OutputPath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\res\">
+	<Resources>
+		<Resource SavePath="" RelativePath="ResSetMgr.xml" OutputPath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\res\"/>
+	</Resources>
+	<ColorMode>ARGB_D4444</ColorMode>
+	<Applications>
+		<Application Name="mmp" SavePath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\gui\mmp" OutputPath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\res\mmp\gen\">
+			<Components>
+				<Component Name="file_operator" SavePath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\gui\mmp\file_operator" OutputPath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\res\mmp\file_operator\gen\">
+					<Views>
+						<View SavePath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\gui\mmp\file_operator" RelativePath="pg.xml" OutputPath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\res\mmp\file_operator\gen\"/>
+						<View SavePath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\gui\mmp\file_operator" RelativePath="msg.xml" OutputPath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\res\mmp\file_operator\gen\"/>
+						<View SavePath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\gui\mmp\file_operator" RelativePath="replace.xml" OutputPath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\res\mmp\file_operator\gen\"/>
+					</Views>
+					<Resources>
+						<Resource SavePath="" RelativePath="ResSetMgr.xml" OutputPath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\res\mmp\file_operator\gen\"/>
+					</Resources>
+				</Component>
+			</Components>
+			<Views>
+				<View SavePath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\gui\mmp" RelativePath="vp.xml" OutputPath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\res\mmp\gen\"/>
+				<View SavePath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\gui\mmp" RelativePath="tp.xml" OutputPath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\res\mmp\gen\"/>
+				<View SavePath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\gui\mmp" RelativePath="vdp.xml" OutputPath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\res\mmp\gen\"/>
+				<View SavePath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\gui\mmp" RelativePath="pdp.xml" OutputPath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\res\mmp\gen\"/>
+			</Views>
+			<Resources>
+				<Resource SavePath="" RelativePath="ResSetMgr.xml" OutputPath="Z:\IDTV_Linux\DTV\DEV_BR\e_IDTV0801_LINUX_cTV_MMP_BR\vm_linux\project_x\custom\mtk\dvb\mt537x_demo1\res\mmp\gen\"/>
+			</Resources>
+		</Application>
+	</Applications>
+	<Language>ENG</Language>
+</AuthoringProject>

@@ -1,0 +1,323 @@
+[FILE=TEST_IMGS]
+PATH   = ".\menu_images_oled.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_eq_audio_item_hlt_oled]
+CONFIG_VARIABLE_NAME  = "t_g_eq_audio_item_hlt_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\audio_eq\eq_audio_item_hlt_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_eq_audio_mode_highlight_oled]
+CONFIG_VARIABLE_NAME  = "t_g_eq_audio_mode_highlight_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\audio_eq\eq_audio_mode_highlight_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+
+[IMAGE_CONFIG = t_g_eq_audio_mode_slider_highlight_2_oled]
+CONFIG_VARIABLE_NAME  = "t_g_eq_audio_mode_slider_highlight_2_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\audio_eq\eq_audio_mode_slider_highlight_2_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_eq_audio_mode_slider_highlight_oled]
+CONFIG_VARIABLE_NAME  = "t_g_eq_audio_mode_slider_highlight_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\audio_eq\eq_audio_mode_slider_highlight_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_eq_highlight_oled]
+CONFIG_VARIABLE_NAME  = "t_g_eq_highlight_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\audio_eq\eq_highlight_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_dialog_button_highlight_oled]
+CONFIG_VARIABLE_NAME  = "t_g_dialog_button_highlight_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\dialog\dialog_button_highlight_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_back_highlight_oled]
+CONFIG_VARIABLE_NAME  = "t_g_back_highlight_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\menu_common\back_highlight_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_back_highlight_v2_oled]
+CONFIG_VARIABLE_NAME  = "t_g_back_highlight_v2_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\menu_common\back_highlight_v2_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_checkbox_background_oled]
+CONFIG_VARIABLE_NAME  = "t_g_checkbox_background_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\menu_common\checkbox_background_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_sidebar_highlight_oled]
+CONFIG_VARIABLE_NAME  = "t_g_sidebar_highlight_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\menu_common\sidebar_highlight_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_sidebar_highlight_partial_oled]
+CONFIG_VARIABLE_NAME  = "t_g_sidebar_highlight_partial_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\menu_common\sidebar_highlight_partial_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_sidebar_highlight_v2_oled]
+CONFIG_VARIABLE_NAME  = "t_g_sidebar_highlight_v2_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\menu_common\sidebar_highlight_v2_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_sidebar_highlight_v2_oled_vo]
+CONFIG_VARIABLE_NAME  = "t_g_sidebar_highlight_v2_oled_vo"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\menu_common\sidebar_highlight_v2_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+SEGMENT_TYPE		  = "VO"
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_color_tuner_digit_highlight_oled]
+CONFIG_VARIABLE_NAME  = "t_g_color_tuner_digit_highlight_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\picture\color_tuner_digit_highlight_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_color_tuner_test_pattern_enable_highlight_oled]
+CONFIG_VARIABLE_NAME  = "t_g_color_tuner_test_pattern_enable_highlight_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\picture\color_tuner_test_pattern_enable_highlight_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_color_tuner_top_highlight_ex_oled]
+CONFIG_VARIABLE_NAME  = "t_g_color_tuner_top_highlight_ex_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\picture\color_tuner_top_highlight_ex_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_color_tuner_top_highlight_ex_v2_oled]
+CONFIG_VARIABLE_NAME  = "t_g_color_tuner_top_highlight_ex_v2_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\picture\color_tuner_top_highlight_ex_v2_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_color_tuner_top_highlight_oled]
+CONFIG_VARIABLE_NAME  = "t_g_color_tuner_top_highlight_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\picture\color_tuner_top_highlight_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+
+[IMAGE_CONFIG = t_g_ratings_box_highlight_oled]
+CONFIG_VARIABLE_NAME  = "t_g_ratings_box_highlight_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\rating\ratings_box_highlight_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_system_pin_box_highlight_oled]
+CONFIG_VARIABLE_NAME  = "t_g_system_pin_box_highlight_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\rating\system_pin_box_highlight_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_system_pin_box_active_oled]
+CONFIG_VARIABLE_NAME  = "t_g_system_pin_box_active_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\rating\system_pin_box_active_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_system_pin_box_inactive_oled]
+CONFIG_VARIABLE_NAME  = "t_g_system_pin_box_inactive_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\rating\system_pin_box_inactive_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_system_info_highlight_oled]
+CONFIG_VARIABLE_NAME  = "t_g_system_info_highlight_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\system_info\system_info_highlight_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_system_info_highlight_v2_oled]
+CONFIG_VARIABLE_NAME  = "t_g_system_info_highlight_v2_oled"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\system_info\system_info_highlight_v2_oled.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_icon_ethernet_gray_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_icon_ethernet_gray_OLED"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\nw\icon_ethernet_white_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_lock_white_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_lock_white_OLED"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\nw\lock_white_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_wifi_25_white_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_wifi_25_white_OLED"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\nw\wifi_25_white_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_wifi_50_white_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_wifi_50_white_OLED"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\nw\wifi_50_white_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_wifi_75_white_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_wifi_75_white_OLED"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\nw\wifi_75_white_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_wifi_100_white_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_wifi_100_white_OLED"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\nw\wifi_100_white_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_arrow_down_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_arrow_down_OLED"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\common\arrow_down_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_arrow_up_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_arrow_up_OLED"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\common\arrow_up_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_back_arrow_white_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_back_arrow_white_OLED"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\common\back_arrow_white_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_pb_bar_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_pb_bar_OLED"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\tv_channel\pb_bar_OLED.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+SEGMENT_TYPE		  = "HO"
+SEGMENT_DIMENSION	  = "(6, 13)"
+
+[IMAGE_CONFIG = t_g_button_save_cancel_highlight_OLED]
+CONFIG_VARIABLE_NAME  = "t_g_button_save_cancel_highlight_OLED"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "images_oled\Button_save_cancel_highlight.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1

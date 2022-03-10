@@ -1,0 +1,134 @@
+[FILE=APP_IMG]
+PATH = "..\images_2013.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_app_s_arrow_down_img]
+CONFIG_VARIABLE_NAME = "t_g_app_s_arrow_down_img"
+IMPLEMENT_FILE = "APP_IMG"
+SOURCE_FILE =    "s_arrow_down.png"
+OUTPUT_FORMAT = "4444"
+DEFAULT_ALPHA = 255
+MASK_PIXEL = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+SEGMENT_DIMENSION     = "(18, 12)"
+
+[IMAGE_CONFIG = t_g_app_s_arrow_down_hlt_img]
+CONFIG_VARIABLE_NAME = "t_g_app_s_arrow_down_hlt_img"
+IMPLEMENT_FILE = "APP_IMG"
+SOURCE_FILE =    "s_arrow_down_hlt.png"
+OUTPUT_FORMAT = "4444"
+DEFAULT_ALPHA = 255
+MASK_PIXEL = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+SEGMENT_DIMENSION     = "(18, 12)"
+
+[IMAGE_CONFIG = t_g_app_arrow_left_img]
+CONFIG_VARIABLE_NAME  = "t_g_app_arrow_left_img"
+IMPLEMENT_FILE        = "APP_IMG"
+SOURCE_FILE           = "arrow_left.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION     = "(16, 24)"
+
+[IMAGE_CONFIG = t_g_app_arrow_left_hlt_img]
+CONFIG_VARIABLE_NAME  = "t_g_app_arrow_left_hlt_img"
+IMPLEMENT_FILE        = "APP_IMG"
+SOURCE_FILE           = "arrow_left_hlt.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION     = "(16, 24)"
+
+[IMAGE_CONFIG = t_g_app_arrow_right_img]
+CONFIG_VARIABLE_NAME  = "t_g_app_arrow_right_img"
+IMPLEMENT_FILE        = "APP_IMG"
+SOURCE_FILE           = "arrow_right.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MASK_PIXEL            = "(15, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION     = "(16, 24)"
+
+[IMAGE_CONFIG = t_g_app_arrow_right_hlt_img]
+CONFIG_VARIABLE_NAME  = "t_g_app_arrow_right_hlt_img"
+IMPLEMENT_FILE        = "APP_IMG"
+SOURCE_FILE           = "arrow_right_hlt.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MASK_PIXEL            = "(15, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION     = "(16, 24)"
+
+[IMAGE_CONFIG = t_g_app_arrow_down_img]
+CONFIG_VARIABLE_NAME  = "t_g_app_arrow_down_img"
+IMPLEMENT_FILE        = "APP_IMG"
+SOURCE_FILE           = "arrow_down.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION     = "(47, 13)"	#24,16
+
+[IMAGE_CONFIG = t_g_app_arrow_down_hlt_img]
+CONFIG_VARIABLE_NAME  = "t_g_app_arrow_down_hlt_img"
+IMPLEMENT_FILE        = "APP_IMG"
+SOURCE_FILE           = "arrow_down_hlt.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION     = "(47, 13)"	#24,16
+
+[IMAGE_CONFIG = t_g_app_arrow_up_img]
+CONFIG_VARIABLE_NAME  = "t_g_app_arrow_up_img"
+IMPLEMENT_FILE        = "APP_IMG"
+SOURCE_FILE           = "arrow_up.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION     = "(47, 13)"	#24,16
+
+[IMAGE_CONFIG = t_g_app_arrow_up_hlt_img]
+CONFIG_VARIABLE_NAME  = "t_g_app_arrow_up_hlt_img"
+IMPLEMENT_FILE        = "APP_IMG"
+SOURCE_FILE           = "arrow_up_hlt.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION     = "(47, 13)"	#24,16
+
+[IMAGE_CONFIG = t_g_app_caption_img]
+CONFIG_VARIABLE_NAME = "t_g_app_caption_img"
+IMPLEMENT_FILE = "APP_IMG"
+SOURCE_FILE =    "Nav_banner_icon_CC.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+COMPRESSED = 1
+MSG_REPORT = 0
+
+
+
+
+
+
+
+
+
+
+
+

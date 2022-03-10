@@ -1,0 +1,1138 @@
+[FILE = MMP_IMG]
+PATH = "..\mmp_img_169.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_mmp_thumbnail_top_bg_img]
+CONFIG_VARIABLE_NAME = "t_g_mmp_thumbnail_top_bg_img"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\Common_bg_top_new.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_detail_page_bg]
+CONFIG_VARIABLE_NAME = "t_g_detail_page_bg"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = "detail_info_bg.bmp"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 180
+SEGMENT_TYPE = "HV"
+SEGMENT_DIMENSION = "(16, 16)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_list_mode_hl_bar]
+CONFIG_VARIABLE_NAME = "t_g_mmp_list_mode_hl_bar"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = "mmp_common_hightBar_H.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "HO"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_lstmod_icon_folder]
+CONFIG_VARIABLE_NAME = "t_g_mmp_lstmod_icon_folder"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = "mmp_Listmode_icon_folder.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_btn_nr_bk]
+CONFIG_VARIABLE_NAME = "t_g_mmp_btn_nr_bk"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\MMP_Common_button_Nor_H.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 0
+SEGMENT_TYPE = "HO"
+SEGMENT_DIMENSION = "(20,0)"
+
+[IMAGE_CONFIG = t_g_mmp_btn_hlt_bk]
+CONFIG_VARIABLE_NAME = "t_g_mmp_btn_hlt_bk"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\MMP_Common_button_hi_H.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 0
+SEGMENT_TYPE = "HO"
+SEGMENT_DIMENSION = "(20,0)"
+
+[IMAGE_CONFIG = t_g_mmp_listmode_viewer_bg]
+CONFIG_VARIABLE_NAME = "t_g_mmp_listmode_viewer_bg"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\mmp_Listmode_viewer_bg.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_MMP_Common_bg_top]
+CONFIG_VARIABLE_NAME = "t_g_MMP_Common_bg_top"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\MMP_Common_bg_top.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_err_frm_bk]
+CONFIG_VARIABLE_NAME = "t_g_mmp_err_frm_bk"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\MMP_Common_error_bg.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_thumbnail_mid_bg_img]
+CONFIG_VARIABLE_NAME = "t_g_mmp_thumbnail_mid_bg_img"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\Common_bg_mid.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_icon_info]
+CONFIG_VARIABLE_NAME = "t_g_mmp_icon_info"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\mmp_common_icon_ib_info.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+
+[IMAGE_CONFIG = t_g_mmp_icon_urgent]
+CONFIG_VARIABLE_NAME = "t_g_mmp_icon_urgent"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\mmp_common_icon_ib_urgent.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+
+[IMAGE_CONFIG = t_g_mmp_icon_warning]
+CONFIG_VARIABLE_NAME = "t_g_mmp_icon_warning"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\mmp_common_icon_ib_warning.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+
+[IMAGE_CONFIG = t_g_mmp_info_bar_bg]
+CONFIG_VARIABLE_NAME = "t_g_mmp_info_bar_bg"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\mmp_info_bar_bg.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "HV"
+SEGMENT_DIMENSION = "(36, 28)"
+
+[IMAGE_CONFIG = t_g_mmp_back_btn_template]
+CONFIG_VARIABLE_NAME = "t_g_mmp_back_btn_template"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\back_btn_template.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_music_bg_template]
+CONFIG_VARIABLE_NAME = "t_g_mmp_music_bg_template"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\music_background_template.png"
+OUTPUT_FORMAT = "8888"
+#SEGMENT_DIMENSION = "(320, 180)"
+MSG_REPORT = 0
+COMPRESSED = 0
+#SEGMENT_TYPE = "HV"
+
+[IMAGE_CONFIG = t_g_mmp_floder_focus_hlt]
+CONFIG_VARIABLE_NAME = "t_g_mmp_floder_focus_hlt"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\folder_focus_highlight.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_img_sel_hlt]
+CONFIG_VARIABLE_NAME = "t_g_mmp_img_sel_hlt"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\img_selection_highlight.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_lg_btn_hlt]
+CONFIG_VARIABLE_NAME = "t_g_mmp_lg_btn_hlt"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\lg_btn_highlight.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_lg_btn]
+CONFIG_VARIABLE_NAME = "t_g_mmp_lg_btn"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\lg_btn.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_lg_folder_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_lg_folder_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\lg_folder_icon.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_lg_folder_icon_small]
+CONFIG_VARIABLE_NAME = "t_g_mmp_lg_folder_icon_small"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\lg_folder_icon_small.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_now_playing_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_now_playing_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\now_playing_arrow_icon.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_null_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_null_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\null_icon.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_pause_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pause_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\pause_icon.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_pg_back_icon_dim]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pg_back_icon_dim"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\pg_back_icon_dim.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_pg_back_icon_nr]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pg_back_icon_nr"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\pg_back_icon_nrml.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_pg_next_icon_dim]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pg_next_icon_dim"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\pg_next_icon_dim.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_pg_next_icon_nr]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pg_next_icon_nr"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\pg_next_icon_nrml.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_photo_bg_template]
+CONFIG_VARIABLE_NAME = "t_g_mmp_photo_bg_template"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\photo_background_template.png"
+OUTPUT_FORMAT = "8888"
+#SEGMENT_DIMENSION = "(320, 180)"
+MSG_REPORT = 0
+COMPRESSED = 0
+#SEGMENT_TYPE = "HV"
+
+[IMAGE_CONFIG = t_g_mmp_previous_folder_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_previous_folder_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\previous_folder_icon.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_previous_folder_icon_small]
+CONFIG_VARIABLE_NAME = "t_g_mmp_previous_folder_icon_small"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\previous_folder_icon_small.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_small_btn_hlt]
+CONFIG_VARIABLE_NAME = "t_g_mmp_small_btn_hlt"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\small_btn_highlight.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_small_btn]
+CONFIG_VARIABLE_NAME = "t_g_mmp_small_btn"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\small_btn.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_track_back_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_track_back_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\track_back_icon.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_track_next_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_track_next_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\track_next_icon.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_track_time_bar_fill]
+CONFIG_VARIABLE_NAME = "t_g_mmp_track_time_bar_fill"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\track_time_bar_fill.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "HO"
+SEGMENT_DIMENSION = "(80,17)"
+
+[IMAGE_CONFIG = t_g_mmp_track_time_bar_outline]
+CONFIG_VARIABLE_NAME = "t_g_mmp_track_time_bar_outline"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\track_time_bar_outline.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "HV"
+SEGMENT_DIMENSION = "(80, 6)"
+
+[IMAGE_CONFIG = t_g_mmp_vizio_logo]
+CONFIG_VARIABLE_NAME = "t_g_mmp_vizio_logo"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\vizio_logo.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_video_outline]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_outline"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_outline.png"
+OUTPUT_FORMAT = "8888"
+#SEGMENT_DIMENSION = "(320, 180)"
+MSG_REPORT = 0
+COMPRESSED = 0
+#SEGMENT_TYPE = "HV"
+
+[IMAGE_CONFIG = t_g_mmp_back_bar_hlt]
+CONFIG_VARIABLE_NAME = "t_g_mmp_back_bar_hlt"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\back_bar_bk_hlt.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_back_bar_nr]
+CONFIG_VARIABLE_NAME = "t_g_mmp_back_bar_nr"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\back_bar_bk.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_lst_hlt]
+CONFIG_VARIABLE_NAME = "t_g_mmp_lst_hlt"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\list_hlt.bmp"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "HO"
+SEGMENT_DIMENSION = "(98, 0)"
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_rotate_cw_hlt]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_rotate_cw_hlt"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\RotateCWHighlight.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_rotate_ccw_hlt]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_rotate_ccw_hlt"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\RotateCCWHighlight.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_bg_temp_no_thumb]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_bg_temp_no_thumb"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\PopupBackgroundTemplateNoThumbnail.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+#SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_bg_temp]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_bg_temp"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\PopupBackgroundTemplate.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+#SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_photo_info_hlt]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_photo_info_hlt"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\PhotoInfoHighlight.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_photo_rotate_cw]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_photo_rotate_cw"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\Modify_Rotate_Icon_CW.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_rotate_cw]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_rotate_cw"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\Modify_Rotate_Icon_CW.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_rotate_ccw]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_rotate_ccw"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\Modify_Rotate_Icon_CCW.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_photo_info]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_photo_info"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\Modify_Info_Icon.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_exculde_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_exculde_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\Modify_Exclude_Icon.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_exculde_htl_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_exculde_htl_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\ExcludePhotoHighlight.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_video_player_pause_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_player_pause_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_player_pause_icon.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_video_player_play_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_player_play_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_player_play_icon.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_video_player_play_ff1_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_player_play_ff1_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_player_play_ff1_icon.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_video_player_play_rw1_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_player_play_rw1_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_player_play_rw1_icon.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_video_player_play_ff2_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_player_play_ff2_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_player_play_ff2_icon.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_video_player_play_rw2_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_player_play_rw2_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_player_play_rw2_icon.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_video_player_play_ff3_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_player_play_ff3_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_player_play_ff3_icon.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_video_player_play_rw3_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_player_play_rw3_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_player_play_rw3_icon.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_no_thumbnail]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_no_thumbnail"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\No_Thumbnail_4x3.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_exclude_icon]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_exclude_icon"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\Exclude_Icon.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_no_thumbnail_5x4]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_no_thumbnail_5x4"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\No_Thumbnail_5x4.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_photo_ex_bg_template]
+CONFIG_VARIABLE_NAME = "t_g_mmp_photo_ex_bg_template"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\Photo_background_ex_template.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#SEGMENT_DIMENSION = "(320, 180)"
+MSG_REPORT = 0
+COMPRESSED = 0
+#SEGMENT_TYPE = "HV"
+
+[IMAGE_CONFIG = t_g_mmp_prev_focus_hlt]
+CONFIG_VARIABLE_NAME = "t_g_mmp_prev_focus_hlt"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\folder_prev_focus_highlight.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_media_type_bg]
+CONFIG_VARIABLE_NAME = "t_g_mmp_media_type_bg"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\Media_player_background.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_dolbyAudio_Vert_white]
+CONFIG_VARIABLE_NAME = "t_g_mmp_dolbyAudio_Vert_white"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\dolbyAudio_Vert_white.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_dolbyVision_Vert_white]
+CONFIG_VARIABLE_NAME = "t_g_mmp_dolbyVision_Vert_white"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\dolbyVision_Vert_white.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_dolbyAtmos_Vert_white]
+CONFIG_VARIABLE_NAME = "t_g_mmp_dolbyAtmos_Vert_white"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\dolbyAtmos_Vert_white.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_Dolby_Atmos_116x43]
+CONFIG_VARIABLE_NAME  = "t_g_Dolby_Atmos_116x43"
+IMPLEMENT_FILE        = "MMP_IMG"
+SOURCE_FILE           = ".\Dolby_Atmos_116x43.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED			      = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_Dolby_Audio_116x43]
+CONFIG_VARIABLE_NAME  = "t_g_Dolby_Audio_116x43"
+IMPLEMENT_FILE        = "MMP_IMG"
+SOURCE_FILE           = ".\Dolby_Audio_116x43.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED			      = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_Dolby_Vision_116x43]
+CONFIG_VARIABLE_NAME  = "t_g_Dolby_Vision_116x43"
+IMPLEMENT_FILE        = "MMP_IMG"
+SOURCE_FILE           = ".\Dolby_Vision_116x43.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED			      = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_HLG_Logo]
+CONFIG_VARIABLE_NAME  = "t_g_HLG_Logo"
+IMPLEMENT_FILE        = "MMP_IMG"
+SOURCE_FILE           = ".\HLG_Logo.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED			      = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_HDR10_Logo]
+CONFIG_VARIABLE_NAME  = "t_g_HDR10_Logo"
+IMPLEMENT_FILE        = "MMP_IMG"
+SOURCE_FILE           = ".\HDR10_Logo.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED			      = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_back_bar_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_back_bar_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\back_bar_bk_oled.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_back_bar_hlt_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_back_bar_hlt_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\back_bar_bk_hlt_oled.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_back_btn_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_back_btn_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\back_btn_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_exclude_icon_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_exclude_icon_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\Exclude_Icon_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_exculde_htl_icon_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_exculde_htl_icon_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\ExcludePhotoHighlight_oled.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_floder_focus_hlt_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_floder_focus_hlt_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\folder_focus_highlight_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_prev_focus_hlt_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_prev_focus_hlt_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\folder_prev_focus_highlight_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_img_sel_hlt_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_img_sel_hlt_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\img_selection_highlight_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_lg_btn_hlt_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_lg_btn_hlt_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\lg_btn_highlight_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_lg_folder_icon_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_lg_folder_icon_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\lg_folder_icon_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_lg_folder_icon_small_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_lg_folder_icon_small_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\lg_folder_icon_small_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_lst_hlt_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_lst_hlt_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\list_hlt_oled.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "HO"
+SEGMENT_DIMENSION = "(98, 0)"
+
+[IMAGE_CONFIG = t_g_mmp_lstmod_icon_folder_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_lstmod_icon_folder_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\mmp_Listmode_icon_folder_oled.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_exculde_icon_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_exculde_icon_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\Modify_Exclude_Icon_oled.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_photo_info_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_photo_info_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\Modify_Info_Icon_oled.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_rotate_ccw_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_rotate_ccw_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\Modify_Rotate_Icon_CCW_oled.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_photo_rotate_cw_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_photo_rotate_cw_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\Modify_Rotate_Icon_CW_oled.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_music_bg_template_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_music_bg_template_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\music_background_template_oled.png"
+OUTPUT_FORMAT = "8888"
+#SEGMENT_DIMENSION = "(320, 180)"
+MSG_REPORT = 0
+COMPRESSED = 0
+#SEGMENT_TYPE = "HV"
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_no_thumbnail_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_no_thumbnail_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\No_Thumbnail_4x3_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_no_thumbnail_5x4_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_no_thumbnail_5x4_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\No_Thumbnail_5x4_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_now_playing_icon_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_now_playing_icon_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\now_playing_arrow_icon_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_pause_icon_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pause_icon_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\pause_icon_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_pg_back_icon_nr_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pg_back_icon_nr_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\pg_back_icon_nrml_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_pg_next_icon_nr_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pg_next_icon_nr_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\pg_next_icon_nrml_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_photo_ex_bg_template_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_photo_ex_bg_template_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\Photo_background_ex_template_oled.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+#SEGMENT_DIMENSION = "(320, 180)"
+MSG_REPORT = 0
+COMPRESSED = 0
+#SEGMENT_TYPE = "HV"
+
+[IMAGE_CONFIG = t_g_mmp_photo_bg_template_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_photo_bg_template_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\photo_background_template_oled.png"
+OUTPUT_FORMAT = "8888"
+#SEGMENT_DIMENSION = "(320, 180)"
+MSG_REPORT = 0
+COMPRESSED = 0
+#SEGMENT_TYPE = "HV"
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_photo_info_hlt_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_photo_info_hlt_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\PhotoInfoHighlight_oled.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_previous_folder_icon_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_previous_folder_icon_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\previous_folder_icon_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_previous_folder_icon_small_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_previous_folder_icon_small_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\previous_folder_icon_small_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_rotate_cw_hlt_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_rotate_cw_hlt_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\RotateCWHighlight_oled.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0, 0)"
+COMPRESSED = 1
+MSG_REPORT = 0
+
+[IMAGE_CONFIG = t_g_mmp_pop_up_rotate_ccw_hlt_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_pop_up_rotate_ccw_hlt_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\RotateCCWHighlight_oled.png"
+OUTPUT_FORMAT = "8888"
+SEGMENT_TYPE = "NONE"
+SEGMENT_DIMENSION = "(0,
+
+[IMAGE_CONFIG = t_g_mmp_small_btn_hlt_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_small_btn_hlt_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\small_btn_highlight_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_track_back_icon_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_track_back_icon_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\track_back_icon_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_track_next_icon_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_track_next_icon_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\track_next_icon_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_track_time_bar_fill_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_track_time_bar_fill_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\track_time_bar_fill_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "HO"
+SEGMENT_DIMENSION = "(80,17)"
+
+[IMAGE_CONFIG = t_g_mmp_video_outline_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_outline_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_outline_oled.png"
+OUTPUT_FORMAT = "8888"
+#SEGMENT_DIMENSION = "(320, 180)"
+MSG_REPORT = 0
+COMPRESSED = 0
+#SEGMENT_TYPE = "HV"
+
+[IMAGE_CONFIG = t_g_mmp_video_player_pause_icon_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_player_pause_icon_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_player_pause_icon_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_video_player_play_ff1_icon_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_player_play_ff1_icon_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_player_play_ff1_icon_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_video_player_play_ff2_icon_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_player_play_ff2_icon_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_player_play_ff2_icon_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_video_player_play_ff3_icon_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_player_play_ff3_icon_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_player_play_ff3_icon_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_video_player_play_icon_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_player_play_icon_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_player_play_icon_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_video_player_play_rw1_icon_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_player_play_rw1_icon_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_player_play_rw1_icon_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_video_player_play_rw2_icon_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_player_play_rw2_icon_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_player_play_rw2_icon_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_video_player_play_rw3_icon_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_video_player_play_rw3_icon_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\video_player_play_rw3_icon_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"
+
+[IMAGE_CONFIG = t_g_mmp_vizio_logo_oled]
+CONFIG_VARIABLE_NAME = "t_g_mmp_vizio_logo_oled"
+IMPLEMENT_FILE = "MMP_IMG"
+SOURCE_FILE = ".\vizio_logo_oled.png"
+OUTPUT_FORMAT = "8888"
+MSG_REPORT = 0
+COMPRESSED = 1
+SEGMENT_TYPE = "NONE"

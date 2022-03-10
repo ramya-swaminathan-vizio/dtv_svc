@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view version="1.0.2.0">
+	<name>wfd_mini_box</name>
+	<width>1280</width>
+	<height>720</height>
+	<hierarchy>
+		<component value="view::canvas"/>
+	</hierarchy>
+	<focused_widget>NULL</focused_widget>
+</view>

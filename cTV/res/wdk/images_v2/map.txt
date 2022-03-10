@@ -1,0 +1,303 @@
+[FILE=WDK_IMG_V2]
+PATH = "..\wdk_img_v2.i"
+FORMAT = "C"
+
+# VKB
+[IMAGE_CONFIG = t_g_vkb_keyboard_v2]
+CONFIG_VARIABLE_NAME = "t_g_vkb_keyboard_v2"
+IMPLEMENT_FILE = "WDK_IMG_V2"
+SOURCE_FILE = "vkb/keyboard.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_vkb_keyboard_backspace_v2]
+CONFIG_VARIABLE_NAME = "t_g_vkb_keyboard_backspace_v2"
+IMPLEMENT_FILE = "WDK_IMG_V2"
+SOURCE_FILE = "vkb/keyboard_backspace.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_vkb_keyboard_capital_v2]
+CONFIG_VARIABLE_NAME = "t_g_vkb_keyboard_capital_v2"
+IMPLEMENT_FILE = "WDK_IMG_V2"
+SOURCE_FILE = "vkb/keyboard_capital.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_vkb_keyboard_clear_all_v2]
+CONFIG_VARIABLE_NAME = "t_g_vkb_keyboard_clear_all_v2"
+IMPLEMENT_FILE = "WDK_IMG_V2"
+SOURCE_FILE = "vkb/keyboard_clear_all.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_vkb_keyboard_highlight_v2]
+CONFIG_VARIABLE_NAME = "t_g_vkb_keyboard_highlight_v2"
+IMPLEMENT_FILE = "WDK_IMG_V2"
+SOURCE_FILE = "vkb/keyboard_highlight.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+SEGMENT_TYPE  = "HV"
+SEGMENT_DIMENSION = "(53, 53)"
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_vkb_keyboard_special_v2]
+CONFIG_VARIABLE_NAME = "t_g_vkb_keyboard_special_v2"
+IMPLEMENT_FILE = "WDK_IMG_V2"
+SOURCE_FILE = "vkb/keyboard_special.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_vkb_keyboard_symbols_v2]
+CONFIG_VARIABLE_NAME = "t_g_vkb_keyboard_symbols_v2"
+IMPLEMENT_FILE = "WDK_IMG_V2"
+SOURCE_FILE = "vkb/keyboard_symbols.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_vkb_text_entry_v2]
+CONFIG_VARIABLE_NAME = "t_g_vkb_text_entry_v2"
+IMPLEMENT_FILE = "WDK_IMG_V2"
+SOURCE_FILE = "vkb/text_entry.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_vkb_text_entry_highlight]
+CONFIG_VARIABLE_NAME = "t_g_vkb_text_entry_highlight"
+IMPLEMENT_FILE = "WDK_IMG_V2"
+SOURCE_FILE = "vkb/text_entry_highlight.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_vkb_text_entry_clear_all_v2]
+CONFIG_VARIABLE_NAME = "t_g_vkb_text_entry_clear_all_v2"
+IMPLEMENT_FILE = "WDK_IMG_V2"
+SOURCE_FILE = "vkb/text_entry_clear_all.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_vkb_text_entry_cursor_v2]
+CONFIG_VARIABLE_NAME = "t_g_vkb_text_entry_cursor_v2"
+IMPLEMENT_FILE = "WDK_IMG_V2"
+SOURCE_FILE = "vkb/text_entry_cursor.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+#########################################################
+[IMAGE_CONFIG = t_g_vkb_keyboad_backspace_hlt_v2]
+CONFIG_VARIABLE_NAME = "t_g_vkb_keyboad_backspace_hlt_v2"
+IMPLEMENT_FILE = "WDK_IMG_V2"
+SOURCE_FILE = "vkb/keyboad_backspace_hlt.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_vkb_keyboard_backspace_normal_v2]
+CONFIG_VARIABLE_NAME = "t_g_vkb_keyboard_backspace_normal_v2"
+IMPLEMENT_FILE = "WDK_IMG_V2"
+SOURCE_FILE = "vkb/keyboard_backspace_normal.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_vkb_keyboad_cap_hlt_v2]
+CONFIG_VARIABLE_NAME = "t_g_vkb_keyboad_cap_hlt_v2"
+IMPLEMENT_FILE = "WDK_IMG_V2"
+SOURCE_FILE = "vkb/keyboad_cap_hlt.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_vkb_keyboard_cap_normal_v2]
+CONFIG_VARIABLE_NAME = "t_g_vkb_keyboard_cap_normal_v2"
+IMPLEMENT_FILE = "WDK_IMG_V2"
+SOURCE_FILE = "vkb/keyboard_cap_normal.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_vkb_text_entry_clear_all_hlt_v2]
+CONFIG_VARIABLE_NAME = "t_g_vkb_text_entry_clear_all_hlt_v2"
+IMPLEMENT_FILE = "WDK_IMG_V2"
+SOURCE_FILE = "vkb/text_entry_clear_all_hlt.png"
+OUTPUT_FORMAT = "8888"
+DEFAULT_ALPHA = 255
+MSG_REPORT = 0
+COMPRESSED = 1
+
+[IMAGE_CONFIG = t_g_eng_pic_popup]
+CONFIG_VARIABLE_NAME  = "t_g_eng_pic_popup"
+IMPLEMENT_FILE        = "WDK_IMG_V2"
+SOURCE_FILE           = "Cast_PopUp/Eng_PicMode_PopUp.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_esp_pic_popup]
+CONFIG_VARIABLE_NAME  = "t_g_esp_pic_popup"
+IMPLEMENT_FILE        = "WDK_IMG_V2"
+SOURCE_FILE           = "Cast_PopUp/Esp_PicMode_PopUp.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_fre_pic_popup]
+CONFIG_VARIABLE_NAME  = "t_g_fre_pic_popup"
+IMPLEMENT_FILE        = "WDK_IMG_V2"
+SOURCE_FILE           = "Cast_PopUp/Fre_PicMode_PopUp.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_eng_power_popup]
+CONFIG_VARIABLE_NAME  = "t_g_eng_power_popup"
+IMPLEMENT_FILE        = "WDK_IMG_V2"
+SOURCE_FILE           = "Cast_PopUp/Eng_PowerMode_PopUp.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_esp_power_popup]
+CONFIG_VARIABLE_NAME  = "t_g_esp_power_popup"
+IMPLEMENT_FILE        = "WDK_IMG_V2"
+SOURCE_FILE           = "Cast_PopUp/Esp_PowerMode_PopUp.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_fre_power_popup]
+CONFIG_VARIABLE_NAME  = "t_g_fre_power_popup"
+IMPLEMENT_FILE        = "WDK_IMG_V2"
+SOURCE_FILE           = "Cast_PopUp/Fre_PowerMode_PopUp.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_popup_button_teal]
+CONFIG_VARIABLE_NAME  = "t_g_popup_button_teal"
+IMPLEMENT_FILE        = "WDK_IMG_V2"
+SOURCE_FILE           = "Cast_PopUp/PopUp_Button_Teal.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_popup_button_gray]
+CONFIG_VARIABLE_NAME  = "t_g_popup_button_gray"
+IMPLEMENT_FILE        = "WDK_IMG_V2"
+SOURCE_FILE           = "Cast_PopUp/PopUp_Button_Gray.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_eng_picmode_popup_no_energy_start_standard] 
+CONFIG_VARIABLE_NAME  = "t_g_eng_picmode_popup_no_energy_start_standard" 
+IMPLEMENT_FILE        = "WDK_IMG_V2" 
+SOURCE_FILE           = "Cast_PopUp/Eng_PicMode_PopUp_No_Energy_Start_standard.png" 
+OUTPUT_FORMAT         = "8888" 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_esp_picmode_popup_no_energy_start_standard] 
+CONFIG_VARIABLE_NAME  = "t_g_esp_picmode_popup_no_energy_start_standard" 
+IMPLEMENT_FILE        = "WDK_IMG_V2" 
+SOURCE_FILE           = "Cast_PopUp/Esp_PicMode_PopUp_No_Energy_Start_standard.png" 
+OUTPUT_FORMAT         = "8888" 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_fre_picmode_popup_no_energy_start_standard] 
+CONFIG_VARIABLE_NAME  = "t_g_fre_picmode_popup_no_energy_start_standard" 
+IMPLEMENT_FILE        = "WDK_IMG_V2" 
+SOURCE_FILE           = "Cast_PopUp/Fre_PicMode_PopUp_No_Energy_Start_standard.png" 
+OUTPUT_FORMAT         = "8888" 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1 
+
+[IMAGE_CONFIG = t_g_eng_picmode_popup_no_energy_start_vivid] 
+CONFIG_VARIABLE_NAME  = "t_g_eng_picmode_popup_no_energy_start_vivid" 
+IMPLEMENT_FILE        = "WDK_IMG_V2" 
+SOURCE_FILE           = "Cast_PopUp/Eng_PicMode_PopUp_No_Energy_Start.png" 
+OUTPUT_FORMAT         = "8888" 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_esp_picmode_popup_no_energy_start_vivid] 
+CONFIG_VARIABLE_NAME  = "t_g_esp_picmode_popup_no_energy_start_vivid" 
+IMPLEMENT_FILE        = "WDK_IMG_V2" 
+SOURCE_FILE           = "Cast_PopUp/Esp_PicMode_PopUp_No_Energy_Start.png" 
+OUTPUT_FORMAT         = "8888" 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_fre_picmode_popup_no_energy_start_vivid] 
+CONFIG_VARIABLE_NAME  = "t_g_fre_picmode_popup_no_energy_start_vivid" 
+IMPLEMENT_FILE        = "WDK_IMG_V2" 
+SOURCE_FILE           = "Cast_PopUp/Fre_PicMode_PopUp_No_Energy_Start.png" 
+OUTPUT_FORMAT         = "8888" 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_eng_powermode_popup_no_energy_start] 
+CONFIG_VARIABLE_NAME  = "t_g_eng_powermode_popup_no_energy_start" 
+IMPLEMENT_FILE        = "WDK_IMG_V2" 
+SOURCE_FILE           = "Cast_PopUp/Eng_PowerMode_PopUp_No_Energy_Start.png" 
+OUTPUT_FORMAT         = "8888" 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_esp_powermode_popup_no_energy_start] 
+CONFIG_VARIABLE_NAME  = "t_g_esp_powermode_popup_no_energy_start" 
+IMPLEMENT_FILE        = "WDK_IMG_V2" 
+SOURCE_FILE           = "Cast_PopUp/Esp_PowerMode_PopUp_No_Energy_Start.png" 
+OUTPUT_FORMAT         = "8888" 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_fre_powermode_popup_no_energy_start] 
+CONFIG_VARIABLE_NAME  = "t_g_fre_powermode_popup_no_energy_start" 
+IMPLEMENT_FILE        = "WDK_IMG_V2" 
+SOURCE_FILE           = "Cast_PopUp/Fre_PowerMode_PopUp_No_Energy_Start.png" 
+OUTPUT_FORMAT         = "8888" 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1

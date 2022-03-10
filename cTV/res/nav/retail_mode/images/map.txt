@@ -1,0 +1,5 @@
+[FILE=NAV_RETAIL_MODE_IMG]
+PATH = "..\nav_retail_mode_img.i"
+FORMAT = "C"
+
+#do nothing

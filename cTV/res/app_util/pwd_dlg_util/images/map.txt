@@ -1,0 +1,44 @@
+[FILE=pwd_dlg_IMG]
+PATH = "..\pwd_dlg_img.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_usr_pwd_dlg_main_frm_bkt]
+CONFIG_VARIABLE_NAME  = "t_g_usr_pwd_dlg_main_frm_bkt"
+IMPLEMENT_FILE        = "pwd_dlg_IMG"
+SOURCE_FILE           = "nav_banner_common_bg.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "HV"
+SEGMENT_DIMENSION     = "(36, 28)"
+COMPRESSED            = 1
+
+
+[IMAGE_CONFIG = t_g_pwd_dlg_main_frm_bkt]
+CONFIG_VARIABLE_NAME  = "t_g_pwd_dlg_main_frm_bkt"
+IMPLEMENT_FILE        = "pwd_dlg_IMG"
+SOURCE_FILE           = "nav_banner_common_bg.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "HV"
+SEGMENT_DIMENSION     = "(36, 28)"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_pwd_dlg_enter_bmp]
+CONFIG_VARIABLE_NAME  = "t_g_pwd_dlg_enter_bmp"
+IMPLEMENT_FILE        = "pwd_dlg_IMG"
+SOURCE_FILE           = "Common_Key_Enter.png"
+OUTPUT_FORMAT         = "8888"
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+MSG_REPORT            = 0
+
+[IMAGE_CONFIG = t_g_pwd_dlg_arrow_right_bmp]
+CONFIG_VARIABLE_NAME  = "t_g_pwd_dlg_arrow_right_bmp"
+IMPLEMENT_FILE        = "pwd_dlg_IMG"
+SOURCE_FILE           = "NAV_Icon_arrow_right.png"
+OUTPUT_FORMAT         = "8888"
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+MSG_REPORT            = 0

@@ -1,0 +1,1651 @@
+[FILE=NAV_IMG]
+PATH   = "..\nav_img_960x540_8888.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_nav_warning_info_frame_bk_bmp]
+CONFIG_VARIABLE_NAME  = "t_g_nav_warning_info_frame_bk_bmp"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "Warning_Bar.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_frame_bk_bmp]
+CONFIG_VARIABLE_NAME  = "t_g_nav_frame_bk_bmp"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_banner_common_bg.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "HV"
+SEGMENT_DIMENSION     = "(36, 28)"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_hlt_bar_bmp]
+CONFIG_VARIABLE_NAME  = "t_g_nav_hlt_bar_bmp"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "NAV_CH_LST_HT.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "HO"
+SEGMENT_DIMENSION     = "(100, 44)"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_ch_list_frame_bmp]
+CONFIG_VARIABLE_NAME  = "t_g_nav_ch_list_frame_bmp"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "ChannelListBackground.png"
+OUTPUT_FORMAT         = "8888"
+#OUTPUT_LINE_PIXELS    = 16
+#DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "HV"
+SEGMENT_DIMENSION     = "(100, 100)"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_cross_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_cross_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "NAV_CROSS.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_cec_act_src]
+CONFIG_VARIABLE_NAME  = "t_g_nav_cec_act_src_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_upg_item_ok.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_upg_img_exit]
+CONFIG_VARIABLE_NAME  = "t_g_nav_upg_img_exit"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_upg_exit.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+COMPRESSED            = 1
+MSG_REPORT            = 0
+
+[IMAGE_CONFIG = t_g_nav_upg_img_info]
+CONFIG_VARIABLE_NAME  = "t_g_nav_upg_img_info"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_upg_info.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+COMPRESSED            = 1
+MSG_REPORT            = 0
+
+[IMAGE_CONFIG = t_g_nav_upg_img_power]
+CONFIG_VARIABLE_NAME  = "t_g_nav_upg_img_power"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_upg_power.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+COMPRESSED            = 1
+MSG_REPORT            = 0
+
+[IMAGE_CONFIG = t_g_nav_upg_img_back]
+CONFIG_VARIABLE_NAME  = "t_g_nav_upg_img_back"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_upg_back.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+COMPRESSED            = 1
+MSG_REPORT            = 0
+
+
+[IMAGE_CONFIG = t_g_nav_upg_img_enter]
+CONFIG_VARIABLE_NAME  = "t_g_nav_upg_img_enter"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_upg_enter.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(15, 2)"
+COMPRESSED            = 1
+MSG_REPORT            = 0
+
+[IMAGE_CONFIG = t_g_nav_upg_img_arrow_up_down]
+CONFIG_VARIABLE_NAME  = "t_g_nav_upg_img_arrow_up_down"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_upg_up_down.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+COMPRESSED            = 1
+MSG_REPORT            = 0
+
+[IMAGE_CONFIG = t_g_nav_upg_img_bk]
+CONFIG_VARIABLE_NAME  = "t_g_nav_upg_img_bk"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_upg_bk.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "HV"
+SEGMENT_DIMENSION     = "(112, 112)"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_upg_img_hl_bk]
+CONFIG_VARIABLE_NAME  = "t_g_nav_upg_img_hl_bk"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_upg_hl_bk.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+SEGMENT_TYPE          = "HO"
+SEGMENT_DIMENSION     = "(25, 49)"
+COMPRESSED            = 1
+MSG_REPORT            = 0
+
+[IMAGE_CONFIG = t_g_nav_upg_img_scan_bar_bk]
+CONFIG_VARIABLE_NAME  = "t_g_nav_upg_img_scan_bar_bk"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_upg_scan_bar_bk.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+SEGMENT_TYPE          = "HO"
+SEGMENT_DIMENSION     = "(20, 19)"
+COMPRESSED            = 1
+MSG_REPORT            = 0
+
+[IMAGE_CONFIG = t_g_nav_upg_img_scan_bar_level]
+CONFIG_VARIABLE_NAME  = "t_g_nav_upg_img_scan_bar_level"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_upg_scan_bar_level.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+SEGMENT_TYPE          = "HO"
+SEGMENT_DIMENSION     = "(20, 19)"
+COMPRESSED            = 1
+MSG_REPORT            = 0
+
+[IMAGE_CONFIG = t_g_nav_cec_stop_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_cec_stop_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "Nav_icon_cec_stop.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+#COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_cec_play_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_cec_play_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "Nav_icon_cec_play.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+#COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_cec_pause_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_cec_pause_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "Nav_icon_cec_pause.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+#COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_cec_eject_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_cec_eject_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_cec_eject.bmp"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_cec_fast_forward_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_cec_fast_forward_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "Nav_icon_cec_fast_forward.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+#COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_cec_fast_reverse_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_cec_fast_reverse_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "Nav_icon_cec_fast_reverse.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+#COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_cec_skip_forward_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_cec_skip_forward_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "Nav_icon_cec_skip_forward.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+#COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_cec_skip_reverse_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_cec_skip_reverse_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "Nav_icon_cec_skip_reverse.png"
+OUTPUT_FORMAT         = "8888"
+#DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+#COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_cec_deck_panel_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_cec_deck_panel_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_cec_deck_panel.bmp"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_pop_music_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_pop_music_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "common_icon_pop_music.png"
+OUTPUT_FORMAT         = "8888"
+COMPRESSED            = 1
+MSG_REPORT            = 0
+
+[IMAGE_CONFIG = t_g_rec_icon_img]
+CONFIG_VARIABLE_NAME  = "t_g_rec_icon_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "common_icon_rec.png"
+OUTPUT_FORMAT         = "8888"
+COMPRESSED            = 1
+MSG_REPORT            = 0
+
+[IMAGE_CONFIG = t_g_nav_upg_scroll_bar_bk_img]
+CONFIG_VARIABLE_NAME = "t_g_nav_upg_scroll_bar_bk_img"
+IMPLEMENT_FILE       = "NAV_IMG"
+SOURCE_FILE          = "nav_upg_scroll_bar.png"
+OUTPUT_FORMAT        = "8888"
+SEGMENT_TYPE         = "VO"
+SEGMENT_DIMENSION    = "(11, 11)"
+COMPRESSED           = 1
+MSG_REPORT           = 0
+
+[IMAGE_CONFIG = t_g_nav_upg_scroll_bar_focus_img]
+CONFIG_VARIABLE_NAME = "t_g_nav_upg_scroll_bar_focus_img"
+IMPLEMENT_FILE       = "NAV_IMG"
+SOURCE_FILE          = "nav_upg_scroll_bar_focus.png"
+OUTPUT_FORMAT        = "8888"
+SEGMENT_TYPE         = "VO"
+SEGMENT_DIMENSION    = "(11, 11)"
+COMPRESSED           = 1
+MSG_REPORT           = 0
+
+[IMAGE_CONFIG = t_g_nav_upg_img_item_ok]
+CONFIG_VARIABLE_NAME  = "t_g_nav_upg_img_item_ok"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_upg_item_ok.png"
+OUTPUT_FORMAT         = "8888"
+COMPRESSED            = 1
+MSG_REPORT            = 0
+
+[IMAGE_CONFIG = t_g_nav_upg_img_item_progress]
+CONFIG_VARIABLE_NAME  = "t_g_nav_upg_img_item_progress"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_upg_item_progress.png"
+OUTPUT_FORMAT         = "8888"
+MASK_PIXEL            = "(11, 0)"
+COMPRESSED            = 1
+MSG_REPORT            = 0
+
+[IMAGE_CONFIG = t_g_nav_upg_img_item_error]
+CONFIG_VARIABLE_NAME  = "t_g_nav_upg_img_item_error"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_upg_item_error.png"
+OUTPUT_FORMAT         = "8888"
+MASK_PIXEL            = "(0, 0)"
+COMPRESSED            = 1
+MSG_REPORT            = 0
+
+[IMAGE_CONFIG = t_g_nav_ib_info_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_ib_info_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_common_icon_ib_info.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_ib_warning_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_ib_warning_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_common_icon_ib_warning.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_ib_urgent_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_ib_urgent_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_common_icon_ib_urgent.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_cc_box_bk_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_cc_box_bk_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_cc_box_bk.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "HV"
+SEGMENT_DIMENSION     = "(20, 12)"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_img_add]
+CONFIG_VARIABLE_NAME  = "t_g_nav_img_add"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "Common_Key_add.png"
+OUTPUT_FORMAT         = "8888"
+COMPRESSED            = 1
+MSG_REPORT            = 0
+
+[IMAGE_CONFIG = t_g_nav_dock_ui_bk]
+CONFIG_VARIABLE_NAME  = "t_g_nav_dock_ui_bk"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "dock_ui_bk.bmp"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_signal_1of5]
+CONFIG_VARIABLE_NAME  = "t_g_nav_signal_1of5"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "signal_1of5.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+MASK_PIXEL            = "(0, 0)"
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_signal_2of5]
+CONFIG_VARIABLE_NAME  = "t_g_nav_signal_2of5"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "signal_2of5.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+MASK_PIXEL            = "(0, 0)"
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_signal_3of5]
+CONFIG_VARIABLE_NAME  = "t_g_nav_signal_3of5"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "signal_3of5.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+MASK_PIXEL            = "(0, 0)"
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_signal_4of5]
+CONFIG_VARIABLE_NAME  = "t_g_nav_signal_4of5"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "signal_4of5.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+MASK_PIXEL            = "(0, 0)"
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_signal_5of5]
+CONFIG_VARIABLE_NAME  = "t_g_nav_signal_5of5"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "signal_5of5.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+MASK_PIXEL            = "(0, 0)"
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_wired_connect]
+CONFIG_VARIABLE_NAME  = "t_g_nav_wired_connect"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "Earth.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+MASK_PIXEL            = "(0, 0)"
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_network_notconnect]
+CONFIG_VARIABLE_NAME  = "t_g_nav_network_notconnect"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "No-Network.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+MASK_PIXEL            = "(0, 0)"
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_pop_warning_msg]
+CONFIG_VARIABLE_NAME  = "t_g_nav_pop_warning_msg"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "Warning_Bar.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_pop_warning_msg_btn]
+CONFIG_VARIABLE_NAME  = "t_g_nav_pop_warning_msg_btn"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "Bar_Highlight.bmp"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_pwd_dlg_bk_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_pwd_dlg_bk_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "pwd_dlg_bk.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_pwd_dlg_input_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_pwd_dlg_input_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "pwd_dlg_input1.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_pwd_dlg_select_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_pwd_dlg_select_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "pwd_dlg_select.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+#New Nav infobar banner
+[IMAGE_CONFIG = t_g_nav_banner_new_aspect_normal_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_aspect_normal_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/aspect_icon_normal_drk.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_aspect_zoom_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_aspect_zoom_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/aspect_icon_zoom_drk.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_aspect_panoramic_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_aspect_panoramic_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/aspect_icon_panoramic_drk.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_aspect_wide_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_aspect_wide_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/aspect_icon_wide_drk.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_aspect_stretch_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_aspect_stretch_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/aspect_icon_stretch_drk.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_aspect_normal_lt_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_aspect_normal_lt_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/aspect_icon_normal_lt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_aspect_zoom_lt_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_aspect_zoom_lt_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/aspect_icon_zoom_lt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_aspect_panoramic_lt_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_aspect_panoramic_lt_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/aspect_icon_panoramic_lt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_aspect_wide_lt_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_aspect_wide_lt_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/aspect_icon_wide_lt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_aspect_stretch_lt_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_aspect_stretch_lt_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/aspect_icon_stretch_lt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_via_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_via_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_via.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_hdmi_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_hdmi_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_hdmi_drk.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_cable_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_cable_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_cable_box_drk.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_av_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_av_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_component_drk.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_blueray_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_blueray_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_blu-ray_drk.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_dvr_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_dvr_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_dvr_drk.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_vcr_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_vcr_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_vcr_drk.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_computer_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_computer_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_computer_drk.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_satellite_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_satellite_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_satellite_drk.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_dvd_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_dvd_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_dvd_drk.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_audio_reciever_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_audio_reciever_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_audio_reciever_drk.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_game_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_game_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_game_drk.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_hdmi_lt_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_hdmi_lt_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_hdmi_lt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_cable_lt_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_cable_lt_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_cable_box_lt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_av_lt_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_av_lt_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_component_lt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_blueray_lt_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_blueray_lt_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_blu-ray_lt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_dvr_lt_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_dvr_lt_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_dvr_lt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_vcr_lt_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_vcr_lt_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_vcr_lt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_computer_lt_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_computer_lt_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_computer_lt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_satellite_lt_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_satellite_lt_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_satellite_lt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_dvd_lt_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_dvd_lt_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_dvd_lt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_audio_reciever_lt_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_audio_reciever_lt_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_audio_reciever_lt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_game_lt_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_game_lt_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_game_lt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_tuner_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_tuner_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_tuner.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_button_default_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_button_default_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/button_background_default.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_button_hover_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_button_hover_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/button_background_hover.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_lastshadow_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_lastshadow_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/button_background_lastshadow.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_bg_info_level_1_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_bg_info_level_1_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/bar_background_info_middle_section.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_bg_info_level_2_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_bg_info_level_2_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/bar_background_info_dropdown.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_resolution_480i_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_resolution_480i_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/box_resolution_480i.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_resolution_480p_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_resolution_480p_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/box_resolution_480p.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_resolution_720p_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_resolution_720p_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/box_resolution_720p.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_resolution_1080i_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_resolution_1080i_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/box_resolution_1080i.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_resolution_1080p_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_resolution_1080p_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/box_resolution_1080p.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_resolution_none_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_resolution_none_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/box_resolution_none.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_wifi_level_0_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_wifi_level_0_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/network_0_bars.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_wifi_level_1_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_wifi_level_1_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/network_1_bars.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_wifi_level_2_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_wifi_level_2_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/network_2_bars.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_wifi_level_3_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_wifi_level_3_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/network_3_bars.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_wifi_level_4_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_wifi_level_4_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/network_4_bars.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_wifi_level_5_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_wifi_level_5_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/network_5_bars.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_ethernet_on_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_ethernet_on_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/ethernet_on.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_ethernet_reconnect_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_ethernet_reconnect_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/ethernet_reconnect.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_ethernet_off_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_ethernet_off_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/ethernet_off.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_vol_ctrl_off_bk_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_vol_ctrl_off_bk_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/vol_off_background.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_vol_bar_audsys_bk]
+CONFIG_VARIABLE_NAME  = "t_g_nav_vol_bar_audsys_bk"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/audiosys_background.png"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_Warning_Bar_button_hlt]
+CONFIG_VARIABLE_NAME  = "t_g_nav_Warning_Bar_button_hlt"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/Warning_Bar_button_hlt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_Warning_Bar_button]
+CONFIG_VARIABLE_NAME  = "t_g_nav_Warning_Bar_button"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/Warning_Bar_button.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_Warning_Bar]
+CONFIG_VARIABLE_NAME  = "t_g_nav_Warning_Bar"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/Warning_Bar.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_input_demo_off_lt]
+CONFIG_VARIABLE_NAME  = "t_g_nav_input_demo_off_lt"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_demo_off_lt.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_cc_on]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_cc_on"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/icon_cc_on.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_cc_off]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_cc_off"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/icon_cc_off.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+<<<<<<< HEAD
+[IMAGE_CONFIG = t_g_nav_revolt_misc_bk_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_revolt_misc_bk_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "revolt_misc_bk.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "HV"
+SEGMENT_DIMENSION     = "(100, 100)"
+COMPRESSED            = 1
+=======
+[IMAGE_CONFIG = t_g_nav_vol_gradient_btm]
+CONFIG_VARIABLE_NAME  = "t_g_nav_vol_gradient_btm"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/vol_gradient_btm.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_vol_inactive]
+CONFIG_VARIABLE_NAME  = "t_g_nav_vol_inactive"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/vol_inactive.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_vol_zoom_inactive]
+CONFIG_VARIABLE_NAME  = "t_g_nav_vol_zoom_inactive"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/vol_zoom_inactive.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_vol_toast_box]
+CONFIG_VARIABLE_NAME  = "t_g_nav_vol_toast_box"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/vol_toast_box.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_tuner_setup_bg_fill]
+CONFIG_VARIABLE_NAME  = "t_g_nav_tuner_setup_bg_fill"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "tuner_scan_bg.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION     = "(0, 0)"
+COMPRESSED            = 1
+
+
+[IMAGE_CONFIG = t_g_nav_tuner_track_mute_fill]
+CONFIG_VARIABLE_NAME  = "t_g_nav_tuner_track_mute_fill"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/track_mute_fill.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION     = "(0, 0)"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_nav_tuner_pb_bg_fill]
+CONFIG_VARIABLE_NAME  = "t_g_nav_tuner_pb_bg_fill"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/tuner_pb_bg_fill.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+#MASK_PIXEL           = "(0, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION     = "(0, 0)"
+COMPRESSED            = 1
+
+
+[IMAGE_CONFIG = t_g_nav_banner_new_ethernet_on_img_ex]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_ethernet_on_img_ex"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/ethernet_on_ex.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_network_wifi_0_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_network_wifi_0_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/network_wifi_0.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_network_wifi_1_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_network_wifi_1_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/network_wifi_1.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_network_wifi_2_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_network_wifi_2_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/network_wifi_2.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_network_wifi_3_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_network_wifi_3_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/network_wifi_3.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_network_wifi_4_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_network_wifi_4_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/network_wifi_4.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_network_wifi_error_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_network_wifi_error_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/network_wifi_error.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_bg_info_gradient_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_bg_info_gradient_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/bar_background_info_gradient_img.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_bg_info_toast_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_bg_info_toast_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/bar_background_info_toast_img.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_icon_base_pic]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_icon_base_pic"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/new_input_icon_base.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+[IMAGE_CONFIG = t_g_nav_banner_new_input_new_cast_pic]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_new_cast_pic"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_new_cast.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_new_component_pic]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_new_component_pic"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_new_component.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_new_computer_pic]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_new_computer_pic"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_new_computer.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_new_hdmi_pic]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_new_hdmi_pic"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_new_hdmi.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_new_satellite_pic]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_new_satellite_pic"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_new_satellite.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_new_box_pic]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_new_box_pic"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_new_box.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_new_dvd_blueray_pic]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_new_dvd_blueray_pic"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_new_dvd_blueray.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_new_game_pic]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_new_game_pic"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_new_game.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_bg_info_toast_icon]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_bg_info_toast_icon"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/bar_background_info_toast_icon.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_bg_level2_icon]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_bg_level2_icon"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/banner_bg_level2_icon.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_dolby_audio_ver_icon]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_dolby_audio_ver_icon"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/nav_banner_dolbyAudio_Vert_white.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_dolby_atmos_ver_icon]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_dolby_atmos_ver_icon"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/nav_banner_dolbyAtmos_Vert_white.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_dolby_vision_vert_icon]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_dolby_vision_vert_icon"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/nav_banner_dolbyVision_Vert_white.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_pwd_dlg_pin_box_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_pwd_dlg_pin_box_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "pwd_pin_box.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "HV"
+SEGMENT_DIMENSION     = "(100, 100)"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_pwd_dlg_warning_icon]
+CONFIG_VARIABLE_NAME  = "t_g_pwd_dlg_warning_icon"
+IMPLEMENT_FILE        = "NAV_IMG" 
+SOURCE_FILE           = "warning.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+OUTPUT_LINE_PIXELS    = 16
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_nav_pwd_dlg_input_pin_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_pwd_dlg_input_pin_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "pwd_pin_input.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+#MASK_PIXEL            = "(0, 0)"
+MSG_REPORT            = 0
+SEGMENT_TYPE          = "NONE"
+COMPRESSED            = 1
+
+[IMAGE_CONFIG = t_g_remote_link_icon]
+CONFIG_VARIABLE_NAME  = "t_g_remote_link_icon"
+IMPLEMENT_FILE        = "NAV_IMG" 
+SOURCE_FILE           = "revolt/remote_link_icon.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_remote_input_icon]
+CONFIG_VARIABLE_NAME  = "t_g_remote_input_icon"
+IMPLEMENT_FILE        = "NAV_IMG" 
+SOURCE_FILE           = "revolt/remote_input_icon.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_remote_play_pause_24]
+CONFIG_VARIABLE_NAME  = "t_g_remote_play_pause_24"
+IMPLEMENT_FILE        = "NAV_IMG" 
+SOURCE_FILE           = "revolt/remote_play_pause_24.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+
+[IMAGE_CONFIG = t_g_remote_vizio_logo]
+CONFIG_VARIABLE_NAME  = "t_g_remote_vizio_logo"
+IMPLEMENT_FILE        = "NAV_IMG" 
+SOURCE_FILE           = "revolt/remote_vizio_logo.png"
+MASK_PIXEL            = "(0, 0)"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+[IMAGE_CONFIG = t_g_nav_banner_new_airplay_input_pic]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_airplay_input_pic"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_airplay.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_new_cast_aiyplay_pic]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_new_cast_aiyplay_pic"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_new_cast_airplay.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_new_component_aiyplay_pic]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_new_component_aiyplay_pic"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_new_component_airplay.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_new_hdmi_aiyplay_pic]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_new_hdmi_aiyplay_pic"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_new_hdmi_airplay.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_new_satellite_aiyplay_pic]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_new_satellite_aiyplay_pic"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_new_satellite_airplay.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_banner_new_input_tuner_aiyplay_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_banner_new_input_tuner_aiyplay_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/input_icon_tuner_airplay.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION = "(0,0)"
+
+
+[IMAGE_CONFIG = t_g_nav_pin_no_match_img] 
+CONFIG_VARIABLE_NAME  = "t_g_nav_pin_no_match_img" 
+IMPLEMENT_FILE        = "NAV_IMG" 
+SOURCE_FILE           = "New/Exclaim.png" 
+OUTPUT_FORMAT         = "8888" 
+MSG_REPORT            = 0 
+COMPRESSED            = 1 
+SEGMENT_TYPE          = "NONE" 
+SEGMENT_DIMENSION = "(0,0)" 
+
+
+[IMAGE_CONFIG = t_g_nav_pin_down_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_pin_down_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/arrow_down.png"
+OUTPUT_FORMAT         = "8888" 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION     = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_pin_cancel_focus_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_pin_cancel_focus_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/CTA Focus Background.png"
+OUTPUT_FORMAT         = "8888" 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION     = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_pin_cancel_inactive_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_pin_cancel_inactive_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/CTA Inactive Background.png"
+OUTPUT_FORMAT         = "8888" 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION     = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_pin_up_img]
+CONFIG_VARIABLE_NAME  = "t_g_nav_pin_up_img"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "New/arrow_up.png"
+OUTPUT_FORMAT         = "8888" 
+DEFAULT_ALPHA         = 255 
+MSG_REPORT            = 0 
+COMPRESSED            = 1
+SEGMENT_TYPE          = "NONE"
+SEGMENT_DIMENSION     = "(0,0)"
+
+[IMAGE_CONFIG = t_g_nav_inputsrc_active_icon]
+CONFIG_VARIABLE_NAME  = "t_g_nav_inputsrc_active_icon"
+IMPLEMENT_FILE        = "NAV_IMG"
+SOURCE_FILE           = "nav_inputsrc_active_icon.png"
+OUTPUT_FORMAT         = "8888"
+MSG_REPORT            = 0
+COMPRESSED            = 1
+

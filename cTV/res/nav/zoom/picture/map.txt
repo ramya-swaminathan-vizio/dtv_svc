@@ -1,0 +1,12 @@
+[FILE=SYSTEM_NOTIFICATION]
+PATH   = "..\system_notification.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_system_notification]
+CONFIG_VARIABLE_NAME  = "t_g_system_notification"
+IMPLEMENT_FILE        = "SYSTEM_NOTIFICATION"
+SOURCE_FILE           = "system_notification.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1

@@ -1,0 +1,138 @@
+[FILE=TEST_IMGS]
+PATH   = ".\digit_pad\digit_pad_img.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_digit_pad_channel_field]
+CONFIG_VARIABLE_NAME  = "t_g_digit_pad_channel_field"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "digit_pad\images\Channel_Field.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_digit_pad_button_focus_bkg]
+CONFIG_VARIABLE_NAME  = "t_g_digit_pad_button_focus_bkg"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "digit_pad\images\CTA_Focus_Background.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_digit_pad_button_unfocus_bkg]
+CONFIG_VARIABLE_NAME  = "t_g_digit_pad_button_unfocus_bkg"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "digit_pad\images\CTA_Inactive_Background.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_digit_pad_del_focus_bkg]
+CONFIG_VARIABLE_NAME  = "t_g_digit_pad_del_focus_bkg"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "digit_pad\images\Delete_Focus.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_digit_pad_del_unfocus_bkg]
+CONFIG_VARIABLE_NAME  = "t_g_digit_pad_del_unfocus_bkg"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "digit_pad\images\Delete_Inactive.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_digit_pad_del_grayout_bkg]
+CONFIG_VARIABLE_NAME  = "t_g_digit_pad_del_grayout_bkg"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "digit_pad\images\Delete_grayout.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_digit_pad_digit_key_focus_bkg]
+CONFIG_VARIABLE_NAME  = "t_g_digit_pad_digit_key_focus_bkg"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "digit_pad\images\Key_Background_Focus.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_digit_pad_digit_key_unfocus_bkg]
+CONFIG_VARIABLE_NAME  = "t_g_digit_pad_digit_key_unfocus_bkg"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "digit_pad\images\Key_Background_Inactive.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_digit_pad_normal_bkg]
+CONFIG_VARIABLE_NAME  = "t_g_digit_pad_normal_bkg"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "digit_pad\images\Keypad_BG_0_CTA.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_digit_pad_one_button_bkg]
+CONFIG_VARIABLE_NAME  = "t_g_digit_pad_one_button_bkg"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "digit_pad\images\Keypad_BG_1_CTA.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_digit_pad_two_button_bkg]
+CONFIG_VARIABLE_NAME  = "t_g_digit_pad_two_button_bkg"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "digit_pad\images\Keypad_BG_2_CTA.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_digit_pad_info_focus_bkg]
+CONFIG_VARIABLE_NAME  = "t_g_digit_pad_info_focus_bkg"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "digit_pad\images\Info_Focus.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_digit_pad_info_unfocus_bkg]
+CONFIG_VARIABLE_NAME  = "t_g_digit_pad_info_unfocus_bkg"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "digit_pad\images\Info_Inactive.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_digit_pad_go_focus_bkg]
+CONFIG_VARIABLE_NAME  = "t_g_digit_pad_go_focus_bkg"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "digit_pad\images\Go_Focus_Background.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_digit_pad_go_unfocus_bkg]
+CONFIG_VARIABLE_NAME  = "t_g_digit_pad_go_unfocus_bkg"
+IMPLEMENT_FILE        = "TEST_IMGS"
+SOURCE_FILE           = "digit_pad\images\Go_Inactive_Background.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1

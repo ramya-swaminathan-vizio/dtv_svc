@@ -1,0 +1,93 @@
+[FILE=UI_IMG]
+PATH   = ".\ui_img_oled.i"
+FORMAT = "C"
+
+[IMAGE_CONFIG = t_g_ui_dialog_button_highlight_oled]
+CONFIG_VARIABLE_NAME  = "t_g_ui_dialog_button_highlight_oled"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "images_960x540_8888_oled\dialog_button_highlight.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_menu_new_track_cap_left_oled]
+CONFIG_VARIABLE_NAME  = "t_g_menu_new_track_cap_left_oled"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "images_960x540_8888_oled\new_track_cap_left.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_new_track_cap_right_oled]
+CONFIG_VARIABLE_NAME  = "t_g_new_track_cap_right_oled"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "images_960x540_8888_oled\new_track_cap_right.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_new_track_fill_oled]
+CONFIG_VARIABLE_NAME  = "t_g_new_track_fill_oled"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "images_960x540_8888_oled\new_track_fill.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_new_track_mute_cap_left_oled]
+CONFIG_VARIABLE_NAME  = "t_g_new_track_mute_cap_left_oled"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "images_960x540_8888_oled\new_track_mute_cap_left.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_new_track_mute_cap_right_oled]
+CONFIG_VARIABLE_NAME  = "t_g_new_track_mute_cap_right_oled"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "images_960x540_8888_oled\new_track_mute_cap_right.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_new_track_mute_fill_icon_oled]
+CONFIG_VARIABLE_NAME  = "t_g_new_track_mute_fill_icon_oled"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "images_960x540_8888_oled\new_track_mute_fill_icon.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_new_track_mute_fill_small_icon_oled]
+CONFIG_VARIABLE_NAME  = "t_g_new_track_mute_fill_small_icon_oled"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "images_960x540_8888_oled\new_track_mute_fill_small_icon.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_track_mute_fill_oled]
+CONFIG_VARIABLE_NAME  = "t_g_track_mute_fill_oled"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "images_960x540_8888_oled\track_mute_fill.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
+
+[IMAGE_CONFIG = t_g_track_mute_fill_big_icon_oled]
+CONFIG_VARIABLE_NAME  = "t_g_track_mute_fill_big_icon_oled"
+IMPLEMENT_FILE        = "UI_IMG"
+SOURCE_FILE           = "images_960x540_8888_oled\track_mute_fill_big_icon.png"
+OUTPUT_FORMAT         = "8888"
+DEFAULT_ALPHA         = 255
+MSG_REPORT            = 0
+COMPRESSED			  = 1
