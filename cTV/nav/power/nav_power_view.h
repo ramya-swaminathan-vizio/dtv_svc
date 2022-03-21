@@ -110,6 +110,6 @@ extern INT32 nav_pwr_get_default_handler(NAV_PWR_VIEW_HANDLER_T*     pt_view_han
 extern INT32 nav_pwr_view_update_status(VOID*    pv_view);
 extern POWER_OFF_STATUS nav_pwr_view_get_status(VOID*    pv_view);
 extern VOID nav_pwr_view_airplay_handle_timeout(VOID* pv_this);
-
+extern BOOL a_wzd_is_oobe_mode(VOID);
 
 #endif /* _NAV_POWER_VIEW_H_ */

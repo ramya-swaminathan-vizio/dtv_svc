@@ -721,11 +721,12 @@ static INT32 _nav_pwr_view_data_change(
                 return NAVR_OK;
             }
 
-            if(TRUE == a_bgm_is_running() || FALSE == a_am_is_power_on())
+            if(TRUE == a_wzd_is_oobe_mode() || TRUE == a_bgm_is_running() || FALSE == a_am_is_power_on())
             {
                 DBG_LOG_PRINT(("[power][%s %d] bgm mode skip start auto power off\n",__FUNCTION__,__LINE__));
                 return NAVR_OK;
             }
+
         }
         NAV_CHK_FAIL(_nav_pwr_view_count_down(pt_this, pt_update_data->b_is_meet, pt_update_data->b_normal, pt_update_data->e_src_type));
     }
@@ -1198,6 +1199,11 @@ static UINT32 _nav_pwr_view_power_off_listen_timer_during_check(_NAV_PWR_VIEW_ME
     {
         return NAVR_INV_ARG;
     }
+    if(a_wzd_is_oobe_mode() == TRUE)
+    {
+       DBG_LOG_PRINT(("[Power] [%s %d] Returning as currently in OOBE Mode \n",__FUNCTION__,__LINE__));	    
+       return 0;
+    }
 
     switch(pt_this->e_src_type)
     {
@@ -1240,7 +1246,11 @@ static UINT32 _nav_pwr_view_power_off_listen_timer_during_check(_NAV_PWR_VIEW_ME
 
         a_isl_get_rec_by_id(ui1_input_id, &t_isl_rec);
 
-        if(t_isl_rec.e_src_type == INP_SRC_TYPE_VTRL&&!msg_convert_custom_airplay_active())
+	if(a_wzd_is_oobe_mode() == TRUE && t_isl_rec.e_src_type == INP_SRC_TYPE_VTRL)
+        {
+            ui4_dur = 0;
+        }
+	else if(t_isl_rec.e_src_type == INP_SRC_TYPE_VTRL&&!msg_convert_custom_airplay_active())
         {
             ui4_dur = NAV_PWR_VIEW_SCH_TIMEOUT_DUR;
         }
