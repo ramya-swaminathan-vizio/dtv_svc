@@ -723,7 +723,7 @@ static INT32 _nav_pwr_view_data_change(
 
             if(TRUE == a_wzd_is_oobe_mode() || TRUE == a_bgm_is_running() || FALSE == a_am_is_power_on())
             {
-                DBG_LOG_PRINT(("[power][%s %d] bgm mode skip start auto power off\n",__FUNCTION__,__LINE__));
+                DBG_LOG_PRINT(("[power][%s %d] OOBE or bgm mode skip start auto power off\n",__FUNCTION__,__LINE__));
                 return NAVR_OK;
             }
 
