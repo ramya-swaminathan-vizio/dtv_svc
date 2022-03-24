@@ -227,6 +227,7 @@ extern INT32 a_wzd_resume_c4tv(UINT8 ui1_state, UINT8 ui1_page_idx);
 extern INT32 a_wzd_resume_state_only_c4tv(UINT8 ui1_state, UINT8 ui1_page_idx);
 #endif
 extern BOOL a_wzd_is_oobe_mode(VOID);
+extern BOOL a_wzd_is_storedemo_mode(VOID);
 extern INT32 a_wzd_set_oobe_started();
 extern VOID a_wzd_set_privision_update(BOOL b_update);
 

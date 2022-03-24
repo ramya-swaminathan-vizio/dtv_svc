@@ -2333,6 +2333,8 @@ int _rest_app_launch_cast_to_conjure_apps() {
         }
             break;
         case WZD_PAGE_INDEX_C4TV_STORE_DEMO:
+            c_strcpy(app.app_id, std::string("4").c_str());
+            rest_app_set_current_app(&app);
             _rest_app_update_overlay_app(true);
             break;
         case WZD_PAGE_INDEX_C4TV_END:

@@ -1333,14 +1333,14 @@ static BOOL  _iom_is_valid_key(UINT32 *ui4_key_symbol,INT32 i4_key_type,INT32 i4
 
     // MVV-11089: block MENU key during OOBE mode.
     // MVV-11204: block Wide/Mic/Picture buttons during OOBE as well
-    if (TRUE == a_wzd_is_oobe_mode())
+    if (TRUE == a_wzd_is_oobe_mode() || TRUE == a_wzd_is_storedemo_mode())
     {
         switch (*ui4_key_symbol) {
             case BTN_ASPECT:
             case BTN_MENU:
             case BTN_MIC:
             case BTN_P_EFFECT:
-                DBG_LOG_PRINT((MSCVT_LOG_PREFIX"[%s, %d] block button %d key during OOBE mode\n", __FUNCTION__, __LINE__, *ui4_key_symbol));
+                DBG_LOG_PRINT((MSCVT_LOG_PREFIX"[%s, %d] block button %d key during OOBE or Storedemo mode\n", __FUNCTION__, __LINE__, *ui4_key_symbol));
                 return FALSE;
             default:
                 break;
