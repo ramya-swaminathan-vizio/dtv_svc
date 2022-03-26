@@ -1457,6 +1457,20 @@ static INT32  _iom_loki_key_handle_fct(UINT32 *ui4_key_symbol,INT32 i4_key_type,
                         __FUNCTION__, __LINE__, *ui4_key_symbol, i4_key_type, i4_key_flag ));
     }
 
+     if (a_wzd_is_storedemo_mode() == TRUE)
+    {
+        switch (*ui4_key_symbol) {
+            case BTN_ASPECT:
+            case BTN_MENU:
+            case BTN_MIC:
+            case BTN_P_EFFECT:
+                DBG_LOG_PRINT((MSCVT_LOG_PREFIX"[%s, %d] block button %d key during storedemo mode\n", __FUNCTION__, __LINE__, *ui4_key_symbol));
+                return KEY_TO_UNUSE;
+            default:
+                break;
+        }
+    }
+
     if (!_iom_is_valid_key(ui4_key_symbol,i4_key_type,i4_key_flag))
     {
         return KEY_TO_UNUSE;

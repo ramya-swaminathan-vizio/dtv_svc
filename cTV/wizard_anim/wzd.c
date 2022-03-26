@@ -6367,6 +6367,43 @@ BOOL a_wzd_is_oobe_mode(VOID)
     }
 }
 
+/*-----------------------------------------------------------------------------
+ * Name: a_wzd_is_storedemo_mode
+ * Description : This API to check whether in storedemo mode or not
+ * Input arguments
+ * Output arguments
+ * Returns: TRUE while in storedemo mode
+ *          FALSE while not in storedemo mode
+ *---------------------------------------------------------------------------*/
+BOOL a_wzd_is_storedemo_mode()
+{
+    INT32   i4_ret = 0;
+    UINT16  ui2_status    = 0;
+    UINT8   ui1_index     = 0;
+    BOOL    storedemo_mode = FALSE;
+    ACFG_RETAIL_MODE_T   t_storedemo_mode = ACFG_RETAIL_MODE_LAST_ENTRY;
+    NAV_RETAIL_MODE_STATUS_T   t_storedemo_status;
+
+    a_cfg_custom_get_retail_mode_setting(&t_storedemo_mode);
+    a_nav_retail_mode_get_status(&t_storedemo_status);
+
+    i4_ret = a_cfg_get_wzd_status(&ui2_status);
+    if (APP_CFGR_OK != i4_ret)
+    {
+        return FALSE;
+    }
+    ui1_index = WZD_UTIL_GET_STATUS_IDX(ui2_status);
+    if(ACFG_RETAIL_MODE_NORMAL == t_storedemo_mode && NAV_RETAIL_MODE_RUNNING == t_storedemo_status)
+    {
+       storedemo_mode = TRUE;
+    }
+    if(WZD_PAGE_INDEX_C4TV_STORE_DEMO == ui1_index || TRUE == storedemo_mode)
+    {
+        return TRUE;
+    }
+    return FALSE;
+}
+
 /*----------------------------------------------------------------------------
  * Name: a_wzd_set_oobe_start_status.
  *

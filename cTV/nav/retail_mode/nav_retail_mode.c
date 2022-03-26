@@ -5840,6 +5840,25 @@ static INT32 _nav_retail_mode_check_play_env(VOID)
    return NAVR_OK;
 }
 
+/*-----------------------------------------------------------------------------
+ * Name
+ *      nav_retail_mode_update_rest_currentapp
+ * Description
+ *     Update current app to SCPL on storedemo started running
+ * Input arguments
+ *      None
+ * Output arguments
+ *      None
+ * Returns
+ *     None
+ *---------------------------------------------------------------------------*/
+VOID nav_retail_mode_update_rest_currentapp()
+{
+   int    name_space = 1;
+   DBG_INFO(("[RETAIL MODE] [%s] Update app/current to SCPL after storedemo started running \n\r", __FUNCTION__));
+   rest_event_notify("app/current", name_space+1, "4");
+}
+
 
 /*-----------------------------------------------------------------------------
  * Name
@@ -5923,7 +5942,10 @@ INT32 nav_retail_mode_go(NAV_RETAIL_MODE_STATUS_T e_status)
     }
 
     a_registry_set_store_demo_status(e_status);
-
+    if(e_status == NAV_RETAIL_MODE_RUNNING)
+    {
+        nav_retail_mode_update_rest_currentapp();
+    }
     i4_ret = _nav_retail_mode_set_status(e_status);
     NAV_CHK_FAIL(i4_ret);
 

@@ -135,6 +135,7 @@ extern BOOL  nav_retail_mode_is_flash_playing(VOID);
 extern INT32 nav_retail_mode_start_playing(RETAIL_MODE_RUNNING_TYPE_T e_type);
 extern INT32 nav_retail_mode_stop_playing(RETAIL_MODE_RUNNING_TYPE_T e_type);
 extern INT32 nav_retail_mode_go(NAV_RETAIL_MODE_STATUS_T);
+extern VOID nav_retail_mode_update_rest_currentapp();
 extern INT32 nav_retail_mode_send_cmd(BOOL);
 extern VOID  nav_retail_mode_hide_pause_dialog(VOID);
 extern VOID  nav_retail_mode_show_warning_dialog(VOID);
